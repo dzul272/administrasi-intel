@@ -1,0 +1,5335 @@
+%!PS-Adobe-3.0
+%%Title: Untitled-1
+%%Creator: CorelDRAW
+%%CreationDate: Sun Jan 26 00:16:35 2020
+%%BoundingBox: 0 0 595 841
+%%LanguageLevel: 2
+%%DocumentProcessColors: (atend)
+%%DocumentSuppliedResources: (atend)
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/AutoFlatness false def
+/AutoSteps 0 def
+/CMYKMarks true def
+/DocPsLevel 2 def
+%Build: CorelDRAW Version 21.1.0.643
+%Option: Composite
+/SeparationMode /Composite def
+/SeparationPlateName null def
+%%BeginResource: procset wCorel21Dict 21.0 0
+/wCorel21Dict 300 dict def wCorel21Dict begin
+%----------------------------------------------------------------------------
+% Core Corel PostScript prolog functions
+/bd{bind def}bind def/ld{load def}bd/xd{exch def}bd/rp{{pop}repeat}bd/dexec{
+exch begin cvx exec end}bd/@cp/closepath ld/@gs/gsave ld/@gr/grestore ld/@np
+/newpath ld/Tl/translate ld/$sv 0 def/@sv{/$sv save def}bd/@rs{$sv restore}bd
+/spg/showpage ld/showpage{}bd currentscreen/@dsp xd/$dsp/@dsp def/$dsa xd/$dsf
+xd/$sdf false def/$SDF false def/$Scra 0 def/SetScr/setscreen ld/@ss{2 index 0
+eq{$dsf 3 1 roll 4 -1 roll pop}if exch $Scra add exch load SetScr}bd
+/SeparationMode where{pop}{/SeparationMode/Composite def}ifelse
+/SeparationPlateName where{pop}{/SeparationPlateName null def}ifelse
+/SeparateInColor where{pop}{/SeparateInColor false def}ifelse/EpsFile where
+{pop}{/EpsFile false def}ifelse/FillOverprint false def/$fil 0 def
+/OutlineOverprint 0 def/$PF false def/$bkg false def/CurrentOverprint false def
+matrix currentmatrix/$ctm xd/$ptm matrix def/$ttm matrix def/$stm matrix def
+/$ffpnt true def/CorelDrawReencodeVect[16#0/grave 16#5/breve 16#6/dotaccent
+16#8/ring 16#A/hungarumlaut 16#B/ogonek 16#C/caron 16#D/dotlessi
+16#27/quotesingle 16#60/grave 16#7C/bar 16#80/Euro
+16#82/quotesinglbase/florin/quotedblbase/ellipsis/dagger/daggerdbl
+16#88/circumflex/perthousand/Scaron/guilsinglleft/OE
+16#91/quoteleft/quoteright/quotedblleft/quotedblright/bullet/endash/emdash
+16#98/tilde/trademark/scaron/guilsinglright/oe 16#9F/Ydieresis
+16#A1/exclamdown/cent/sterling/currency/yen/brokenbar/section
+16#a8/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/minus/registered/macron
+16#b0/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph/periodcentered
+16#b8/cedilla/onesuperior/ordmasculine/guillemotright/onequarter/onehalf/threequarters/questiondown
+16#c0/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla
+16#c8/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex/Idieresis
+16#d0/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis/multiply
+16#d8/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+16#e0/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla
+16#e8/egrave/eacute/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis
+16#f0/eth/ntilde/ograve/oacute/ocircumflex/otilde/odieresis/divide
+16#f8/oslash/ugrave/uacute/ucircumflex/udieresis/yacute/thorn/ydieresis]def
+/get_ps_level/languagelevel where{pop systemdict/languagelevel get exec}{1}
+ifelse def/Level2 get_ps_level 2 ge def/Level3 get_ps_level 3 ge def
+/AdobeDistiller/product where{pop systemdict/setdistillerparams known product
+(Adobe PostScript Parser)ne and}{false}ifelse def/InRipSeparation
+AdobeDistiller{false}{Level2{currentpagedevice/Separations 2 copy known{get}{
+pop pop false}ifelse}{false}ifelse}ifelse def/ColorSeparationLevel1 1 0 0 0
+gsave setcmykcolor currentcmykcolor grestore add add add 0 ne 0 1 0 0 gsave
+setcmykcolor currentcmykcolor grestore add add add 0 ne 0 0 1 0 gsave
+setcmykcolor currentcmykcolor grestore add add add 0 ne 0 0 0 1 gsave
+setcmykcolor currentcmykcolor grestore add add add 0 ne and and and not def
+/ColorSeparation/LumSepsDict where{pop false}{/AldusSepsDict where{pop false}{
+InRipSeparation{true}{ColorSeparationLevel1}ifelse}ifelse}ifelse def
+/IsColorDevice/deviceinfo where{pop deviceinfo/Colors known{deviceinfo/Colors
+get exec 1 gt}{false}ifelse}{/statusdict where{pop statusdict/processcolors
+known{statusdict/processcolors get exec 1 gt}{false}ifelse}{false}ifelse}
+ifelse def/get_simulate_devicen get_ps_level 2 eq{{SeparationMode/OnHost ne
+InRipSeparation AdobeDistiller or and}bind}{false}ifelse def/DocGrayScaleSpace
+[/DeviceGray]def/DocRgbSpace[/DeviceRGB]def/DocCmykSpace[/DeviceCMYK]def
+/DocLabSpace[/CIEBasedABC <</BlackPoint[0 0 0]/WhitePoint[0.9637 1.0000 0.8241
+]/RangeABC[0 100 -128 127 -128 127]/DecodeABC[{16 add 116 div}bind{500 div}
+bind{200 div}bind]/MatrixABC[1 1 1 1 0 0 0 0 -1]/DecodeLMN[{dup 0.206897 ge{dup
+dup mul mul}{0.137931 sub 0.128419 mul}ifelse 0.9637 mul}bind{dup 0.206897
+ge{dup dup mul mul}{0.137931 sub 0.128419 mul}ifelse 1.0000 mul}bind{dup
+0.206897 ge{dup dup mul mul}{0.137931 sub 0.128419 mul}ifelse 0.8241 mul}bind]
+>>]def/validate_cie_colorspace_whitepoint{load dup aload pop/WhitePoint get 1
+1.0 put pop}bd/set_cie_colorspaces{/DocGrayScaleSpaceCIE where{pop
+/DocGrayScaleSpaceCIE validate_cie_colorspace_whitepoint/DocGrayScaleSpace xd
+DocGrayScaleSpace aload pop begin pop/DecodeA where{pop DecodeA type/arraytype
+eq{DecodeA aload pop/DecodeA exch def}if}if end}if/DocRgbSpaceCIE where{pop
+/DocRgbSpaceCIE validate_cie_colorspace_whitepoint/DocRgbSpace xd}if
+/DocCmykSpaceCIE where{pop/DocCmykSpaceCIE validate_cie_colorspace_whitepoint
+/DocCmykSpace xd}if}bd/set_rendering_intent{Level3{findcolorrendering{
+/ColorRendering findresource setcolorrendering}{dup/DefaultColorRendering eq{
+pop}{/ColorRendering findresource setcolorrendering}}ifelse}{pop}ifelse}bd
+/findcmykcustomcolor where{pop}{/findcmykcustomcolor{5 array astore}def}ifelse
+/setcustomcolor where SeparationMode/OnHost ne and{pop}{/tint_cmyk_color{5 -1
+roll dup 1 ge{pop}{4{dup 6 -1 roll mul exch}repeat pop}ifelse}bd
+/setprocesscolor_5{SepMode_5 0 eq{SetCmyk_5}{SepsColor not{4 1 roll pop pop pop
+1 exch sub SetGry}{SetCmyk_5}ifelse}ifelse}bd/setcustomcolor{exch aload pop
+SepMode_5 0 eq{pop tint_cmyk_color setprocesscolor_5}{CurrentInkName_5 eq{4
+index}{0}ifelse 6 1 roll 5 rp 1 sub neg SetGry}ifelse}bd}ifelse
+/convert_rgb_to_cmyk{dup type/dicttype eq{}{3{1 exch sub 3 1 roll}repeat 3 copy
+min min 3{dup 5 -1 roll sub neg exch}repeat}ifelse}bd/safe_setcolorspace{dup
+currentcolorspace eq{pop}{setcolorspace}ifelse}bd/safe_setoverprint{dup type
+/booleantype eq{dup currentoverprint ne{setoverprint}{pop}ifelse}{1 eq
+setoverprint}ifelse}bd/is_cmyk_channel_name{/channel_name xd channel_name/Cyan
+eq channel_name/Magenta eq or channel_name/Yellow eq or channel_name/Black eq
+or{true}{false}ifelse}bd/is_rgb_channel_name{/channel_name xd channel_name/Red
+eq channel_name/Green eq or channel_name/Blue eq or{true}{false}ifelse}bd
+/is_spot_channel_name{/channel_name xd channel_name is_cmyk_channel_name
+channel_name is_rgb_channel_name or channel_name/Gray eq or{false}{true}ifelse
+}bd/spot_tint_transform_proc{/alternativeSpace xd/alternativeColors xd/tint xd
+alternativeSpace DocLabSpace eq{/mixMethod/Additive def/altSpaceNumChannels 3
+def}{alternativeSpace DocCmykSpace eq{/mixMethod/Subtractive def
+/altSpaceNumChannels 4 def}{alternativeSpace DocRgbSpace eq{/mixMethod
+/Additive def/altSpaceNumChannels 3 def}{alternativeSpace DocGrayScaleSpace eq
+{/mixMethod/Additive def/altSpaceNumChannels 1 def}if}ifelse}ifelse}ifelse
+alternativeSpace DocLabSpace eq{alternativeColors aload pop tint mul 3 1 roll
+tint mul 3 1 roll dup 100 exch sub 1 tint sub mul add 3 1 roll}{/tintedColor
+altSpaceNumChannels{0.0}repeat altSpaceNumChannels array astore def 0 1
+altSpaceNumChannels 1 sub{/altChannelIndex exch def alternativeColors
+altChannelIndex get mixMethod/Additive eq{1.0 exch sub tint mul 1.0 exch sub}{
+tint mul}ifelse tintedColor altChannelIndex 3 2 roll put}for tintedColor aload
+pop}ifelse}bd/devicen_colorant_mixer_proc{/numChannels xd/alternativeSpace xd
+/channelNames xd/alternativeColors xd numColorants array astore/colorants xd
+/is_spot_channel_name_loc{is_spot_channel_name}bind def alternativeSpace
+DocCmykSpace eq{/mixMethod/Subtractive def/altSpaceNumChannels 4 def
+/is_spot_channel_name_loc{is_cmyk_channel_name not}bind def}{alternativeSpace
+DocRgbSpace eq{/mixMethod/Additive def/altSpaceNumChannels 3 def
+/is_spot_channel_name_loc{is_rgb_channel_name not}bind def}{alternativeSpace
+DocGrayScaleSpace eq{/mixMethod/Additive def/altSpaceNumChannels 1 def
+/is_spot_channel_name_loc{/Gray ne}bind def}if}ifelse}ifelse mixMethod
+/Additive eq{/mixedColor altSpaceNumChannels{0.0}repeat altSpaceNumChannels
+array astore def/bProcessPlateTinted false def 0 1 numChannels 1 sub{
+/channelIndex exch def channelNames channelIndex get is_spot_channel_name_loc
+/bSpotChannel xd/sourceChannel colorants channelIndex get def/bWhiteBackground
+0 mixedColor{add}forall altSpaceNumChannels div 0.999 gt bProcessPlateTinted
+and def bSpotChannel bProcessPlateTinted not and{/bSpotChannel false def}if 0 1
+altSpaceNumChannels 1 sub{/altChannelIndex exch def/mixedChannel mixedColor
+altChannelIndex get def sourceChannel alternativeColors channelIndex get
+altChannelIndex get 1.0 exch sub mul 1.0 exch sub dup 1.0 gt{pop 1.0}if dup 0.0
+lt{pop 0.0}if bSpotChannel{sourceChannel 0.0 gt{mixedChannel mul}{pop
+mixedChannel}ifelse}{/bProcessPlateTinted true def globaldict begin
+/bSkipDeviceNImage where{pop false}{true}ifelse end DevicenImage and{pop
+sourceChannel alternativeColors channelIndex get altChannelIndex get mul
+mixedChannel add}{mixedChannel add}ifelse}ifelse dup 1.0 gt{pop 1.0}if dup 0.0
+lt{pop 0.0}if mixedColor altChannelIndex 3 2 roll put}for}for}{/mixedColor
+altSpaceNumChannels{1}repeat altSpaceNumChannels array astore def 0 1
+altSpaceNumChannels 1 sub{/targetIndex exch def 0 1 numColorants 1 sub{
+/sourceIndex exch def colorants sourceIndex get alternativeColors sourceIndex
+get targetIndex get mul 1 exch sub mixedColor targetIndex get mul mixedColor
+targetIndex 3 2 roll put}for mixedColor targetIndex 1 mixedColor targetIndex
+get sub put}for}ifelse mixedColor aload pop}bd/ColorSpec 9 dict begin/color[]
+def/names[]def/num 0 def/ColorModel null def/ColorSpace[]def/set_color{
+ColorSeparationLevel1{convert_to_cmyk/color get aload pop setcmykcolor}{
+ColorSpace safe_setcolorspace color aload pop setcolor}ifelse}bd
+/separate_set_color{SeparationMode/OnHost eq{separate_color{/set_color dexec
+true}{pop currentoverprint{false}{SeparateInColor{0 0 0 0 SetCmyk_5 true}{1
+SetGry true}ifelse}ifelse}ifelse}{set_color true}ifelse}bd/separate_color{
+currentdict false}bd/convert_to_cmyk{currentdict}bd currentdict end def
+/GrayscaleColorSpec ColorSpec 9 dict copy begin/names{/Black}def/num 1 def
+/ColorModel/Grayscale def/ColorSpace DocGrayScaleSpace def/separate_color{
+currentdict false SeparationMode/OnHost eq{SeparationPlateName/Black eq{
+SeparateInColor{pop convert_to_cmyk true}{pop true}ifelse}if}if}bd
+/convert_to_cmyk{0 0 0 color aload pop 1 exch sub create_cmyk_color}bd
+currentdict end def/create_grayscale_color{GrayscaleColorSpec 9 dict copy begin
+/color exch 1 array astore def/ColorSpace DocGrayScaleSpace def currentdict end
+}bd/RgbColorSpec ColorSpec 9 dict copy begin/names{/Red/Green/Blue}def/num 3
+def/ColorModel/Rgb def/ColorSpace DocRgbSpace def/separate_color{
+convert_to_cmyk/separate_color dexec}bd/convert_to_cmyk{color aload pop
+convert_rgb_to_cmyk create_cmyk_color}bd currentdict end def/create_rgb_color{
+RgbColorSpec 9 dict copy begin 3 array astore/color exch def/ColorSpace
+DocRgbSpace def currentdict end}bd/HsbColorSpec ColorSpec 9 dict copy begin
+/names{/Hue/Saturation/Brightness}def/num 3 def/ColorModel/Hsb def/ColorSpace
+DocRgbSpace def/separate_color{convert_to_cmyk/separate_color dexec}bd
+/convert_to_cmyk{color aload pop hsb2rgb convert_rgb_to_cmyk create_cmyk_color
+}bd/convert_to_rgb{color aload pop hsb2rgb create_rgb_color}bd currentdict end
+def/create_hsb_color{HsbColorSpec 9 dict copy begin 3 array astore/color exch
+def/ColorSpace DocRgbSpace def currentdict end}bd/CmykColorSpec ColorSpec 9
+dict copy begin/names{/Cyan/Magenta/Yellow/Black}def/num 4 def/ColorModel/Cmyk
+def/ColorSpace DocCmykSpace def/separate_color{currentdict false
+SeparationPlateIndex 0 ge SeparationPlateIndex 3 le and{color
+SeparationPlateIndex get dup 0 gt{3 1 roll pop pop SeparateInColor{0 0 0 4
+SeparationPlateIndex roll create_cmyk_color true}{1 exch sub
+create_grayscale_color true}ifelse}{pop}ifelse}if}bd/convert_to_cmyk{
+currentdict}bd currentdict end def/create_cmyk_color{CmykColorSpec 9 dict copy
+begin 4 array astore/color exch def/ColorSpace DocCmykSpace def currentdict end
+}bd/SpotColorSpec ColorSpec 9 dict copy begin/num 1 def/ColorModel/Spot def
+/set_color{ColorSeparationLevel1{color aload pop get_cmyk_alternative_color
+/color get aload pop names aload pop findcmykcustomcolor exch setcustomcolor}{
+ColorSpace safe_setcolorspace color aload pop setcolor}ifelse}bd
+/separate_color{currentdict false SeparationPlateIndex 4 eq{names aload pop
+SeparationPlateName eq{color aload pop dup 0 gt{3 1 roll pop pop
+SeparateInColor{pop convert_to_cmyk true}{1 exch sub create_grayscale_color
+true}ifelse}{pop}ifelse}if}if}bd/convert_to_cmyk{/alternativeSpace ColorSpace 2
+get def/tintTransformProc ColorSpace 3 get def alternativeSpace DocCmykSpace eq
+{color aload pop tintTransformProc create_cmyk_color}{alternativeSpace
+DocRgbSpace eq{color aload pop tintTransformProc create_rgb_color
+/convert_to_cmyk dexec}{alternativeSpace DocGrayScaleSpace eq{0 0 0 color aload
+pop 1 sub create_cmyk_color}{0 0 0 1 create_cmyk_color}ifelse}ifelse}ifelse}bd
+/get_cmyk_alternative_color{/alternativeSpace ColorSpace 2 get def
+alternativeSpace DocCmykSpace eq{alternativeColor aload pop create_cmyk_color}
+{alternativeSpace DocRgbSpace eq{alternativeColor aload pop create_rgb_color
+/convert_to_cmyk dexec}{alternativeSpace DocGrayScaleSpace eq{alternativeColor
+aload pop create_grayscale_color/convert_to_cmyk dexec}{0 0 0 1
+create_cmyk_color}ifelse}ifelse}ifelse}bd currentdict end def
+/create_spot_colorspace{load/alternativeSpace xd/alternativeColor xd/name xd[
+/Separation name alternativeSpace[alternativeColor alternativeSpace
+/spot_tint_transform_proc cvx]cvx]}bd/create_spot_color{SpotColorSpec 9 dict
+copy begin dup type/arraytype ne{create_spot_colorspace}if/ColorSpace xd/color
+exch 1 array astore def ColorSpace 1 get 1 array astore/names xd currentdict
+end}bd/DevicenColorSpec SpotColorSpec 9 dict copy begin/ColorModel/DeviceN def
+/set_color{Level3{ColorSpace safe_setcolorspace color aload pop setcolor}{
+ColorSpace 2 get setcolorspace color aload pop ColorSpace 3 get exec setcolor}
+ifelse}bd/separate_color{currentdict false/PlateIndex -1 def 0 1 num 1 sub{dup
+names exch get SeparationPlateName eq{/PlateIndex xd exit}if pop}for PlateIndex
+0 ge{color PlateIndex get dup 0 gt{SeparateInColor{num 1 sub{0}repeat num
+PlateIndex roll ColorSpace create_devicen_color/convert_to_cmyk dexec true}{1
+exch sub create_grayscale_color true}ifelse 4 2 roll pop pop}{pop}ifelse}if}bd
+/get_ink_as_spot{dup/indexInk xd dup color exch get exch names exch get[1.0 num
+1 sub{0}repeat num indexInk roll ColorSpace 3 get exec]ColorSpace 2 get
+create_spot_color}bd currentdict end def/create_devicen_colorspace{
+/numColorants xd load/alternativeSpace xd bind/tintTransform exch def/names xd
+[/DeviceN names alternativeSpace/tintTransform load]}bd/create_devicen_color{
+DevicenColorSpec 9 dict copy begin dup type/arraytype ne{
+create_devicen_colorspace}if/ColorSpace xd/num ColorSpace 1 get length def
+/names ColorSpace 1 get def num array astore/color xd currentdict end}bd
+/RegistrationColorSpec ColorSpec 9 dict copy begin/num 1 def/ColorModel
+/Registration def/ColorSpace{[/Separation/All DocCmykSpace{dup dup dup}]}def
+/names[/All]def/set_color{ColorSeparationLevel1{DocGrayScaleSpace
+safe_setcolorspace color aload pop 1 exch sub setcolor}{ColorSpace
+safe_setcolorspace color aload pop setcolor}ifelse}bd/separate_color{
+SeparateInColor{convert_to_cmyk true}{color aload pop 1 exch sub
+create_grayscale_color true}ifelse}bd/convert_to_cmyk{color aload pop dup dup
+dup create_cmyk_color}bd currentdict end def/create_registration_color{
+RegistrationColorSpec 9 dict copy begin 1 array astore/color xd currentdict end
+}bd/LabColorSpec ColorSpec 9 dict copy begin/names{/L/a/b}def/num 3 def
+/ColorModel/Lab def/ColorSpace DocLabSpace def/separate_color{convert_to_cmyk
+/separate_color dexec}bd/convert_to_cmyk{0 0 0 0 create_cmyk_color}bd
+currentdict end def/create_lab_color{LabColorSpec 9 dict copy begin 3 array
+astore/color exch def/ColorSpace DocLabSpace def currentdict end}bd
+/set_solid_fill{/FillColor xd/$fil 0 def}bd/set_outline{/OutlineColor xd}bd
+/CheckLevelCompatibility{/DocPsLevel where{pop DocPsLevel get_ps_level gt{@np
+/Courier findfont 12 scalefont setfont 72 144 m
+(The PostScript level of Corel document is higher than the PostScript)show 72
+132 m(level of this device. Change the PS Level in the Corel application)show
+72 120 m(by selecting the PostScript tab in the print dialog, and selecting)
+show 72 108 m(document level from the Compatibility drop down list.)show flush
+spg quit}if}if}bd/@BeginSysCorelDict{systemdict/Corel30Dict known{systemdict
+/Corel30Dict get exec}if systemdict/CorelLexDict known{1 systemdict
+/CorelLexDict get exec}if}bd/@EndSysCorelDict{systemdict/Corel30Dict known
+{end}if/EndCorelLexDict where{pop EndCorelLexDict}if}bd/AutoFlatness where{pop
+AutoFlatness{/@ifl{dup currentflat exch sub 10 gt{
+([Error: PathTooComplex; OffendingCommand: AnyPaintingOperator]\n)print flush
+@np exit}{currentflat 2 add setflat}ifelse}bd/@fill/fill ld/fill{currentflat{
+{@fill}stopped{@ifl}{exit}ifelse}bind loop setflat}bd/@eofill/eofill ld/eofill
+{currentflat{{@eofill}stopped{@ifl}{exit}ifelse}bind loop setflat}bd/@clip
+/clip ld/clip{currentflat{{@clip}stopped{@ifl}{exit}ifelse}bind loop setflat}
+bd/@eoclip/eoclip ld/eoclip{currentflat{{@eoclip}stopped{@ifl}{exit}ifelse}
+bind loop setflat}bd/@stroke/stroke ld/stroke{currentflat{{@stroke}stopped
+{@ifl}{exit}ifelse}bind loop setflat}bd}if}if/@ssa Level2{{true
+setstrokeadjust}}{{}}ifelse bd/d/setdash ld/j/setlinejoin ld/J/setlinecap ld/M
+/setmiterlimit ld/w/setlinewidth ld/O{/FillOverprint xd}bd/R{/OutlineOverprint
+xd}bd/W/eoclip ld/c/curveto ld/C/c ld/l/lineto ld/L/l ld/rl/rlineto ld/m
+/moveto ld/n/newpath ld/N/newpath ld/P{11 rp}bd/u{}bd/U{}bd/A{pop}bd/q/@gs ld
+/Q/@gr ld/&{}bd/@j{@sv @np}bd/@J{@rs}bd/g{1 exch sub 0 0 0 4 roll 3
+create_cmyk_color set_solid_fill/$fil 0 def}bd/G{1 sub neg 0 0 0 4 -1 roll
+create_cmyk_color set_outline}bd/i{dup 0 ne{setflat}{pop}ifelse}bd/v{4 -2 roll
+2 copy 6 -2 roll c}bd/V/v ld/y{2 copy c}bd/Y/y ld/@w{matrix rotate/$ptm xd
+matrix scale $ptm dup concatmatrix/$ptm xd 1 eq{$ptm exch dup concatmatrix
+/$ptm xd}if/patternScallingMatrix where{pop patternScallingMatrix $ptm matrix
+concatmatrix/$ptm xd}if 1 w}bd/@g{1 eq dup/$sdf xd{/$scp xd/$sca xd/$scf xd}if
+}bd/@G{1 eq dup/$SDF xd{/$SCP xd/$SCA xd/$SCF xd}if}bd/@D{2 index 0 eq{$dsf 3 1
+roll 4 -1 roll pop}if 3 copy exch $Scra add exch load SetScr/$dsp xd/$dsa xd
+/$dsf xd}bd/$ngx{$SDF{$SCF SeparationMode/Composite eq{$SCA}{$dsa}ifelse $SCP
+@ss}if}bd/min{2 copy le{pop}{exch pop}ifelse}bd/max{2 copy ge{pop}{exch pop}
+ifelse}bd/in_range{3 -1 roll min max}bd/InRange/in_range load bd/@sqr{dup 0 rl
+dup 0 exch rl neg 0 rl @cp}bd/currentscale{1 0 dtransform matrix defaultmatrix
+idtransform dup mul exch dup mul add sqrt 0 1 dtransform matrix defaultmatrix
+idtransform dup mul exch dup mul add sqrt}bd/@unscale{}bd/wDstChck{2 1 roll dup
+3 -1 roll eq{1 add}if}bd/@dot{dup mul exch dup mul add 1 exch sub}bd/@lin{exch
+pop abs 1 exch sub}bd/cmyk2rgb{3{dup 5 -1 roll add 1 exch sub dup 0 lt{pop 0}
+if exch}repeat pop}bd/rgb2cmyk{3{1 exch sub 3 1 roll}repeat 3 copy min min 3{
+dup 5 -1 roll sub neg exch}repeat}bd/rgb2g{2 index .299 mul 2 index .587 mul
+add 1 index .114 mul add 4 1 roll pop pop pop}bd/WaldoColor_5 where{pop}{
+/CorelImage systemdict/image get def/CorelSetGray systemdict/setgray get def
+/CorelGetGray systemdict/currentgray get def/CorelSetTransfer systemdict
+/settransfer get def/CorelGetTransfer systemdict/currenttransfer get def
+/SetRgb/setrgbcolor ld/GetRgb/currentrgbcolor ld/SetGry/setgray ld/GetGry
+/currentgray ld/SetRgb2 systemdict/setrgbcolor get def/GetRgb2 systemdict
+/currentrgbcolor get def/SetHsb systemdict/sethsbcolor get def/GetHsb
+systemdict/currenthsbcolor get def/rgb2hsb{SetRgb2 GetHsb}bd/hsb2rgb{3 -1 roll
+dup floor sub 3 1 roll SetHsb GetRgb2}bd/setcmykcolor where{pop/LumSepsDict
+where{pop/SetCmyk_5{LumSepsDict/setcmykcolor get exec}def}{/AldusSepsDict where
+{pop/SetCmyk_5{AldusSepsDict/setcmykcolor get exec}def}{/SetCmyk_5
+/setcmykcolor ld}ifelse}ifelse}{/setcmykcolor{create_cmyk_color
+/separate_set_color dexec/$ffpnt xd}bd/SetCmyk_5{cmyk2rgb SetRgb}bd}ifelse
+/currentcmykcolor where{pop/GetCmyk/currentcmykcolor ld}{/GetCmyk{GetRgb
+rgb2cmyk}bd}ifelse/setoverprint where{pop}{/setoverprint{/CurrentOverprint xd}
+bd}ifelse/currentoverprint where{pop}{/currentoverprint{CurrentOverprint}bd}
+ifelse/colorimage where{pop/ColorImage{colorimage}def}{/ColorImage{/ncolors xd
+/$multi xd $multi true eq{ncolors 3 eq{/daqB xd/daqG xd/daqR xd pop pop exch
+pop abs{daqR pop daqG pop daqB pop}repeat}{/daqK xd/daqY xd/daqM xd/daqC xd pop
+pop exch pop abs{daqC pop daqM pop daqY pop daqK pop}repeat}ifelse}{/dataaq xd
+{dataaq ncolors dup 3 eq{/$dat xd 0 1 $dat length 3 div 1 sub{dup 3 mul $dat 1
+index get 255 div $dat 2 index 1 add get 255 div $dat 3 index 2 add get 255 div
+rgb2g 255 mul cvi exch pop $dat 3 1 roll put}for $dat 0 $dat length 3 idiv
+getinterval pop}{4 eq{/$dat xd 0 1 $dat length 4 div 1 sub{dup 4 mul $dat 1
+index get 255 div $dat 2 index 1 add get 255 div $dat 3 index 2 add get 255 div
+$dat 4 index 3 add get 255 div cmyk2rgb rgb2g 255 mul cvi exch pop $dat 3 1
+roll put}for $dat 0 $dat length ncolors idiv getinterval}if}ifelse}image}
+ifelse}bd}ifelse/currentcmykcolor{GetCmyk}bd/sethsbcolor{hsb2rgb setrgbcolor}
+bd/currenthsbcolor{currentrgbcolor rgb2hsb}bd/setgray{dup dup setrgbcolor}bd
+/currentgray{currentrgbcolor rgb2g}bd/InsideDCS false def/IMAGE/image ld/image
+{InsideDCS{IMAGE}{/EPSDict where{pop SeparationMode/Composite eq{IMAGE}{dup
+type/dicttype eq{dup/ImageType get 1 ne{IMAGE}{dup dup/BitsPerComponent get 8
+eq exch/BitsPerComponent get 1 eq or currentcolorspace 0 get DocGrayScaleSpace
+eq and{SeparationPlateName(Black)eq{IMAGE}{dup/DataSource get/TCC xd/Height get
+abs{TCC pop}repeat}ifelse}{IMAGE}ifelse}ifelse}{2 index 1 ne{
+SeparationPlateName(Black)eq{IMAGE}{/TCC xd pop pop exch pop abs{TCC pop}
+repeat}ifelse}{IMAGE}ifelse}ifelse}ifelse}{IMAGE}ifelse}ifelse}bd}ifelse/$fm 0
+def/wfill{1 $fm eq{fill}{eofill}ifelse}bd/@Pf{@sv SeparationMode/Composite eq{
+true}{$Psc 0 ne or $ink_5 3 eq or}ifelse{0 J 0 j[]0 d FillOverprint
+safe_setoverprint FillColor/separate_set_color dexec pop $ctm setmatrix 72 1000
+div dup matrix scale dup concat dup Bburx exch Bbury exch itransform ceiling
+cvi/Bbury xd ceiling cvi/Bburx xd Bbllx exch Bblly exch itransform floor cvi
+/Bblly xd floor cvi/Bbllx xd $Prm aload pop $Psn load exec}{1 SetGry wfill}
+ifelse @rs @np}bd/F{matrix currentmatrix $sdf{$scf $sca $scp @ss}if
+FillOverprint safe_setoverprint $fil 1 eq{CorelPtrnDoFill}{$fil 2 eq
+{gradient_fill}{$fil 3 eq{@Pf}{get_simulate_devicen FillColor/ColorModel get
+/DeviceN eq and{0 1 FillColor/num get 1 sub{dup 0 gt{true safe_setoverprint}if
+FillColor/get_ink_as_spot dexec/set_color dexec @gs wfill @gr}for}{FillColor
+/separate_set_color dexec{wfill}{@np}ifelse}ifelse}ifelse}ifelse}ifelse $sdf{
+$dsf $dsa $dsp @ss}if setmatrix}bd/f{@cp F}bd/S{matrix currentmatrix $ctm
+setmatrix $SDF{$SCF $SCA $SCP @ss}if OutlineOverprint safe_setoverprint
+get_simulate_devicen OutlineColor/ColorModel get/DeviceN eq and{0 1
+OutlineColor/num get 1 sub{dup 0 gt{true safe_setoverprint}if OutlineColor
+/get_ink_as_spot dexec/set_color dexec matrix currentmatrix $ptm concat @gs
+stroke @gr setmatrix}for}{OutlineColor/separate_set_color dexec{matrix
+currentmatrix $ptm concat stroke setmatrix}{@np}ifelse}ifelse $SDF{$dsf $dsa
+$dsp @ss}if setmatrix}bd/s{@cp S}bd/B{@gs F @gr S}bd/b{@cp B}bd/_E{5 array
+astore exch cvlit xd}bd/@cc{currentfile $dat readhexstring pop}bd/@sm{/$ctm
+$ctm currentmatrix def}bd/@E{/Bbury xd/Bburx xd/Bblly xd/Bbllx xd}bd/@c{@cp}bd
+/@P{/$fil 3 def/$Psn xd/$Psc xd array astore/$Prm xd}bd/tcc{@cc}def/@B{@gs S
+@gr F}bd/@b{@cp @B}bd/init_separation{/SeparationMode where{pop}{
+/SeparationMode/Composite def}ifelse/SeparationPlateName where{pop}{
+/SeparationPlateName null def}ifelse/SeparateInColor where{pop}{
+/SeparateInColor false def}ifelse SeparationMode/Composite eq{
+/SeparationPlateIndex -1 def}{/SeparationPlateIndex 4 def}ifelse/CmykPlates[
+/Cyan/Magenta/Yellow/Black]def 0 1 3{dup CmykPlates exch get
+SeparationPlateName eq{/SeparationPlateIndex xd exit}if pop}for
+/CurrentInkName_5 SeparationPlateName def/$ink_5 SeparationPlateIndex def
+SeparationMode/OnHost eq{/SepMode_5 2 def}{/SepMode_5 0 def}ifelse/SepsColor
+SeparateInColor def}bd/init_separation_from_legacy{EpsFile{/SepMode_5 where{
+pop SepMode_5 2 eq{/SeparationMode/OnHost def}{/SeparationMode/Composite def}
+ifelse}if/CurrentInkName_5 where{pop/SeparationPlateName CurrentInkName_5 def}
+if/$ink_5 where{pop/SeparationPlateIndex $ink_5 def}if/SepsColor where{pop
+/SeparateInColor SepsColor def}if}if}bd init_separation_from_legacy/@whi{@gs
+-72000 dup m -72000 72000 l 72000 dup l 72000 -72000 l @cp 1 SetGry fill @gr}
+bd/@neg{[{1 exch sub}/exec cvx currenttransfer/exec cvx]cvx settransfer @whi}
+bd/deflevel 0 def/@sax{/deflevel deflevel 1 add def}bd/@eax{/deflevel deflevel
+dup 0 gt{1 sub}if def deflevel 0 gt{/eax load}{eax}ifelse}bd/eax{{exec}forall}
+bd/@rax{deflevel 0 eq{@rs @sv}if}bd systemdict/pdfmark known not{/pdfmark
+/cleartomark ld}if/wclip{1 $fm eq{clip}{eoclip}ifelse}bd
+%----------------------------------------------------------------------------
+% Raster images support
+/set_image_clipping{concat 3 index 3 index m 3 index 1 index l 2 copy l 1 index
+3 index l 3 index 3 index l clip pop pop pop pop}bd/set_image_parameters{/$frg
+xd/$bkg xd/$ury xd/$urx xd/$lly xd/$llx xd/$ncl xd/$bts xd/$hei xd/$wid xd}bd
+/output_image{/@cc xd @sm @gs set_image_clipping set_image_parameters
+SeparationMode/OnHost eq EpsFile and{separate_output_image}{
+output_composite_image}ifelse @gr $ctm setmatrix}bd/output_composite_image{
+DocPsLevel 3 eq MaskedImage true eq and{output_masked_image}{$bts 1 gt
+DocPsLevel 2 eq DocPsLevel 3 eq or and{DevicenImage{output_devicen_image}{
+output_color_image}ifelse}{$bts 1 eq{output_monochrome_image}{
+output_color_image_level1}ifelse}ifelse}ifelse}bd/separate_output_image{@gs
+$bts 1 gt{separate_output_color_image}{separate_output_monochrome_image}ifelse
+@gr not{currentoverprint not{1.0 SetGry wfill}if}if @np}bd/set_decode_filter{
+ImageCompression/JPEG eq{/DCTDecode filter}{ImageCompression/RLE eq{
+/RunLengthDecode filter}{ImageCompression/LZW eq{/LZWDecode filter}if}ifelse}
+ifelse}bd/create_datasource{currentfile DevicenImage not get_ps_level 2 gt or{
+/ASCII85Decode filter}if set_decode_filter}bd/set_image_strip_parameters{
+/stripRows xd/numPlanes xd/stripBuffer $wid $bts mul $ncl mul stripRows mul 8
+div ceiling cvi dup 65535 gt{pop $ncl $bts mul}if string def DevicenImage{
+/readstrip{DataSource stripBuffer readhexstring pop}bd}{/readstrip{DataSource
+stripBuffer readstring pop}bd}ifelse/stripHeight $lly $ury sub stripRows mul
+$hei div def/stripOutBuffer $wid stripRows mul numPlanes mul 65535 min string
+def/strip_img_dict 8 dict def strip_img_dict begin/ImageType 1 def/Width $wid
+def/Height stripRows def/BitsPerComponent $bts def/Decode[numPlanes{0 1}
+repeat]def/ImageMatrix[$wid 0 0 stripRows neg 0 $hei 0 gt{stripRows}{0}ifelse]
+def/DataSource stripOutBuffer def end}bd/separate_output_color_image{
+/plateContent false def $ncl 1 eq{SeparationPlateName/Black eq{
+output_color_image/plateContent true def}if}{@np/DataSource create_datasource
+def SeparateInColor{DocCmykSpace setcolorspace/numPlanes 4 def}{
+DocGrayScaleSpace setcolorspace/numPlanes 1 def}ifelse/stripRows 65535 $wid
+$bts mul $ncl numPlanes max mul 8 div div floor cvi 1 max def numPlanes
+stripRows set_image_strip_parameters/maxStripIndex $hei stripRows div ceiling
+cvi 1 sub def 0 1 maxStripIndex{/stripIndex exch def/$t_ury $ury stripHeight
+stripIndex mul add ceiling cvi def/$t_lly $t_ury stripHeight add ceiling cvi
+def stripIndex maxStripIndex eq{numPlanes $hei maxStripIndex stripRows mul sub
+set_image_strip_parameters/$t_lly $t_ury stripHeight add ceiling cvi def}if
+readstrip pop @gs 0 1 $wid stripRows mul 1 sub{/pixelIndex xd stripBuffer
+pixelIndex $ncl mul $ncl getinterval{255 div}forall DevicenImage{
+ImageDevicenSpace create_devicen_color}{$ncl 3 eq{create_rgb_color}{
+create_cmyk_color}ifelse}ifelse/separate_color dexec{/plateContent true def
+begin color aload pop end}{pop numPlanes[numPlanes 1 eq{1}{0}ifelse]cvx repeat
+}ifelse numPlanes array astore/pixelSepIndex pixelIndex numPlanes mul def
+/posColorant 0 def{stripOutBuffer pixelSepIndex posColorant add 3 -1 roll 255
+mul cvi put/posColorant posColorant 1 add def}forall}for $llx $t_lly Tl $urx
+$llx sub $t_ury $t_lly sub scale strip_img_dict image @gr}for $SDF{$dsf $dsa
+$dsp @ss}if}ifelse plateContent}bd/separate_output_monochrome_image{
+SeparationPlateName/Black eq{output_monochrome_image true}{false}ifelse}bd
+/output_monochrome_image{$frg 1 eq{OutlineOverprint safe_setoverprint
+ImageForegroundColor/separate_set_color dexec{1}{0}ifelse/$frg xd}{/$frg false
+def}ifelse $bkg 1 eq{@gs $ctm setmatrix F @gr}if @np/$dat $wid $bts mul 8 div
+ceiling cvi 65535 min string def $bkg $frg add 1 ge{$SDF{$SCF $SCA $SCP @ss}if
+$llx $lly Tl $urx $llx sub $ury $lly sub scale $bkg 1 eq{FillColor
+/separate_set_color dexec pop}if $wid $hei abs $bts 1 eq{$bkg 1 ge}{$bts 1 ge}
+ifelse[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse]/tcc load $bts 1 eq
+{imagemask}{image}ifelse $SDF{$dsf $dsa $dsp @ss}if}{$hei abs{tcc pop}repeat}
+ifelse}bd/output_color_image_level1{@np $ngx $llx $lly Tl $urx $llx sub $ury
+$lly sub scale $wid $hei abs $bts[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse
+]/$dat $wid $bts mul $ncl mul 8 div ceiling cvi 65535 min string def $msimage
+false eq $ncl 1 eq or{/@cc load false $ncl ColorImage}{$wid $bts mul 8 div
+ceiling cvi $ncl 3 eq{dup dup/$dat1 exch string def/$dat2 exch string def
+/$dat3 exch string def/@cc1 load/@cc2 load/@cc3 load}{dup dup dup/$dat1 exch
+string def/$dat2 exch string def/$dat3 exch string def/$dat4 exch string def
+/@cc1 load/@cc2 load/@cc3 load/@cc4 load}ifelse true $ncl ColorImage}ifelse
+$SDF{$dsf $dsa $dsp @ss}if}bd/@cc1{currentfile $dat1 readhexstring pop}bd/@cc2
+{currentfile $dat2 readhexstring pop}bd/@cc3{currentfile $dat3 readhexstring
+pop}bd/@cc4{currentfile $dat4 readhexstring pop}bd/$msimage false def
+/ImageCompression/None def/MaskedImage false def/DevicenImage false def
+/output_color_image{@np $ncl 1 eq{DocGrayScaleSpace}{$ncl 3 eq{DocRgbSpace}
+{DocCmykSpace}ifelse}ifelse setcolorspace/$dat $wid $bts mul $ncl mul 8 div
+ceiling cvi 65535 min string def $ngx $llx $lly Tl $urx $llx sub $ury $lly sub
+scale 8 dict begin/ImageType 1 def/Width $wid def/Height $hei abs def
+/BitsPerComponent $bts def/Decode[$ncl{0 1}repeat]def/ImageMatrix[$wid 0 0 $hei
+neg 0 $hei 0 gt{$hei}{0}ifelse]def/DataSource create_datasource def currentdict
+end image $SDF{$dsf $dsa $dsp @ss}if}bd/simulate_devicen_image{@np $ngx
+/colorantNames ImageDevicenSpace 1 get def/altColorSpace ImageDevicenSpace 2
+get def/tintProc ImageDevicenSpace 3 get def/DataSource create_datasource def
+/stripRows 65535 $wid $bts mul $ncl mul 8 div div floor cvi 1 max def 1
+stripRows set_image_strip_parameters/maxStripIndex $hei stripRows div ceiling
+cvi 1 sub def 0 1 maxStripIndex{/stripIndex exch def/$t_ury $ury stripHeight
+stripIndex mul add ceiling cvi def/$t_lly $t_ury stripHeight add ceiling cvi
+def stripIndex maxStripIndex eq{1 $hei maxStripIndex stripRows mul sub
+set_image_strip_parameters/$t_lly $t_ury stripHeight add ceiling cvi def}if
+readstrip pop @gs $llx $t_lly Tl $urx $llx sub $t_ury $t_lly sub scale 0 1 $ncl
+1 sub{@gs/inkIndex exch def 0 1 stripOutBuffer length 1 sub{dup $ncl mul
+inkIndex add stripBuffer exch get stripOutBuffer 3 1 roll put}for[/Separation
+colorantNames inkIndex get altColorSpace{$ncl 1 sub{0}repeat $ncl inkIndex roll
+tintProc}]setcolorspace inkIndex 0 gt{true setoverprint}if strip_img_dict image
+@gr}for @gr}for $SDF{$dsf $dsa $dsp @ss}if}bd/output_devicen_image_alt{@np $ngx
+/colorantNames ImageDevicenSpace 1 get def/altColorSpace ImageDevicenSpace 2
+get def/tintProc ImageDevicenSpace 3 get def altColorSpace DocCmykSpace eq{
+/numAltChannels 4 def}{altColorSpace DocRgbSpace eq{/numAltChannels 3 def}{
+/numAltChannels 1 def}ifelse}ifelse/DataSource create_datasource def
+altColorSpace setcolorspace/stripRows 65535 $wid $bts mul $ncl numAltChannels
+max mul 8 div div floor cvi 1 max def numAltChannels stripRows
+set_image_strip_parameters/maxStripIndex $hei stripRows div ceiling cvi 1 sub
+def 0 1 maxStripIndex{/stripIndex exch def/$t_ury $ury stripHeight stripIndex
+mul add ceiling cvi def/$t_lly $t_ury stripHeight add ceiling cvi def
+stripIndex maxStripIndex eq{numAltChannels $hei maxStripIndex stripRows mul sub
+set_image_strip_parameters/$t_lly $t_ury stripHeight add ceiling cvi def}if
+readstrip pop @gs 0 1 stripBuffer length $ncl div cvi 1 sub{/pixelIndex xd
+stripBuffer pixelIndex $ncl mul $ncl getinterval{255 div}forall tintProc exec
+numAltChannels array astore/pixelAltIndex pixelIndex numAltChannels mul def
+/posColorant 0 def{stripOutBuffer pixelAltIndex posColorant add 3 -1 roll 255
+mul cvi put/posColorant posColorant 1 add def}forall}for $llx $t_lly Tl $urx
+$llx sub $t_ury $t_lly sub scale strip_img_dict image @gr}for $SDF{$dsf $dsa
+$dsp @ss}if}bd/output_devicen_image_native{@np $ngx ImageDevicenSpace
+setcolorspace/scanline $wid $bts mul $ncl mul 8 div ceiling cvi 65535 min
+string def/readscanline{currentfile scanline readhexstring pop}bind def $llx
+$lly Tl $urx $llx sub $ury $lly sub scale 8 dict begin/ImageType 1 def/Width
+$wid def/Height $hei abs def/BitsPerComponent $bts def/Decode[$ncl{0 1}repeat]
+def/ImageMatrix[$wid 0 0 $hei neg 0 $hei 0 gt{$hei}{0}ifelse]def/DataSource{
+readscanline}def currentdict end image $SDF{$dsf $dsa $dsp @ss}if}bd
+/output_devicen_image{Level3{output_devicen_image_native}{get_simulate_devicen
+{simulate_devicen_image}{output_devicen_image_alt}ifelse}ifelse}bd
+/output_masked_image{/$dat $wid $bts mul $ncl mul 8 div ceiling cvi 65535 min
+string def $ngx DevicenImage{ImageDevicenSpace}{$ncl 1 eq{DocGrayScaleSpace}{
+$ncl 3 eq{DocRgbSpace}{DocCmykSpace}ifelse}ifelse}ifelse setcolorspace $llx
+$lly Tl $urx $llx sub $ury $lly sub scale/ImageDataDict 8 dict def
+ImageDataDict begin/ImageType 1 def/Width $wid def/Height $hei abs def
+/BitsPerComponent $bts def/Decode[$ncl{0 1}repeat]def/ImageMatrix[$wid 0 0 $hei
+neg 0 $hei 0 gt{$hei}{0}ifelse]def/DataSource create_datasource def end
+/MaskedImageDict 7 dict def MaskedImageDict begin/ImageType 3 def
+/InterleaveType 3 def/MaskDict ImageMaskDict def/DataDict ImageDataDict def end
+MaskedImageDict image $SDF{$dsf $dsa $dsp @ss}if}bd/set_image_mask{/$mbts xd
+/$mhei xd/$mwid xd/ImageMaskDict 8 dict def ImageMaskDict begin/ImageType 1 def
+/Width $mwid def/Height $mhei abs def/BitsPerComponent $mbts def/DataSource
+maskstream def/ImageMatrix[$mwid 0 0 $mhei neg 0 $mhei 0 gt{$mhei}{0}ifelse]
+def/Decode[1 0]def end}bd/@daq{dup type/arraytype eq{aload pop}if}bd
+/skip_image_body{8 rp/$ury xd/$urx xd/$lly xd/$llx xd/$ncl xd/$bts xd/$hei xd
+/$wid xd DevicenImage not ImageCompression/JPEG eq or ImageCompression/RLE eq
+or ImageCompression/LZW eq or{create_datasource flushfile}{/scanline $wid $bts
+mul $ncl mul 8 div ceiling cvi dup 65535 gt{pop $bts $ncl mul}if string def
+/upperBound $wid $hei mul $bts mul $ncl mul scanline length div cvi 1 sub def 0
+1 upperBound{pop currentfile scanline readhexstring pop pop}for}ifelse}bd
+/disable_raster_output{deflevel 0 eq{@rs}if/output_image load
+/output_image_original exch def/output_image/skip_image_body load def
+globaldict begin/bSkipDeviceNImage true def end deflevel 0 eq{@sv}if}def
+/enable_raster_output{deflevel 0 eq{@rs}if/bSkipDeviceNImage where{
+/bSkipDeviceNImage undef/output_image/output_image_original load def}if
+deflevel 0 eq{@sv}if}def
+end
+%%EndResource
+%%EndProlog
+%%BeginSetup
+/#copies 1 def
+gsave
+[{
+%%BeginFeature: *Collate false
+<< /Collate false>> setpagedevice
+%%EndFeature
+} stopped cleartomark
+[{
+%%BeginFeature: *NumCopies 1
+<< /NumCopies 1>> setpagedevice
+%%EndFeature
+} stopped cleartomark
+grestore
+wCorel21Dict begin
+@BeginSysCorelDict
+CheckLevelCompatibility
+/$dcm matrix currentmatrix def
+[{
+%%BeginFeature: *PageSize
+<< /PageSize [595 841] >> setpagedevice
+%%EndFeature
+} stopped cleartomark
+/$Scra -90.0 def
+595.27559 0.00 Tl
+90.0 rotate
+0.00000 0.00000 Tl
+/$dcm2 matrix currentmatrix def
+/$dcm where{pop $dcm setmatrix}if
+@ssa
+1.00 setflat
+/$fst 256 def
+userdict begin
+end
+%%EndSetup
+
+%%Page: 1 1
+%%ViewingOrientation: 0 1 -1 0
+%%BoundingBox: 0 0 595 841
+%LogicalPage: 1
+%%BeginPageSetup
+/$dcm2 where{pop $dcm2 setmatrix}if
+@sv
+@sm
+userdict begin
+end
+@sv
+%%EndPageSetup
+@rax %Note: Object
+-23264.85033 -15347.37628 10750.89713 -15148.95109 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-23264.85033 -15148.95109 m
+10750.89713 -15148.95109 L
+10750.89713 -15347.37628 L
+-23264.85033 -15347.37628 L
+-23264.85033 -15148.95109 L
+@c
+B
+
+@rax %Note: Object
+-23264.85033 -15744.22668 10750.89713 -15545.80148 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-23264.85033 -15545.80148 m
+10750.89713 -15545.80148 L
+10750.89713 -15744.22668 L
+-23264.85033 -15744.22668 L
+-23264.85033 -15545.80148 L
+@c
+B
+
+@rax %Note: Object
+-22839.65376 -15545.80148 -21989.26006 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-22692.81770 -15347.37628 m
+-22347.19786 -15347.37628 L
+-21989.26006 -15347.37628 L
+-22019.93376 -15396.98258 L
+-22050.60746 -15446.58888 L
+-22019.93376 -15496.19518 L
+-21989.26006 -15545.80148 L
+-22347.19786 -15545.80148 L
+-22692.81770 -15545.80148 L
+-22839.65376 -15545.80148 L
+-22808.98006 -15496.19518 L
+-22778.30636 -15446.58888 L
+-22808.98006 -15396.98258 L
+-22839.65376 -15347.37628 L
+-22692.81770 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-21138.86636 -15545.80148 -20288.47266 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-20992.03030 -15347.37628 m
+-20646.41046 -15347.37628 L
+-20288.47266 -15347.37628 L
+-20319.14636 -15396.98258 L
+-20349.82006 -15446.58888 L
+-20319.14636 -15496.19518 L
+-20288.47266 -15545.80148 L
+-20646.41046 -15545.80148 L
+-20992.03030 -15545.80148 L
+-21138.86636 -15545.80148 L
+-21108.19266 -15496.19518 L
+-21077.51896 -15446.58888 L
+-21108.19266 -15396.98258 L
+-21138.86636 -15347.37628 L
+-20992.03030 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-19438.07896 -15545.80148 -18587.68526 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-19291.24290 -15347.37628 m
+-18945.62306 -15347.37628 L
+-18587.68526 -15347.37628 L
+-18618.35896 -15396.98258 L
+-18649.03266 -15446.58888 L
+-18618.35896 -15496.19518 L
+-18587.68526 -15545.80148 L
+-18945.62306 -15545.80148 L
+-19291.24290 -15545.80148 L
+-19438.07896 -15545.80148 L
+-19407.40526 -15496.19518 L
+-19376.73156 -15446.58888 L
+-19407.40526 -15396.98258 L
+-19438.07896 -15347.37628 L
+-19291.24290 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-17737.29156 -15545.80148 -16886.89786 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-17590.45550 -15347.37628 m
+-17244.83565 -15347.37628 L
+-16886.89786 -15347.37628 L
+-16917.57156 -15396.98258 L
+-16948.24526 -15446.58888 L
+-16917.57156 -15496.19518 L
+-16886.89786 -15545.80148 L
+-17244.83565 -15545.80148 L
+-17590.45550 -15545.80148 L
+-17737.29156 -15545.80148 L
+-17706.61786 -15496.19518 L
+-17675.94416 -15446.58888 L
+-17706.61786 -15396.98258 L
+-17737.29156 -15347.37628 L
+-17590.45550 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-16036.50416 -15545.80148 -15186.11046 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-15889.66809 -15347.37628 m
+-15544.04825 -15347.37628 L
+-15186.11046 -15347.37628 L
+-15216.78416 -15396.98258 L
+-15247.45786 -15446.58888 L
+-15216.78416 -15496.19518 L
+-15186.11046 -15545.80148 L
+-15544.04825 -15545.80148 L
+-15889.66809 -15545.80148 L
+-16036.50416 -15545.80148 L
+-16005.83046 -15496.19518 L
+-15975.15676 -15446.58888 L
+-16005.83046 -15396.98258 L
+-16036.50416 -15347.37628 L
+-15889.66809 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-14335.71676 -15545.80148 -13485.32306 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-14188.88069 -15347.37628 m
+-13843.26085 -15347.37628 L
+-13485.32306 -15347.37628 L
+-13515.99676 -15396.98258 L
+-13546.67046 -15446.58888 L
+-13515.99676 -15496.19518 L
+-13485.32306 -15545.80148 L
+-13843.26085 -15545.80148 L
+-14188.88069 -15545.80148 L
+-14335.71676 -15545.80148 L
+-14305.04306 -15496.19518 L
+-14274.36935 -15446.58888 L
+-14305.04306 -15396.98258 L
+-14335.71676 -15347.37628 L
+-14188.88069 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-12634.92935 -15545.80148 -11784.53565 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-12488.09329 -15347.37628 m
+-12142.47345 -15347.37628 L
+-11784.53565 -15347.37628 L
+-11815.20935 -15396.98258 L
+-11845.88306 -15446.58888 L
+-11815.20935 -15496.19518 L
+-11784.53565 -15545.80148 L
+-12142.47345 -15545.80148 L
+-12488.09329 -15545.80148 L
+-12634.92935 -15545.80148 L
+-12604.25565 -15496.19518 L
+-12573.58195 -15446.58888 L
+-12604.25565 -15396.98258 L
+-12634.92935 -15347.37628 L
+-12488.09329 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-10934.14195 -15545.80148 -10083.74825 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-10787.30589 -15347.37628 m
+-10441.68605 -15347.37628 L
+-10083.74825 -15347.37628 L
+-10114.42195 -15396.98258 L
+-10145.09565 -15446.58888 L
+-10114.42195 -15496.19518 L
+-10083.74825 -15545.80148 L
+-10441.68605 -15545.80148 L
+-10787.30589 -15545.80148 L
+-10934.14195 -15545.80148 L
+-10903.46825 -15496.19518 L
+-10872.79455 -15446.58888 L
+-10903.46825 -15396.98258 L
+-10934.14195 -15347.37628 L
+-10787.30589 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-9233.35455 -15545.80148 -8382.96085 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-9086.51849 -15347.37628 m
+-8740.89865 -15347.37628 L
+-8382.96085 -15347.37628 L
+-8413.63455 -15396.98258 L
+-8444.30825 -15446.58888 L
+-8413.63455 -15496.19518 L
+-8382.96085 -15545.80148 L
+-8740.89865 -15545.80148 L
+-9086.51849 -15545.80148 L
+-9233.35455 -15545.80148 L
+-9202.68085 -15496.19518 L
+-9172.00715 -15446.58888 L
+-9202.68085 -15396.98258 L
+-9233.35455 -15347.37628 L
+-9086.51849 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-7532.56715 -15545.80148 -6682.17345 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-7385.73109 -15347.37628 m
+-7040.11124 -15347.37628 L
+-6682.17345 -15347.37628 L
+-6712.84715 -15396.98258 L
+-6743.52085 -15446.58888 L
+-6712.84715 -15496.19518 L
+-6682.17345 -15545.80148 L
+-7040.11124 -15545.80148 L
+-7385.73109 -15545.80148 L
+-7532.56715 -15545.80148 L
+-7501.89345 -15496.19518 L
+-7471.21975 -15446.58888 L
+-7501.89345 -15396.98258 L
+-7532.56715 -15347.37628 L
+-7385.73109 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-5831.77975 -15545.80148 -4981.38605 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-5684.94369 -15347.37628 m
+-5339.32384 -15347.37628 L
+-4981.38605 -15347.37628 L
+-5012.05975 -15396.98258 L
+-5042.73345 -15446.58888 L
+-5012.05975 -15496.19518 L
+-4981.38605 -15545.80148 L
+-5339.32384 -15545.80148 L
+-5684.94369 -15545.80148 L
+-5831.77975 -15545.80148 L
+-5801.10605 -15496.19518 L
+-5770.43235 -15446.58888 L
+-5801.10605 -15396.98258 L
+-5831.77975 -15347.37628 L
+-5684.94369 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-4130.99235 -15545.80148 -3280.59865 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-3984.15628 -15347.37628 m
+-3638.53644 -15347.37628 L
+-3280.59865 -15347.37628 L
+-3311.27235 -15396.98258 L
+-3341.94605 -15446.58888 L
+-3311.27235 -15496.19518 L
+-3280.59865 -15545.80148 L
+-3638.53644 -15545.80148 L
+-3984.15628 -15545.80148 L
+-4130.99235 -15545.80148 L
+-4100.31865 -15496.19518 L
+-4069.64494 -15446.58888 L
+-4100.31865 -15396.98258 L
+-4130.99235 -15347.37628 L
+-3984.15628 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-2430.20494 -15545.80148 -1579.81124 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-2283.36888 -15347.37628 m
+-1937.74904 -15347.37628 L
+-1579.81124 -15347.37628 L
+-1610.48494 -15396.98258 L
+-1641.15865 -15446.58888 L
+-1610.48494 -15496.19518 L
+-1579.81124 -15545.80148 L
+-1937.74904 -15545.80148 L
+-2283.36888 -15545.80148 L
+-2430.20494 -15545.80148 L
+-2399.53124 -15496.19518 L
+-2368.85754 -15446.58888 L
+-2399.53124 -15396.98258 L
+-2430.20494 -15347.37628 L
+-2283.36888 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+-729.41754 -15545.80148 120.97616 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+-582.58148 -15347.37628 m
+-236.96164 -15347.37628 L
+120.97616 -15347.37628 L
+90.30246 -15396.98258 L
+59.62876 -15446.58888 L
+90.30246 -15496.19518 L
+120.97616 -15545.80148 L
+-236.96164 -15545.80148 L
+-582.58148 -15545.80148 L
+-729.41754 -15545.80148 L
+-698.74384 -15496.19518 L
+-668.07014 -15446.58888 L
+-698.74384 -15396.98258 L
+-729.41754 -15347.37628 L
+-582.58148 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+971.36986 -15545.80148 1821.76356 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+1118.20592 -15347.37628 m
+1463.82576 -15347.37628 L
+1821.76356 -15347.37628 L
+1791.08986 -15396.98258 L
+1760.41616 -15446.58888 L
+1791.08986 -15496.19518 L
+1821.76356 -15545.80148 L
+1463.82576 -15545.80148 L
+1118.20592 -15545.80148 L
+971.36986 -15545.80148 L
+1002.04356 -15496.19518 L
+1032.71726 -15446.58888 L
+1002.04356 -15396.98258 L
+971.36986 -15347.37628 L
+1118.20592 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+2672.15726 -15545.80148 3522.55096 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+2818.99332 -15347.37628 m
+3164.61317 -15347.37628 L
+3522.55096 -15347.37628 L
+3491.87726 -15396.98258 L
+3461.20356 -15446.58888 L
+3491.87726 -15496.19518 L
+3522.55096 -15545.80148 L
+3164.61317 -15545.80148 L
+2818.99332 -15545.80148 L
+2672.15726 -15545.80148 L
+2702.83096 -15496.19518 L
+2733.50466 -15446.58888 L
+2702.83096 -15396.98258 L
+2672.15726 -15347.37628 L
+2818.99332 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+4372.94466 -15545.80148 5223.33836 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+4519.78072 -15347.37628 m
+4865.40057 -15347.37628 L
+5223.33836 -15347.37628 L
+5192.66466 -15396.98258 L
+5161.99096 -15446.58888 L
+5192.66466 -15496.19518 L
+5223.33836 -15545.80148 L
+4865.40057 -15545.80148 L
+4519.78072 -15545.80148 L
+4372.94466 -15545.80148 L
+4403.61836 -15496.19518 L
+4434.29206 -15446.58888 L
+4403.61836 -15396.98258 L
+4372.94466 -15347.37628 L
+4519.78072 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+6073.73206 -15545.80148 6924.12576 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+6220.56813 -15347.37628 m
+6566.18797 -15347.37628 L
+6924.12576 -15347.37628 L
+6893.45206 -15396.98258 L
+6862.77836 -15446.58888 L
+6893.45206 -15496.19518 L
+6924.12576 -15545.80148 L
+6566.18797 -15545.80148 L
+6220.56813 -15545.80148 L
+6073.73206 -15545.80148 L
+6104.40576 -15496.19518 L
+6135.07946 -15446.58888 L
+6104.40576 -15396.98258 L
+6073.73206 -15347.37628 L
+6220.56813 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+7774.51946 -15545.80148 8624.91317 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+7921.35553 -15347.37628 m
+8266.97537 -15347.37628 L
+8624.91317 -15347.37628 L
+8594.23946 -15396.98258 L
+8563.56576 -15446.58888 L
+8594.23946 -15496.19518 L
+8624.91317 -15545.80148 L
+8266.97537 -15545.80148 L
+7921.35553 -15545.80148 L
+7774.51946 -15545.80148 L
+7805.19317 -15496.19518 L
+7835.86687 -15446.58888 L
+7805.19317 -15396.98258 L
+7774.51946 -15347.37628 L
+7921.35553 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+9475.30687 -15545.80148 10325.70057 -15347.37628 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.9020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+0 0.56693 0.56693 0.00000 @w
+9622.14293 -15347.37628 m
+9967.76277 -15347.37628 L
+10325.70057 -15347.37628 L
+10295.02687 -15396.98258 L
+10264.35317 -15446.58888 L
+10295.02687 -15496.19518 L
+10325.70057 -15545.80148 L
+9967.76277 -15545.80148 L
+9622.14293 -15545.80148 L
+9475.30687 -15545.80148 L
+9505.98057 -15496.19518 L
+9536.65427 -15446.58888 L
+9505.98057 -15396.98258 L
+9475.30687 -15347.37628 L
+9622.14293 -15347.37628 L
+@c
+B
+
+@rax %Note: Object
+64795.74803 -21072.54869 65220.94488 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.90854025 0.00000000 0.00000000 8.77103765 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+64795.74803 -9733.96573 m
+65220.94488 -9733.96573 L
+65220.94488 -21072.54869 L
+64795.74803 -21072.54869 L
+64795.74803 -9733.96573 L
+@c
+B
+
+@rax %Note: Object
+48000.47272 -21072.54869 48425.66957 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.90854025 0.00000000 0.00000000 8.77103765 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+48000.47272 -9733.96573 m
+48425.66957 -9733.96573 L
+48425.66957 -21072.54869 L
+48000.47272 -21072.54869 L
+48000.47272 -9733.96573 L
+@c
+B
+
+@rax %Note: Object
+31205.19742 -21072.54869 31630.39427 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.90854025 0.00000000 0.00000000 8.77103765 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+31205.19742 -9733.96573 m
+31630.39427 -9733.96573 L
+31630.39427 -21072.54869 L
+31205.19742 -21072.54869 L
+31205.19742 -9733.96573 L
+@c
+B
+
+@rax %Note: Object
+31205.19742 -9932.39093 65220.94488 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[68.30468760 0.00000000 0.00000000 1.60020119 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+31205.19742 -9733.96573 m
+65220.94488 -9733.96573 L
+65220.94488 -9932.39093 L
+31205.19742 -9932.39093 L
+31205.19742 -9733.96573 L
+@c
+B
+
+@rax %Note: Object
+31205.19742 -10329.24132 65220.94488 -10130.81613 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[68.30468760 0.00000000 0.00000000 1.60020119 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+31205.19742 -10130.81613 m
+65220.94488 -10130.81613 L
+65220.94488 -10329.24132 L
+31205.19742 -10329.24132 L
+31205.19742 -10130.81613 L
+@c
+B
+
+@rax %Note: Object
+31630.39398 -10130.81613 32480.78769 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+31777.23005 -9932.39093 m
+32122.84989 -9932.39093 L
+32480.78769 -9932.39093 L
+32450.11398 -9981.99723 L
+32419.44028 -10031.60353 L
+32450.11398 -10081.20983 L
+32480.78769 -10130.81613 L
+32122.84989 -10130.81613 L
+31777.23005 -10130.81613 L
+31630.39398 -10130.81613 L
+31661.06769 -10081.20983 L
+31691.74139 -10031.60353 L
+31661.06769 -9981.99723 L
+31630.39398 -9932.39093 L
+31777.23005 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+33331.18139 -10130.81613 34181.57509 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+33478.01745 -9932.39093 m
+33823.63729 -9932.39093 L
+34181.57509 -9932.39093 L
+34150.90139 -9981.99723 L
+34120.22769 -10031.60353 L
+34150.90139 -10081.20983 L
+34181.57509 -10130.81613 L
+33823.63729 -10130.81613 L
+33478.01745 -10130.81613 L
+33331.18139 -10130.81613 L
+33361.85509 -10081.20983 L
+33392.52879 -10031.60353 L
+33361.85509 -9981.99723 L
+33331.18139 -9932.39093 L
+33478.01745 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+35031.96879 -10130.81613 35882.36249 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+35178.80485 -9932.39093 m
+35524.42469 -9932.39093 L
+35882.36249 -9932.39093 L
+35851.68879 -9981.99723 L
+35821.01509 -10031.60353 L
+35851.68879 -10081.20983 L
+35882.36249 -10130.81613 L
+35524.42469 -10130.81613 L
+35178.80485 -10130.81613 L
+35031.96879 -10130.81613 L
+35062.64249 -10081.20983 L
+35093.31619 -10031.60353 L
+35062.64249 -9981.99723 L
+35031.96879 -9932.39093 L
+35178.80485 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+36732.75619 -10130.81613 37583.14989 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+36879.59225 -9932.39093 m
+37225.21209 -9932.39093 L
+37583.14989 -9932.39093 L
+37552.47619 -9981.99723 L
+37521.80249 -10031.60353 L
+37552.47619 -10081.20983 L
+37583.14989 -10130.81613 L
+37225.21209 -10130.81613 L
+36879.59225 -10130.81613 L
+36732.75619 -10130.81613 L
+36763.42989 -10081.20983 L
+36794.10359 -10031.60353 L
+36763.42989 -9981.99723 L
+36732.75619 -9932.39093 L
+36879.59225 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+38433.54359 -10130.81613 39283.93729 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+38580.37965 -9932.39093 m
+38925.99950 -9932.39093 L
+39283.93729 -9932.39093 L
+39253.26359 -9981.99723 L
+39222.58989 -10031.60353 L
+39253.26359 -10081.20983 L
+39283.93729 -10130.81613 L
+38925.99950 -10130.81613 L
+38580.37965 -10130.81613 L
+38433.54359 -10130.81613 L
+38464.21729 -10081.20983 L
+38494.89099 -10031.60353 L
+38464.21729 -9981.99723 L
+38433.54359 -9932.39093 L
+38580.37965 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+40134.33099 -10130.81613 40984.72469 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+40281.16706 -9932.39093 m
+40626.78690 -9932.39093 L
+40984.72469 -9932.39093 L
+40954.05099 -9981.99723 L
+40923.37729 -10031.60353 L
+40954.05099 -10081.20983 L
+40984.72469 -10130.81613 L
+40626.78690 -10130.81613 L
+40281.16706 -10130.81613 L
+40134.33099 -10130.81613 L
+40165.00469 -10081.20983 L
+40195.67839 -10031.60353 L
+40165.00469 -9981.99723 L
+40134.33099 -9932.39093 L
+40281.16706 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+41835.11839 -10130.81613 42685.51209 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+41981.95446 -9932.39093 m
+42327.57430 -9932.39093 L
+42685.51209 -9932.39093 L
+42654.83839 -9981.99723 L
+42624.16469 -10031.60353 L
+42654.83839 -10081.20983 L
+42685.51209 -10130.81613 L
+42327.57430 -10130.81613 L
+41981.95446 -10130.81613 L
+41835.11839 -10130.81613 L
+41865.79209 -10081.20983 L
+41896.46580 -10031.60353 L
+41865.79209 -9981.99723 L
+41835.11839 -9932.39093 L
+41981.95446 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+43535.90580 -10130.81613 44386.29950 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+43682.74186 -9932.39093 m
+44028.36170 -9932.39093 L
+44386.29950 -9932.39093 L
+44355.62580 -9981.99723 L
+44324.95209 -10031.60353 L
+44355.62580 -10081.20983 L
+44386.29950 -10130.81613 L
+44028.36170 -10130.81613 L
+43682.74186 -10130.81613 L
+43535.90580 -10130.81613 L
+43566.57950 -10081.20983 L
+43597.25320 -10031.60353 L
+43566.57950 -9981.99723 L
+43535.90580 -9932.39093 L
+43682.74186 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+45236.69320 -10130.81613 46087.08690 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+45383.52926 -9932.39093 m
+45729.14910 -9932.39093 L
+46087.08690 -9932.39093 L
+46056.41320 -9981.99723 L
+46025.73950 -10031.60353 L
+46056.41320 -10081.20983 L
+46087.08690 -10130.81613 L
+45729.14910 -10130.81613 L
+45383.52926 -10130.81613 L
+45236.69320 -10130.81613 L
+45267.36690 -10081.20983 L
+45298.04060 -10031.60353 L
+45267.36690 -9981.99723 L
+45236.69320 -9932.39093 L
+45383.52926 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+46937.48060 -10130.81613 47787.87430 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+47084.31666 -9932.39093 m
+47429.93650 -9932.39093 L
+47787.87430 -9932.39093 L
+47757.20060 -9981.99723 L
+47726.52690 -10031.60353 L
+47757.20060 -10081.20983 L
+47787.87430 -10130.81613 L
+47429.93650 -10130.81613 L
+47084.31666 -10130.81613 L
+46937.48060 -10130.81613 L
+46968.15430 -10081.20983 L
+46998.82800 -10031.60353 L
+46968.15430 -9981.99723 L
+46937.48060 -9932.39093 L
+47084.31666 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+48638.26800 -10130.81613 49488.66170 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+48785.10406 -9932.39093 m
+49130.72391 -9932.39093 L
+49488.66170 -9932.39093 L
+49457.98800 -9981.99723 L
+49427.31430 -10031.60353 L
+49457.98800 -10081.20983 L
+49488.66170 -10130.81613 L
+49130.72391 -10130.81613 L
+48785.10406 -10130.81613 L
+48638.26800 -10130.81613 L
+48668.94170 -10081.20983 L
+48699.61540 -10031.60353 L
+48668.94170 -9981.99723 L
+48638.26800 -9932.39093 L
+48785.10406 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+50339.05540 -10130.81613 51189.44910 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+50485.89146 -9932.39093 m
+50831.51131 -9932.39093 L
+51189.44910 -9932.39093 L
+51158.77540 -9981.99723 L
+51128.10170 -10031.60353 L
+51158.77540 -10081.20983 L
+51189.44910 -10130.81613 L
+50831.51131 -10130.81613 L
+50485.89146 -10130.81613 L
+50339.05540 -10130.81613 L
+50369.72910 -10081.20983 L
+50400.40280 -10031.60353 L
+50369.72910 -9981.99723 L
+50339.05540 -9932.39093 L
+50485.89146 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+52039.84280 -10130.81613 52890.23650 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+52186.67887 -9932.39093 m
+52532.29871 -9932.39093 L
+52890.23650 -9932.39093 L
+52859.56280 -9981.99723 L
+52828.88910 -10031.60353 L
+52859.56280 -10081.20983 L
+52890.23650 -10130.81613 L
+52532.29871 -10130.81613 L
+52186.67887 -10130.81613 L
+52039.84280 -10130.81613 L
+52070.51650 -10081.20983 L
+52101.19020 -10031.60353 L
+52070.51650 -9981.99723 L
+52039.84280 -9932.39093 L
+52186.67887 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+53740.63020 -10130.81613 54591.02391 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+53887.46627 -9932.39093 m
+54233.08611 -9932.39093 L
+54591.02391 -9932.39093 L
+54560.35020 -9981.99723 L
+54529.67650 -10031.60353 L
+54560.35020 -10081.20983 L
+54591.02391 -10130.81613 L
+54233.08611 -10130.81613 L
+53887.46627 -10130.81613 L
+53740.63020 -10130.81613 L
+53771.30391 -10081.20983 L
+53801.97761 -10031.60353 L
+53771.30391 -9981.99723 L
+53740.63020 -9932.39093 L
+53887.46627 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+55441.41761 -10130.81613 56291.81131 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+55588.25367 -9932.39093 m
+55933.87351 -9932.39093 L
+56291.81131 -9932.39093 L
+56261.13761 -9981.99723 L
+56230.46391 -10031.60353 L
+56261.13761 -10081.20983 L
+56291.81131 -10130.81613 L
+55933.87351 -10130.81613 L
+55588.25367 -10130.81613 L
+55441.41761 -10130.81613 L
+55472.09131 -10081.20983 L
+55502.76501 -10031.60353 L
+55472.09131 -9981.99723 L
+55441.41761 -9932.39093 L
+55588.25367 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+57142.20501 -10130.81613 57992.59871 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+57289.04107 -9932.39093 m
+57634.66091 -9932.39093 L
+57992.59871 -9932.39093 L
+57961.92501 -9981.99723 L
+57931.25131 -10031.60353 L
+57961.92501 -10081.20983 L
+57992.59871 -10130.81613 L
+57634.66091 -10130.81613 L
+57289.04107 -10130.81613 L
+57142.20501 -10130.81613 L
+57172.87871 -10081.20983 L
+57203.55241 -10031.60353 L
+57172.87871 -9981.99723 L
+57142.20501 -9932.39093 L
+57289.04107 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+58842.99241 -10130.81613 59693.38611 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+58989.82847 -9932.39093 m
+59335.44831 -9932.39093 L
+59693.38611 -9932.39093 L
+59662.71241 -9981.99723 L
+59632.03871 -10031.60353 L
+59662.71241 -10081.20983 L
+59693.38611 -10130.81613 L
+59335.44831 -10130.81613 L
+58989.82847 -10130.81613 L
+58842.99241 -10130.81613 L
+58873.66611 -10081.20983 L
+58904.33981 -10031.60353 L
+58873.66611 -9981.99723 L
+58842.99241 -9932.39093 L
+58989.82847 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+60543.77981 -10130.81613 61394.17351 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+60690.61587 -9932.39093 m
+61036.23572 -9932.39093 L
+61394.17351 -9932.39093 L
+61363.49981 -9981.99723 L
+61332.82611 -10031.60353 L
+61363.49981 -10081.20983 L
+61394.17351 -10130.81613 L
+61036.23572 -10130.81613 L
+60690.61587 -10130.81613 L
+60543.77981 -10130.81613 L
+60574.45351 -10081.20983 L
+60605.12721 -10031.60353 L
+60574.45351 -9981.99723 L
+60543.77981 -9932.39093 L
+60690.61587 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+62244.56721 -10130.81613 63094.96091 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+62391.40328 -9932.39093 m
+62737.02312 -9932.39093 L
+63094.96091 -9932.39093 L
+63064.28721 -9981.99723 L
+63033.61351 -10031.60353 L
+63064.28721 -10081.20983 L
+63094.96091 -10130.81613 L
+62737.02312 -10130.81613 L
+62391.40328 -10130.81613 L
+62244.56721 -10130.81613 L
+62275.24091 -10081.20983 L
+62305.91461 -10031.60353 L
+62275.24091 -9981.99723 L
+62244.56721 -9932.39093 L
+62391.40328 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+63945.35461 -10130.81613 64795.74831 -9932.39093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+64092.19068 -9932.39093 m
+64437.81052 -9932.39093 L
+64795.74831 -9932.39093 L
+64765.07461 -9981.99723 L
+64734.40091 -10031.60353 L
+64765.07461 -10081.20983 L
+64795.74831 -10130.81613 L
+64437.81052 -10130.81613 L
+64092.19068 -10130.81613 L
+63945.35461 -10130.81613 L
+63976.02831 -10081.20983 L
+64006.70202 -10031.60353 L
+63976.02831 -9981.99723 L
+63945.35461 -9932.39093 L
+64092.19068 -9932.39093 L
+@c
+B
+
+@rax %Note: Object
+22701.26041 -17456.94510 31205.19742 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+31205.19742 -9733.96573 m
+22701.26041 -17258.51991 L
+22701.26041 -17456.94510 L
+31205.19742 -9932.39093 L
+31205.19742 -9733.96573 L
+@c
+B
+
+@rax %Note: Object
+22701.26041 -17853.79550 31205.19742 -10130.81613 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+31205.19742 -10130.81613 m
+22701.26041 -17655.37030 L
+22701.26041 -17853.79550 L
+31205.19742 -10329.24132 L
+31205.19742 -10130.81613 L
+@c
+B
+
+@rax %Note: Object
+29929.60715 -11259.49890 30780.00085 -10308.61843 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+30633.16479 -10438.54356 m
+30287.54494 -10744.35902 L
+29929.60715 -11061.07370 L
+29960.28085 -11083.53912 L
+29990.95455 -11106.00425 L
+29960.28085 -11182.75172 L
+29929.60715 -11259.49890 L
+30287.54494 -10942.78422 L
+30633.16479 -10636.96876 L
+30780.00085 -10507.04362 L
+30749.32715 -10484.57820 L
+30718.65345 -10462.11307 L
+30749.32715 -10385.36561 L
+30780.00085 -10308.61843 L
+30633.16479 -10438.54356 L
+@c
+B
+
+@rax %Note: Object
+28228.81975 -12764.40973 29079.21345 -11813.52926 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+28932.37739 -11943.45439 m
+28586.75754 -12249.26986 L
+28228.81975 -12565.98454 L
+28259.49345 -12588.44995 L
+28290.16715 -12610.91509 L
+28259.49345 -12687.66255 L
+28228.81975 -12764.40973 L
+28586.75754 -12447.69506 L
+28932.37739 -12141.87959 L
+29079.21345 -12011.95446 L
+29048.53975 -11989.48904 L
+29017.86605 -11967.02391 L
+29048.53975 -11890.27644 L
+29079.21345 -11813.52926 L
+28932.37739 -11943.45439 L
+@c
+B
+
+@rax %Note: Object
+26528.03235 -14269.32057 27378.42605 -13318.44009 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+27231.58998 -13448.36523 m
+26885.97014 -13754.18069 L
+26528.03235 -14070.89537 L
+26558.70605 -14093.36079 L
+26589.37975 -14115.82592 L
+26558.70605 -14192.57339 L
+26528.03235 -14269.32057 L
+26885.97014 -13952.60589 L
+27231.58998 -13646.79043 L
+27378.42605 -13516.86529 L
+27347.75235 -13494.39987 L
+27317.07865 -13471.93474 L
+27347.75235 -13395.18728 L
+27378.42605 -13318.44009 L
+27231.58998 -13448.36523 L
+@c
+B
+
+@rax %Note: Object
+24827.24494 -15774.23140 25677.63865 -14823.35093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+25530.80258 -14953.27606 m
+25185.18274 -15259.09153 L
+24827.24494 -15575.80620 L
+24857.91865 -15598.27162 L
+24888.59235 -15620.73676 L
+24857.91865 -15697.48422 L
+24827.24494 -15774.23140 L
+25185.18274 -15457.51672 L
+25530.80258 -15151.70126 L
+25677.63865 -15021.77613 L
+25646.96494 -14999.31071 L
+25616.29124 -14976.84557 L
+25646.96494 -14900.09811 L
+25677.63865 -14823.35093 L
+25530.80258 -14953.27606 L
+@c
+B
+
+@rax %Note: Object
+23126.45754 -17279.14224 23976.85124 -16328.26176 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+23830.01518 -16458.18690 m
+23484.39534 -16764.00236 L
+23126.45754 -17080.71704 L
+23157.13124 -17103.18246 L
+23187.80494 -17125.64759 L
+23157.13124 -17202.39506 L
+23126.45754 -17279.14224 L
+23484.39534 -16962.42756 L
+23830.01518 -16656.61209 L
+23976.85124 -16526.68696 L
+23946.17754 -16504.22154 L
+23915.50384 -16481.75641 L
+23946.17754 -16405.00894 L
+23976.85124 -16328.26176 L
+23830.01518 -16458.18690 L
+@c
+B
+
+@rax %Note: Object
+31205.19742 -17402.72769 39869.26157 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+31205.19742 -17260.99540 m
+39625.04806 -9808.39247 L
+39709.13443 -9733.96573 L
+39869.26157 -9733.96573 L
+39709.13443 -9875.69802 L
+31205.19742 -17402.72769 L
+31205.19742 -17260.99540 L
+@c
+B
+
+@rax %Note: Object
+36874.48819 -17402.72769 45538.55235 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+36874.48819 -17260.99540 m
+45294.33883 -9808.39247 L
+45378.42520 -9733.96573 L
+45538.55235 -9733.96573 L
+45378.42520 -9875.69802 L
+36874.48819 -17402.72769 L
+36874.48819 -17260.99540 L
+@c
+B
+
+@rax %Note: Object
+45378.42435 -17402.72769 54042.48850 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+45378.42435 -17260.99540 m
+53798.27499 -9808.39247 L
+53882.36135 -9733.96573 L
+54042.48850 -9733.96573 L
+53882.36135 -9875.69802 L
+45378.42435 -17402.72769 L
+45378.42435 -17260.99540 L
+@c
+B
+
+@rax %Note: Object
+53882.36050 -17402.72769 62546.42466 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+53882.36050 -17260.99540 m
+62302.21115 -9808.39247 L
+62386.29751 -9733.96573 L
+62546.42466 -9733.96573 L
+62386.29751 -9875.69802 L
+53882.36050 -17402.72769 L
+53882.36050 -17260.99540 L
+@c
+B
+
+@rax %Note: Object
+28370.55118 -17400.25247 37034.61534 -9731.49052 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+28370.55118 -17258.52019 m
+36790.40183 -9805.91726 L
+36874.48819 -9731.49052 L
+37034.61534 -9731.49052 L
+36874.48819 -9873.22280 L
+28370.55118 -17400.25247 L
+28370.55118 -17258.52019 L
+@c
+B
+
+@rax %Note: Object
+34039.84195 -17400.25247 42703.90611 -9731.49052 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+34039.84195 -17258.52019 m
+42459.69260 -9805.91726 L
+42543.77896 -9731.49052 L
+42703.90611 -9731.49052 L
+42543.77896 -9873.22280 L
+34039.84195 -17400.25247 L
+34039.84195 -17258.52019 L
+@c
+B
+
+@rax %Note: Object
+42543.77811 -17400.25247 51207.84227 -9731.49052 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+42543.77811 -17258.52019 m
+50963.62876 -9805.91726 L
+51047.71512 -9731.49052 L
+51207.84227 -9731.49052 L
+51047.71512 -9873.22280 L
+42543.77811 -17400.25247 L
+42543.77811 -17258.52019 L
+@c
+B
+
+@rax %Note: Object
+51047.71427 -17400.25247 59711.77843 -9731.49052 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+51047.71427 -17258.52019 m
+59467.56491 -9805.91726 L
+59551.65128 -9731.49052 L
+59711.77843 -9731.49052 L
+59551.65128 -9873.22280 L
+51047.71427 -17400.25247 L
+51047.71427 -17258.52019 L
+@c
+B
+
+@rax %Note: Object
+25535.90494 -17397.77726 34199.96910 -9729.01531 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+25535.90494 -17256.04498 m
+33955.75559 -9803.44205 L
+34039.84195 -9729.01531 L
+34199.96910 -9729.01531 L
+34039.84195 -9870.74759 L
+25535.90494 -17397.77726 L
+25535.90494 -17256.04498 L
+@c
+B
+
+@rax %Note: Object
+39709.13443 -17402.72769 48373.19858 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+39709.13443 -17260.99540 m
+48128.98507 -9808.39247 L
+48213.07143 -9733.96573 L
+48373.19858 -9733.96573 L
+48213.07143 -9875.69802 L
+39709.13443 -17402.72769 L
+39709.13443 -17260.99540 L
+@c
+B
+
+@rax %Note: Object
+48213.07143 -17402.72769 56877.13559 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.00000000 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+48213.07143 -17260.99540 m
+56632.92208 -9808.39247 L
+56717.00844 -9733.96573 L
+56877.13559 -9733.96573 L
+56717.00844 -9875.69802 L
+48213.07143 -17402.72769 L
+48213.07143 -17260.99540 L
+@c
+B
+
+@rax %Note: Object
+23452.93134 -16591.07962 57567.40271 -16506.04025 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+23551.65411 -16506.04025 m
+57567.40271 -16506.04025 L
+57468.68022 -16591.07962 L
+23452.93134 -16591.07962 L
+23551.65411 -16506.04025 L
+@c
+B
+
+@rax %Note: Object
+24303.32504 -15838.59969 58417.79641 -15753.56031 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+24402.04781 -15753.56031 m
+58417.79641 -15753.56031 L
+58319.07392 -15838.59969 L
+24303.32504 -15838.59969 L
+24402.04781 -15753.56031 L
+@c
+B
+
+@rax %Note: Object
+25153.71874 -15086.11975 59268.19011 -15001.08038 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+25252.44151 -15001.08038 m
+59268.19011 -15001.08038 L
+59169.46762 -15086.11975 L
+25153.71874 -15086.11975 L
+25252.44151 -15001.08038 L
+@c
+B
+
+@rax %Note: Object
+26004.11244 -14333.63981 60118.58381 -14248.60044 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+26102.83521 -14248.60044 m
+60118.58381 -14248.60044 L
+60019.86132 -14333.63981 L
+26004.11244 -14333.63981 L
+26102.83521 -14248.60044 L
+@c
+B
+
+@rax %Note: Object
+26854.50614 -13581.15987 60968.97751 -13496.12050 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+26953.22891 -13496.12050 m
+60968.97751 -13496.12050 L
+60870.25502 -13581.15987 L
+26854.50614 -13581.15987 L
+26953.22891 -13496.12050 L
+@c
+B
+
+@rax %Note: Object
+27704.89984 -12828.67994 61819.37121 -12743.64057 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+27803.62261 -12743.64057 m
+61819.37121 -12743.64057 L
+61720.64872 -12828.67994 L
+27704.89984 -12828.67994 L
+27803.62261 -12743.64057 L
+@c
+B
+
+@rax %Note: Object
+28555.29354 -12076.20000 62669.76491 -11991.16063 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+28654.01631 -11991.16063 m
+62669.76491 -11991.16063 L
+62571.04243 -12076.20000 L
+28555.29354 -12076.20000 L
+28654.01631 -11991.16063 L
+@c
+B
+
+@rax %Note: Object
+29405.68724 -11323.72006 63520.15861 -11238.68069 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+29504.41002 -11238.68069 m
+63520.15861 -11238.68069 L
+63421.43613 -11323.72006 L
+29405.68724 -11323.72006 L
+29504.41002 -11238.68069 L
+@c
+B
+
+@rax %Note: Object
+30256.08094 -10571.24013 64370.55231 -10486.20076 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[15.92497253 0.00000000 0.58763557 0.50618733 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+30354.80372 -10486.20076 m
+64370.55231 -10486.20076 L
+64271.82983 -10571.24013 L
+30256.08094 -10571.24013 L
+30354.80372 -10486.20076 L
+@c
+B
+
+@rax %Note: Object
+56717.00787 -17456.94510 65220.94488 -9733.96573 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+65220.94488 -9733.96573 m
+56717.00787 -17258.51991 L
+56717.00787 -17456.94510 L
+65220.94488 -9932.39093 L
+65220.94488 -9733.96573 L
+@c
+B
+
+@rax %Note: Object
+56717.00787 -17853.79550 65220.94488 -10130.81613 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+65220.94488 -10130.81613 m
+56717.00787 -17655.37030 L
+56717.00787 -17853.79550 L
+65220.94488 -10329.24132 L
+65220.94488 -10130.81613 L
+@c
+B
+
+@rax %Note: Object
+63945.35461 -11259.49890 64795.74831 -10308.61843 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+64648.91225 -10438.54356 m
+64303.29241 -10744.35902 L
+63945.35461 -11061.07370 L
+63976.02831 -11083.53912 L
+64006.70202 -11106.00425 L
+63976.02831 -11182.75172 L
+63945.35461 -11259.49890 L
+64303.29241 -10942.78422 L
+64648.91225 -10636.96876 L
+64795.74831 -10507.04362 L
+64765.07461 -10484.57820 L
+64734.40091 -10462.11307 L
+64765.07461 -10385.36561 L
+64795.74831 -10308.61843 L
+64648.91225 -10438.54356 L
+@c
+B
+
+@rax %Note: Object
+62244.56721 -12764.40973 63094.96091 -11813.52926 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+62948.12485 -11943.45439 m
+62602.50501 -12249.26986 L
+62244.56721 -12565.98454 L
+62275.24091 -12588.44995 L
+62305.91461 -12610.91509 L
+62275.24091 -12687.66255 L
+62244.56721 -12764.40973 L
+62602.50501 -12447.69506 L
+62948.12485 -12141.87959 L
+63094.96091 -12011.95446 L
+63064.28721 -11989.48904 L
+63033.61351 -11967.02391 L
+63064.28721 -11890.27644 L
+63094.96091 -11813.52926 L
+62948.12485 -11943.45439 L
+@c
+B
+
+@rax %Note: Object
+60543.77981 -14269.32057 61394.17351 -13318.44009 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+61247.33745 -13448.36523 m
+60901.71761 -13754.18069 L
+60543.77981 -14070.89537 L
+60574.45351 -14093.36079 L
+60605.12721 -14115.82592 L
+60574.45351 -14192.57339 L
+60543.77981 -14269.32057 L
+60901.71761 -13952.60589 L
+61247.33745 -13646.79043 L
+61394.17351 -13516.86529 L
+61363.49981 -13494.39987 L
+61332.82611 -13471.93474 L
+61363.49981 -13395.18728 L
+61394.17351 -13318.44009 L
+61247.33745 -13448.36523 L
+@c
+B
+
+@rax %Note: Object
+58842.99241 -15774.23140 59693.38611 -14823.35093 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+59546.55005 -14953.27606 m
+59200.93020 -15259.09153 L
+58842.99241 -15575.80620 L
+58873.66611 -15598.27162 L
+58904.33981 -15620.73676 L
+58873.66611 -15697.48422 L
+58842.99241 -15774.23140 L
+59200.93020 -15457.51672 L
+59546.55005 -15151.70126 L
+59693.38611 -15021.77613 L
+59662.71241 -14999.31071 L
+59632.03871 -14976.84557 L
+59662.71241 -14900.09811 L
+59693.38611 -14823.35093 L
+59546.55005 -14953.27606 L
+@c
+B
+
+@rax %Note: Object
+57142.20501 -17279.14224 57992.59871 -16328.26176 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-1.00000000 -0.88483184 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+57845.76265 -16458.18690 m
+57500.14280 -16764.00236 L
+57142.20501 -17080.71704 L
+57172.87871 -17103.18246 L
+57203.55241 -17125.64759 L
+57172.87871 -17202.39506 L
+57142.20501 -17279.14224 L
+57500.14280 -16962.42756 L
+57845.76265 -16656.61209 L
+57992.59871 -16526.68696 L
+57961.92501 -16504.22154 L
+57931.25131 -16481.75641 L
+57961.92501 -16405.00894 L
+57992.59871 -16328.26176 L
+57845.76265 -16458.18690 L
+@c
+B
+
+@rax %Note: Object
+22701.26041 -17456.94539 56717.00787 -17258.52019 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[68.30468760 -0.00000000 0.00000000 1.60020119 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+22701.26041 -17258.52019 m
+56717.00787 -17258.52019 L
+56717.00787 -17456.94539 L
+22701.26041 -17456.94539 L
+22701.26041 -17258.52019 L
+@c
+B
+
+@rax %Note: Object
+22701.26041 -17853.79578 56717.00787 -17655.37058 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[68.30468760 -0.00000000 0.00000000 1.60020119 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+22701.26041 -17655.37058 m
+56717.00787 -17655.37058 L
+56717.00787 -17853.79578 L
+22701.26041 -17853.79578 L
+22701.26041 -17655.37058 L
+@c
+B
+
+@rax %Note: Object
+23126.45698 -17655.37058 23976.85068 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+23273.29304 -17456.94539 m
+23618.91288 -17456.94539 L
+23976.85068 -17456.94539 L
+23946.17698 -17506.55169 L
+23915.50328 -17556.15798 L
+23946.17698 -17605.76428 L
+23976.85068 -17655.37058 L
+23618.91288 -17655.37058 L
+23273.29304 -17655.37058 L
+23126.45698 -17655.37058 L
+23157.13068 -17605.76428 L
+23187.80438 -17556.15798 L
+23157.13068 -17506.55169 L
+23126.45698 -17456.94539 L
+23273.29304 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+24827.24438 -17655.37058 25677.63808 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+24974.08044 -17456.94539 m
+25319.70028 -17456.94539 L
+25677.63808 -17456.94539 L
+25646.96438 -17506.55169 L
+25616.29068 -17556.15798 L
+25646.96438 -17605.76428 L
+25677.63808 -17655.37058 L
+25319.70028 -17655.37058 L
+24974.08044 -17655.37058 L
+24827.24438 -17655.37058 L
+24857.91808 -17605.76428 L
+24888.59178 -17556.15798 L
+24857.91808 -17506.55169 L
+24827.24438 -17456.94539 L
+24974.08044 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+26528.03178 -17655.37058 27378.42548 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+26674.86784 -17456.94539 m
+27020.48769 -17456.94539 L
+27378.42548 -17456.94539 L
+27347.75178 -17506.55169 L
+27317.07808 -17556.15798 L
+27347.75178 -17605.76428 L
+27378.42548 -17655.37058 L
+27020.48769 -17655.37058 L
+26674.86784 -17655.37058 L
+26528.03178 -17655.37058 L
+26558.70548 -17605.76428 L
+26589.37918 -17556.15798 L
+26558.70548 -17506.55169 L
+26528.03178 -17456.94539 L
+26674.86784 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+28228.81918 -17655.37058 29079.21288 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+28375.65524 -17456.94539 m
+28721.27509 -17456.94539 L
+29079.21288 -17456.94539 L
+29048.53918 -17506.55169 L
+29017.86548 -17556.15798 L
+29048.53918 -17605.76428 L
+29079.21288 -17655.37058 L
+28721.27509 -17655.37058 L
+28375.65524 -17655.37058 L
+28228.81918 -17655.37058 L
+28259.49288 -17605.76428 L
+28290.16658 -17556.15798 L
+28259.49288 -17506.55169 L
+28228.81918 -17456.94539 L
+28375.65524 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+29929.60658 -17655.37058 30780.00028 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+30076.44265 -17456.94539 m
+30422.06249 -17456.94539 L
+30780.00028 -17456.94539 L
+30749.32658 -17506.55169 L
+30718.65288 -17556.15798 L
+30749.32658 -17605.76428 L
+30780.00028 -17655.37058 L
+30422.06249 -17655.37058 L
+30076.44265 -17655.37058 L
+29929.60658 -17655.37058 L
+29960.28028 -17605.76428 L
+29990.95398 -17556.15798 L
+29960.28028 -17506.55169 L
+29929.60658 -17456.94539 L
+30076.44265 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+31630.39398 -17655.37058 32480.78769 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+31777.23005 -17456.94539 m
+32122.84989 -17456.94539 L
+32480.78769 -17456.94539 L
+32450.11398 -17506.55169 L
+32419.44028 -17556.15798 L
+32450.11398 -17605.76428 L
+32480.78769 -17655.37058 L
+32122.84989 -17655.37058 L
+31777.23005 -17655.37058 L
+31630.39398 -17655.37058 L
+31661.06769 -17605.76428 L
+31691.74139 -17556.15798 L
+31661.06769 -17506.55169 L
+31630.39398 -17456.94539 L
+31777.23005 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+33331.18139 -17655.37058 34181.57509 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+33478.01745 -17456.94539 m
+33823.63729 -17456.94539 L
+34181.57509 -17456.94539 L
+34150.90139 -17506.55169 L
+34120.22769 -17556.15798 L
+34150.90139 -17605.76428 L
+34181.57509 -17655.37058 L
+33823.63729 -17655.37058 L
+33478.01745 -17655.37058 L
+33331.18139 -17655.37058 L
+33361.85509 -17605.76428 L
+33392.52879 -17556.15798 L
+33361.85509 -17506.55169 L
+33331.18139 -17456.94539 L
+33478.01745 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+35031.96879 -17655.37058 35882.36249 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+35178.80485 -17456.94539 m
+35524.42469 -17456.94539 L
+35882.36249 -17456.94539 L
+35851.68879 -17506.55169 L
+35821.01509 -17556.15798 L
+35851.68879 -17605.76428 L
+35882.36249 -17655.37058 L
+35524.42469 -17655.37058 L
+35178.80485 -17655.37058 L
+35031.96879 -17655.37058 L
+35062.64249 -17605.76428 L
+35093.31619 -17556.15798 L
+35062.64249 -17506.55169 L
+35031.96879 -17456.94539 L
+35178.80485 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+36732.75619 -17655.37058 37583.14989 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+36879.59225 -17456.94539 m
+37225.21209 -17456.94539 L
+37583.14989 -17456.94539 L
+37552.47619 -17506.55169 L
+37521.80249 -17556.15798 L
+37552.47619 -17605.76428 L
+37583.14989 -17655.37058 L
+37225.21209 -17655.37058 L
+36879.59225 -17655.37058 L
+36732.75619 -17655.37058 L
+36763.42989 -17605.76428 L
+36794.10359 -17556.15798 L
+36763.42989 -17506.55169 L
+36732.75619 -17456.94539 L
+36879.59225 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+38433.54359 -17655.37058 39283.93729 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+38580.37965 -17456.94539 m
+38925.99950 -17456.94539 L
+39283.93729 -17456.94539 L
+39253.26359 -17506.55169 L
+39222.58989 -17556.15798 L
+39253.26359 -17605.76428 L
+39283.93729 -17655.37058 L
+38925.99950 -17655.37058 L
+38580.37965 -17655.37058 L
+38433.54359 -17655.37058 L
+38464.21729 -17605.76428 L
+38494.89099 -17556.15798 L
+38464.21729 -17506.55169 L
+38433.54359 -17456.94539 L
+38580.37965 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+40134.33099 -17655.37058 40984.72469 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+40281.16706 -17456.94539 m
+40626.78690 -17456.94539 L
+40984.72469 -17456.94539 L
+40954.05099 -17506.55169 L
+40923.37729 -17556.15798 L
+40954.05099 -17605.76428 L
+40984.72469 -17655.37058 L
+40626.78690 -17655.37058 L
+40281.16706 -17655.37058 L
+40134.33099 -17655.37058 L
+40165.00469 -17605.76428 L
+40195.67839 -17556.15798 L
+40165.00469 -17506.55169 L
+40134.33099 -17456.94539 L
+40281.16706 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+41835.11839 -17655.37058 42685.51209 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+41981.95446 -17456.94539 m
+42327.57430 -17456.94539 L
+42685.51209 -17456.94539 L
+42654.83839 -17506.55169 L
+42624.16469 -17556.15798 L
+42654.83839 -17605.76428 L
+42685.51209 -17655.37058 L
+42327.57430 -17655.37058 L
+41981.95446 -17655.37058 L
+41835.11839 -17655.37058 L
+41865.79209 -17605.76428 L
+41896.46580 -17556.15798 L
+41865.79209 -17506.55169 L
+41835.11839 -17456.94539 L
+41981.95446 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+43535.90580 -17655.37058 44386.29950 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+43682.74186 -17456.94539 m
+44028.36170 -17456.94539 L
+44386.29950 -17456.94539 L
+44355.62580 -17506.55169 L
+44324.95209 -17556.15798 L
+44355.62580 -17605.76428 L
+44386.29950 -17655.37058 L
+44028.36170 -17655.37058 L
+43682.74186 -17655.37058 L
+43535.90580 -17655.37058 L
+43566.57950 -17605.76428 L
+43597.25320 -17556.15798 L
+43566.57950 -17506.55169 L
+43535.90580 -17456.94539 L
+43682.74186 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+45236.69320 -17655.37058 46087.08690 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+45383.52926 -17456.94539 m
+45729.14910 -17456.94539 L
+46087.08690 -17456.94539 L
+46056.41320 -17506.55169 L
+46025.73950 -17556.15798 L
+46056.41320 -17605.76428 L
+46087.08690 -17655.37058 L
+45729.14910 -17655.37058 L
+45383.52926 -17655.37058 L
+45236.69320 -17655.37058 L
+45267.36690 -17605.76428 L
+45298.04060 -17556.15798 L
+45267.36690 -17506.55169 L
+45236.69320 -17456.94539 L
+45383.52926 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+46937.48060 -17655.37058 47787.87430 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+47084.31666 -17456.94539 m
+47429.93650 -17456.94539 L
+47787.87430 -17456.94539 L
+47757.20060 -17506.55169 L
+47726.52690 -17556.15798 L
+47757.20060 -17605.76428 L
+47787.87430 -17655.37058 L
+47429.93650 -17655.37058 L
+47084.31666 -17655.37058 L
+46937.48060 -17655.37058 L
+46968.15430 -17605.76428 L
+46998.82800 -17556.15798 L
+46968.15430 -17506.55169 L
+46937.48060 -17456.94539 L
+47084.31666 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+48638.26800 -17655.37058 49488.66170 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+48785.10406 -17456.94539 m
+49130.72391 -17456.94539 L
+49488.66170 -17456.94539 L
+49457.98800 -17506.55169 L
+49427.31430 -17556.15798 L
+49457.98800 -17605.76428 L
+49488.66170 -17655.37058 L
+49130.72391 -17655.37058 L
+48785.10406 -17655.37058 L
+48638.26800 -17655.37058 L
+48668.94170 -17605.76428 L
+48699.61540 -17556.15798 L
+48668.94170 -17506.55169 L
+48638.26800 -17456.94539 L
+48785.10406 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+50339.05540 -17655.37058 51189.44910 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+50485.89146 -17456.94539 m
+50831.51131 -17456.94539 L
+51189.44910 -17456.94539 L
+51158.77540 -17506.55169 L
+51128.10170 -17556.15798 L
+51158.77540 -17605.76428 L
+51189.44910 -17655.37058 L
+50831.51131 -17655.37058 L
+50485.89146 -17655.37058 L
+50339.05540 -17655.37058 L
+50369.72910 -17605.76428 L
+50400.40280 -17556.15798 L
+50369.72910 -17506.55169 L
+50339.05540 -17456.94539 L
+50485.89146 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+52039.84280 -17655.37058 52890.23650 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+52186.67887 -17456.94539 m
+52532.29871 -17456.94539 L
+52890.23650 -17456.94539 L
+52859.56280 -17506.55169 L
+52828.88910 -17556.15798 L
+52859.56280 -17605.76428 L
+52890.23650 -17655.37058 L
+52532.29871 -17655.37058 L
+52186.67887 -17655.37058 L
+52039.84280 -17655.37058 L
+52070.51650 -17605.76428 L
+52101.19020 -17556.15798 L
+52070.51650 -17506.55169 L
+52039.84280 -17456.94539 L
+52186.67887 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+53740.63020 -17655.37058 54591.02391 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+53887.46627 -17456.94539 m
+54233.08611 -17456.94539 L
+54591.02391 -17456.94539 L
+54560.35020 -17506.55169 L
+54529.67650 -17556.15798 L
+54560.35020 -17605.76428 L
+54591.02391 -17655.37058 L
+54233.08611 -17655.37058 L
+53887.46627 -17655.37058 L
+53740.63020 -17655.37058 L
+53771.30391 -17605.76428 L
+53801.97761 -17556.15798 L
+53771.30391 -17506.55169 L
+53740.63020 -17456.94539 L
+53887.46627 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+55441.41761 -17655.37058 56291.81131 -17456.94539 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.98151869 0.00000000 0.00000000 1.00000000 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+55588.25367 -17456.94539 m
+55933.87351 -17456.94539 L
+56291.81131 -17456.94539 L
+56261.13761 -17506.55169 L
+56230.46391 -17556.15798 L
+56261.13761 -17605.76428 L
+56291.81131 -17655.37058 L
+55933.87351 -17655.37058 L
+55588.25367 -17655.37058 L
+55441.41761 -17655.37058 L
+55472.09131 -17605.76428 L
+55502.76501 -17556.15798 L
+55472.09131 -17506.55169 L
+55441.41761 -17456.94539 L
+55588.25367 -17456.94539 L
+@c
+B
+
+@rax %Note: Object
+22701.26041 -17853.79550 23551.65411 -16506.04025 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+22701.26041 -17258.52019 m
+23551.65411 -16506.04025 L
+23551.65411 -17101.31556 L
+22701.26041 -17853.79550 L
+22701.26041 -17258.52019 L
+@c
+S
+
+@rax %Note: Object
+23551.65411 -17101.31556 24402.04781 -15753.56031 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+23551.65411 -16506.04025 m
+24402.04781 -15753.56031 L
+24402.04781 -16348.83562 L
+23551.65411 -17101.31556 L
+23551.65411 -16506.04025 L
+@c
+S
+
+@rax %Note: Object
+24402.04781 -16348.83562 25252.44151 -15001.08066 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+24402.04781 -15753.56031 m
+25252.44151 -15001.08066 L
+25252.44151 -15596.35597 L
+24402.04781 -16348.83562 L
+24402.04781 -15753.56031 L
+@c
+S
+
+@rax %Note: Object
+25252.44151 -15596.35569 26102.83521 -14248.60072 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+25252.44151 -15001.08038 m
+26102.83521 -14248.60072 L
+26102.83521 -14843.87603 L
+25252.44151 -15596.35569 L
+25252.44151 -15001.08038 L
+@c
+S
+
+@rax %Note: Object
+26102.83521 -14843.87603 26953.22891 -13496.12079 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+26102.83521 -14248.60072 m
+26953.22891 -13496.12079 L
+26953.22891 -14091.39609 L
+26102.83521 -14843.87603 L
+26102.83521 -14248.60072 L
+@c
+S
+
+@rax %Note: Object
+26953.22891 -14091.39609 27803.62261 -12743.64085 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+26953.22891 -13496.12079 m
+27803.62261 -12743.64085 L
+27803.62261 -13338.91616 L
+26953.22891 -14091.39609 L
+26953.22891 -13496.12079 L
+@c
+S
+
+@rax %Note: Object
+27803.62261 -13338.91616 28654.01631 -11991.16120 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+27803.62261 -12743.64085 m
+28654.01631 -11991.16120 L
+28654.01631 -12586.43650 L
+27803.62261 -13338.91616 L
+27803.62261 -12743.64085 L
+@c
+S
+
+@rax %Note: Object
+28654.01631 -12586.43650 29504.41002 -11238.68126 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+28654.01631 -11991.16120 m
+29504.41002 -11238.68126 L
+29504.41002 -11833.95657 L
+28654.01631 -12586.43650 L
+28654.01631 -11991.16120 L
+@c
+S
+
+@rax %Note: Object
+29504.41002 -11833.95657 30354.80372 -10486.20132 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+29504.41002 -11238.68126 m
+30354.80372 -10486.20132 L
+30354.80372 -11081.47663 L
+29504.41002 -11833.95657 L
+29504.41002 -11238.68126 L
+@c
+S
+
+@rax %Note: Object
+30354.80372 -11081.47663 31205.19742 -9733.72167 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.20112085 1.06282448 0.00000000 2.36220360 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+30354.80372 -10486.20132 m
+31205.19742 -9733.72167 L
+31205.19742 -10328.99698 L
+30354.80372 -11081.47663 L
+30354.80372 -10486.20132 L
+@c
+S
+
+@rax %Note: Object
+39496.53572 -28597.10315 39921.73257 -17258.52019 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.90854025 0.00000000 0.00000000 8.77103765 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+39496.53572 -17258.52019 m
+39921.73257 -17258.52019 L
+39921.73257 -28597.10315 L
+39496.53572 -28597.10315 L
+39496.53572 -17258.52019 L
+@c
+B
+
+@rax %Note: Object
+56291.81102 -28597.10287 56717.00787 -17258.51991 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.90854025 0.00000000 0.00000000 8.77103765 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+56291.81102 -17258.51991 m
+56717.00787 -17258.51991 L
+56717.00787 -28597.10287 L
+56291.81102 -28597.10287 L
+56291.81102 -17258.51991 L
+@c
+B
+
+@rax %Note: Object
+22701.26041 -28597.10315 23126.45726 -17258.52019 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.90854025 0.00000000 0.00000000 8.77103765 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+22701.26041 -17258.52019 m
+23126.45726 -17258.52019 L
+23126.45726 -28597.10315 L
+22701.26041 -28597.10315 L
+22701.26041 -17258.52019 L
+@c
+B
+
+@rax %Note: Object
+813.60142 261.44759 821.61524 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01712331 0.00000000 0.00000000 0.16530825 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+813.60142 475.14643 m
+821.61524 475.14643 L
+821.61524 261.44759 L
+813.60142 261.44759 L
+813.60142 475.14643 L
+@c
+B
+
+@rax %Note: Object
+497.05994 261.44759 505.07348 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01712331 0.00000000 0.00000000 0.16530825 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+497.05994 475.14643 m
+505.07348 475.14643 L
+505.07348 261.44759 L
+497.05994 261.44759 L
+497.05994 475.14643 L
+@c
+B
+
+@rax %Note: Object
+180.51846 261.44759 188.53200 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01712331 0.00000000 0.00000000 0.16530825 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+180.51846 475.14643 m
+188.53200 475.14643 L
+188.53200 261.44759 L
+180.51846 261.44759 L
+180.51846 475.14643 L
+@c
+B
+
+@rax %Note: Object
+180.51846 471.40668 821.61524 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.28734241 0.00000000 0.00000000 0.03015908 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+180.51846 475.14643 m
+821.61524 475.14643 L
+821.61524 471.40668 L
+180.51846 471.40668 L
+180.51846 475.14643 L
+@c
+B
+
+@rax %Note: Object
+180.51846 463.92718 821.61524 467.66693 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.28734241 0.00000000 0.00000000 0.03015908 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+180.51846 467.66693 m
+821.61524 467.66693 L
+821.61524 463.92718 L
+180.51846 463.92718 L
+180.51846 467.66693 L
+@c
+B
+
+@rax %Note: Object
+188.53200 467.66693 204.55937 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+191.29946 471.40668 m
+197.81348 471.40668 L
+204.55937 471.40668 L
+203.98139 470.47181 L
+203.40340 469.53666 L
+203.98139 468.60180 L
+204.55937 467.66693 L
+197.81348 467.66693 L
+191.29946 467.66693 L
+188.53200 467.66693 L
+189.11027 468.60180 L
+189.68825 469.53666 L
+189.11027 470.47181 L
+188.53200 471.40668 L
+191.29946 471.40668 L
+@c
+B
+
+@rax %Note: Object
+220.58702 467.66693 236.61439 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+223.35449 471.40668 m
+229.86822 471.40668 L
+236.61439 471.40668 L
+236.03613 470.47181 L
+235.45814 469.53666 L
+236.03613 468.60180 L
+236.61439 467.66693 L
+229.86822 467.66693 L
+223.35449 467.66693 L
+220.58702 467.66693 L
+221.16501 468.60180 L
+221.74328 469.53666 L
+221.16501 470.47181 L
+220.58702 471.40668 L
+223.35449 471.40668 L
+@c
+B
+
+@rax %Note: Object
+252.64176 467.66693 268.66913 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+255.40923 471.40668 m
+261.92324 471.40668 L
+268.66913 471.40668 L
+268.09115 470.47181 L
+267.51288 469.53666 L
+268.09115 468.60180 L
+268.66913 467.66693 L
+261.92324 467.66693 L
+255.40923 467.66693 L
+252.64176 467.66693 L
+253.21975 468.60180 L
+253.79802 469.53666 L
+253.21975 470.47181 L
+252.64176 471.40668 L
+255.40923 471.40668 L
+@c
+B
+
+@rax %Note: Object
+284.69650 467.66693 300.72416 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+287.46397 471.40668 m
+293.97798 471.40668 L
+300.72416 471.40668 L
+300.14589 470.47181 L
+299.56791 469.53666 L
+300.14589 468.60180 L
+300.72416 467.66693 L
+293.97798 467.66693 L
+287.46397 467.66693 L
+284.69650 467.66693 L
+285.27477 468.60180 L
+285.85276 469.53666 L
+285.27477 470.47181 L
+284.69650 471.40668 L
+287.46397 471.40668 L
+@c
+B
+
+@rax %Note: Object
+316.75153 467.66693 332.77890 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+319.51899 471.40668 m
+326.03272 471.40668 L
+332.77890 471.40668 L
+332.20063 470.47181 L
+331.62265 469.53666 L
+332.20063 468.60180 L
+332.77890 467.66693 L
+326.03272 467.66693 L
+319.51899 467.66693 L
+316.75153 467.66693 L
+317.32951 468.60180 L
+317.90778 469.53666 L
+317.32951 470.47181 L
+316.75153 471.40668 L
+319.51899 471.40668 L
+@c
+B
+
+@rax %Note: Object
+348.80627 467.66693 364.83364 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+351.57373 471.40668 m
+358.08775 471.40668 L
+364.83364 471.40668 L
+364.25565 470.47181 L
+363.67739 469.53666 L
+364.25565 468.60180 L
+364.83364 467.66693 L
+358.08775 467.66693 L
+351.57373 467.66693 L
+348.80627 467.66693 L
+349.38425 468.60180 L
+349.96252 469.53666 L
+349.38425 470.47181 L
+348.80627 471.40668 L
+351.57373 471.40668 L
+@c
+B
+
+@rax %Note: Object
+380.86101 467.66693 396.88866 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+383.62847 471.40668 m
+390.14249 471.40668 L
+396.88866 471.40668 L
+396.31039 470.47181 L
+395.73241 469.53666 L
+396.31039 468.60180 L
+396.88866 467.66693 L
+390.14249 467.66693 L
+383.62847 467.66693 L
+380.86101 467.66693 L
+381.43928 468.60180 L
+382.01726 469.53666 L
+381.43928 470.47181 L
+380.86101 471.40668 L
+383.62847 471.40668 L
+@c
+B
+
+@rax %Note: Object
+412.91603 467.66693 428.94340 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+415.68350 471.40668 m
+422.19723 471.40668 L
+428.94340 471.40668 L
+428.36513 470.47181 L
+427.78715 469.53666 L
+428.36513 468.60180 L
+428.94340 467.66693 L
+422.19723 467.66693 L
+415.68350 467.66693 L
+412.91603 467.66693 L
+413.49402 468.60180 L
+414.07228 469.53666 L
+413.49402 470.47181 L
+412.91603 471.40668 L
+415.68350 471.40668 L
+@c
+B
+
+@rax %Note: Object
+444.97077 467.66693 460.99814 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+447.73824 471.40668 m
+454.25225 471.40668 L
+460.99814 471.40668 L
+460.42016 470.47181 L
+459.84189 469.53666 L
+460.42016 468.60180 L
+460.99814 467.66693 L
+454.25225 467.66693 L
+447.73824 467.66693 L
+444.97077 467.66693 L
+445.54904 468.60180 L
+446.12702 469.53666 L
+445.54904 470.47181 L
+444.97077 471.40668 L
+447.73824 471.40668 L
+@c
+B
+
+@rax %Note: Object
+477.02551 467.66693 493.05317 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+479.79298 471.40668 m
+486.30699 471.40668 L
+493.05317 471.40668 L
+492.47490 470.47181 L
+491.89691 469.53666 L
+492.47490 468.60180 L
+493.05317 467.66693 L
+486.30699 467.66693 L
+479.79298 467.66693 L
+477.02551 467.66693 L
+477.60378 468.60180 L
+478.18176 469.53666 L
+477.60378 470.47181 L
+477.02551 471.40668 L
+479.79298 471.40668 L
+@c
+B
+
+@rax %Note: Object
+509.08054 467.66693 525.10791 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+511.84800 471.40668 m
+518.36173 471.40668 L
+525.10791 471.40668 L
+524.52992 470.47181 L
+523.95165 469.53666 L
+524.52992 468.60180 L
+525.10791 467.66693 L
+518.36173 467.66693 L
+511.84800 467.66693 L
+509.08054 467.66693 L
+509.65852 468.60180 L
+510.23679 469.53666 L
+509.65852 470.47181 L
+509.08054 471.40668 L
+511.84800 471.40668 L
+@c
+B
+
+@rax %Note: Object
+541.13528 467.66693 557.16265 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+543.90274 471.40668 m
+550.41676 471.40668 L
+557.16265 471.40668 L
+556.58466 470.47181 L
+556.00639 469.53666 L
+556.58466 468.60180 L
+557.16265 467.66693 L
+550.41676 467.66693 L
+543.90274 467.66693 L
+541.13528 467.66693 L
+541.71354 468.60180 L
+542.29153 469.53666 L
+541.71354 470.47181 L
+541.13528 471.40668 L
+543.90274 471.40668 L
+@c
+B
+
+@rax %Note: Object
+573.19002 467.66693 589.21767 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+575.95748 471.40668 m
+582.47150 471.40668 L
+589.21767 471.40668 L
+588.63940 470.47181 L
+588.06142 469.53666 L
+588.63940 468.60180 L
+589.21767 467.66693 L
+582.47150 467.66693 L
+575.95748 467.66693 L
+573.19002 467.66693 L
+573.76828 468.60180 L
+574.34627 469.53666 L
+573.76828 470.47181 L
+573.19002 471.40668 L
+575.95748 471.40668 L
+@c
+B
+
+@rax %Note: Object
+605.24504 467.66693 621.27241 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+608.01250 471.40668 m
+614.52624 471.40668 L
+621.27241 471.40668 L
+620.69443 470.47181 L
+620.11616 469.53666 L
+620.69443 468.60180 L
+621.27241 467.66693 L
+614.52624 467.66693 L
+608.01250 467.66693 L
+605.24504 467.66693 L
+605.82302 468.60180 L
+606.40129 469.53666 L
+605.82302 470.47181 L
+605.24504 471.40668 L
+608.01250 471.40668 L
+@c
+B
+
+@rax %Note: Object
+637.29978 467.66693 653.32715 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+640.06724 471.40668 m
+646.58126 471.40668 L
+653.32715 471.40668 L
+652.74917 470.47181 L
+652.17090 469.53666 L
+652.74917 468.60180 L
+653.32715 467.66693 L
+646.58126 467.66693 L
+640.06724 467.66693 L
+637.29978 467.66693 L
+637.87805 468.60180 L
+638.45603 469.53666 L
+637.87805 470.47181 L
+637.29978 471.40668 L
+640.06724 471.40668 L
+@c
+B
+
+@rax %Note: Object
+669.35480 467.66693 685.38217 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+672.12198 471.40668 m
+678.63600 471.40668 L
+685.38217 471.40668 L
+684.80391 470.47181 L
+684.22592 469.53666 L
+684.80391 468.60180 L
+685.38217 467.66693 L
+678.63600 467.66693 L
+672.12198 467.66693 L
+669.35480 467.66693 L
+669.93279 468.60180 L
+670.51077 469.53666 L
+669.93279 470.47181 L
+669.35480 471.40668 L
+672.12198 471.40668 L
+@c
+B
+
+@rax %Note: Object
+701.40954 467.66693 717.43691 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+704.17701 471.40668 m
+710.69074 471.40668 L
+717.43691 471.40668 L
+716.85893 470.47181 L
+716.28066 469.53666 L
+716.85893 468.60180 L
+717.43691 467.66693 L
+710.69074 467.66693 L
+704.17701 467.66693 L
+701.40954 467.66693 L
+701.98753 468.60180 L
+702.56580 469.53666 L
+701.98753 470.47181 L
+701.40954 471.40668 L
+704.17701 471.40668 L
+@c
+B
+
+@rax %Note: Object
+733.46428 467.66693 749.49165 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+736.23175 471.40668 m
+742.74576 471.40668 L
+749.49165 471.40668 L
+748.91367 470.47181 L
+748.33569 469.53666 L
+748.91367 468.60180 L
+749.49165 467.66693 L
+742.74576 467.66693 L
+736.23175 467.66693 L
+733.46428 467.66693 L
+734.04255 468.60180 L
+734.62054 469.53666 L
+734.04255 470.47181 L
+733.46428 471.40668 L
+736.23175 471.40668 L
+@c
+B
+
+@rax %Note: Object
+765.51931 467.66693 781.54668 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+768.28649 471.40668 m
+774.80050 471.40668 L
+781.54668 471.40668 L
+780.96841 470.47181 L
+780.39043 469.53666 L
+780.96841 468.60180 L
+781.54668 467.66693 L
+774.80050 467.66693 L
+768.28649 467.66693 L
+765.51931 467.66693 L
+766.09729 468.60180 L
+766.67528 469.53666 L
+766.09729 470.47181 L
+765.51931 471.40668 L
+768.28649 471.40668 L
+@c
+B
+
+@rax %Note: Object
+797.57405 467.66693 813.60142 471.40668 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+800.34151 471.40668 m
+806.85524 471.40668 L
+813.60142 471.40668 L
+813.02343 470.47181 L
+812.44517 469.53666 L
+813.02343 468.60180 L
+813.60142 467.66693 L
+806.85524 467.66693 L
+800.34151 467.66693 L
+797.57405 467.66693 L
+798.15203 468.60180 L
+798.73030 469.53666 L
+798.15203 470.47181 L
+797.57405 471.40668 L
+800.34151 471.40668 L
+@c
+B
+
+@rax %Note: Object
+20.24419 329.59106 180.51846 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+180.51846 475.14643 m
+20.24419 333.33080 L
+20.24419 329.59106 L
+180.51846 471.40668 L
+180.51846 475.14643 L
+@c
+B
+
+@rax %Note: Object
+20.24419 322.11156 180.51846 467.66693 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+180.51846 467.66693 m
+20.24419 325.85131 L
+20.24419 322.11156 L
+180.51846 463.92718 L
+180.51846 467.66693 L
+@c
+B
+
+@rax %Note: Object
+156.47726 446.39461 172.50463 464.31581 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+169.73717 461.86724 m
+163.22343 456.10356 L
+156.47726 450.13436 L
+157.05524 449.71087 L
+157.63351 449.28737 L
+157.05524 447.84113 L
+156.47726 446.39461 L
+163.22343 452.36381 L
+169.73717 458.12750 L
+172.50463 460.57606 L
+171.92665 460.99956 L
+171.34838 461.42306 L
+171.92665 462.86929 L
+172.50463 464.31581 L
+169.73717 461.86724 L
+@c
+B
+
+@rax %Note: Object
+124.42252 418.03143 140.44989 435.95263 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+137.68243 433.50406 m
+131.16841 427.74038 L
+124.42252 421.77118 L
+125.00050 421.34769 L
+125.57877 420.92447 L
+125.00050 419.47795 L
+124.42252 418.03143 L
+131.16841 424.00063 L
+137.68243 429.76431 L
+140.44989 432.21288 L
+139.87162 432.63638 L
+139.29364 433.05987 L
+139.87162 434.50639 L
+140.44989 435.95263 L
+137.68243 433.50406 L
+@c
+B
+
+@rax %Note: Object
+92.36750 389.66825 108.39487 407.58945 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+105.62769 405.14088 m
+99.11367 399.37720 L
+92.36750 393.40800 L
+92.94576 392.98450 L
+93.52375 392.56129 L
+92.94576 391.11477 L
+92.36750 389.66825 L
+99.11367 395.63745 L
+105.62769 401.40113 L
+108.39487 403.84998 L
+107.81688 404.27320 L
+107.23890 404.69669 L
+107.81688 406.14321 L
+108.39487 407.58945 L
+105.62769 405.14088 L
+@c
+B
+
+@rax %Note: Object
+60.31276 361.30507 76.34013 379.22655 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+73.57266 376.77770 m
+67.05893 371.01402 L
+60.31276 365.04482 L
+60.89074 364.62161 L
+61.46901 364.19811 L
+60.89074 362.75159 L
+60.31276 361.30507 L
+67.05893 367.27427 L
+73.57266 373.03795 L
+76.34013 375.48680 L
+75.76214 375.91002 L
+75.18387 376.33351 L
+75.76214 377.78003 L
+76.34013 379.22655 L
+73.57266 376.77770 L
+@c
+B
+
+@rax %Note: Object
+28.25802 332.94189 44.28539 350.86337 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.4000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+41.51792 348.41452 m
+35.00391 342.65083 L
+28.25802 336.68164 L
+28.83600 336.25843 L
+29.41398 335.83493 L
+28.83600 334.38841 L
+28.25802 332.94189 L
+35.00391 338.91109 L
+41.51792 344.67477 L
+44.28539 347.12362 L
+43.70712 347.54712 L
+43.12913 347.97033 L
+43.70712 349.41685 L
+44.28539 350.86337 L
+41.51792 348.41452 L
+@c
+B
+
+@rax %Note: Object
+180.51846 330.61266 343.81049 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+180.51846 333.28403 m
+339.20787 473.74356 L
+340.79244 475.14643 L
+343.81049 475.14643 L
+340.79244 472.47506 L
+180.51846 330.61266 L
+180.51846 333.28403 L
+@c
+B
+
+@rax %Note: Object
+287.36787 330.61266 450.65991 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+287.36787 333.28403 m
+446.05729 473.74356 L
+447.64214 475.14643 L
+450.65991 475.14643 L
+447.64214 472.47506 L
+287.36787 330.61266 L
+287.36787 333.28403 L
+@c
+B
+
+@rax %Note: Object
+447.64214 330.61266 610.93417 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+447.64214 333.28403 m
+606.33156 473.74356 L
+607.91613 475.14643 L
+610.93417 475.14643 L
+607.91613 472.47506 L
+447.64214 330.61266 L
+447.64214 333.28403 L
+@c
+B
+
+@rax %Note: Object
+607.91613 330.61266 771.20844 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+607.91613 333.28403 m
+766.60554 473.74356 L
+768.19039 475.14643 L
+771.20844 475.14643 L
+768.19039 472.47506 L
+607.91613 330.61266 L
+607.91613 333.28403 L
+@c
+B
+
+@rax %Note: Object
+127.09361 330.65943 290.38564 475.19291 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+127.09361 333.33080 m
+285.78302 473.79033 L
+287.36787 475.19291 L
+290.38564 475.19291 L
+287.36787 472.52183 L
+127.09361 330.65943 L
+127.09361 333.33080 L
+@c
+B
+
+@rax %Note: Object
+233.94302 330.65943 397.23534 475.19291 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+233.94302 333.33080 m
+392.63244 473.79033 L
+394.21729 475.19291 L
+397.23534 475.19291 L
+394.21729 472.52183 L
+233.94302 330.65943 L
+233.94302 333.33080 L
+@c
+B
+
+@rax %Note: Object
+394.21729 330.65943 557.50932 475.19291 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+394.21729 333.33080 m
+552.90671 473.79033 L
+554.49156 475.19291 L
+557.50932 475.19291 L
+554.49156 472.52183 L
+394.21729 330.65943 L
+394.21729 333.33080 L
+@c
+B
+
+@rax %Note: Object
+554.49156 330.65943 717.78359 475.19291 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+554.49156 333.33080 m
+713.18098 473.79033 L
+714.76554 475.19291 L
+717.78359 475.19291 L
+714.76554 472.52183 L
+554.49156 330.65943 L
+554.49156 333.33080 L
+@c
+B
+
+@rax %Note: Object
+73.66904 330.70620 236.96107 475.23969 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+73.66904 333.37729 m
+232.35817 473.83682 L
+233.94302 475.23969 L
+236.96107 475.23969 L
+233.94302 472.56831 L
+73.66904 330.70620 L
+73.66904 333.37729 L
+@c
+B
+
+@rax %Note: Object
+340.79244 330.61266 504.08476 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+340.79244 333.28403 m
+499.48186 473.74356 L
+501.06671 475.14643 L
+504.08476 475.14643 L
+501.06671 472.47506 L
+340.79244 330.61266 L
+340.79244 333.28403 L
+@c
+B
+
+@rax %Note: Object
+501.06671 330.61266 664.35902 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01884706 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56693 0.56693 0.00000 @w
+501.06671 333.28403 m
+659.75613 473.74356 L
+661.34098 475.14643 L
+664.35902 475.14643 L
+661.34098 472.47506 L
+501.06671 330.61266 L
+501.06671 333.28403 L
+@c
+B
+
+@rax %Note: Object
+34.41090 345.90983 677.36835 347.51282 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+36.27156 347.51282 m
+677.36835 347.51282 L
+675.50769 345.90983 L
+34.41090 345.90983 L
+36.27156 347.51282 L
+@c
+B
+
+@rax %Note: Object
+50.43827 360.09213 693.39572 361.69483 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+52.29893 361.69483 m
+693.39572 361.69483 L
+691.53506 360.09213 L
+50.43827 360.09213 L
+52.29893 361.69483 L
+@c
+B
+
+@rax %Note: Object
+66.46592 374.27414 709.42337 375.87685 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+68.32658 375.87685 m
+709.42337 375.87685 L
+707.56271 374.27414 L
+66.46592 374.27414 L
+68.32658 375.87685 L
+@c
+B
+
+@rax %Note: Object
+82.49329 388.45616 725.45074 390.05887 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+84.35395 390.05887 m
+725.45074 390.05887 L
+723.59008 388.45616 L
+82.49329 388.45616 L
+84.35395 390.05887 L
+@c
+B
+
+@rax %Note: Object
+98.52066 402.63817 741.47811 404.24088 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+100.38132 404.24088 m
+741.47811 404.24088 L
+739.61745 402.63817 L
+98.52066 402.63817 L
+100.38132 404.24088 L
+@c
+B
+
+@rax %Note: Object
+114.54803 416.82019 757.50548 418.42290 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+116.40869 418.42290 m
+757.50548 418.42290 L
+755.64482 416.82019 L
+114.54803 416.82019 L
+116.40869 418.42290 L
+@c
+B
+
+@rax %Note: Object
+130.57540 431.00220 773.53285 432.60491 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+132.43606 432.60491 m
+773.53285 432.60491 L
+771.67219 431.00220 L
+130.57540 431.00220 L
+132.43606 432.60491 L
+@c
+B
+
+@rax %Note: Object
+146.60277 445.18422 789.56022 446.78693 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+148.46343 446.78693 m
+789.56022 446.78693 L
+787.69956 445.18422 L
+146.60277 445.18422 L
+148.46343 446.78693 L
+@c
+B
+
+@rax %Note: Object
+162.63043 459.36624 805.58787 460.96894 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.3020  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.30013888 0.00000000 0.01107520 0.00954014 0.00000000 0.00000000] 1 0.03345 1.12082 2.11540 @w
+164.49109 460.96894 m
+805.58787 460.96894 L
+803.72721 459.36624 L
+162.63043 459.36624 L
+164.49109 460.96894 L
+@c
+B
+
+@rax %Note: Object
+661.34098 329.59106 821.61524 475.14643 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+821.61524 475.14643 m
+661.34098 333.33080 L
+661.34098 329.59106 L
+821.61524 471.40668 L
+821.61524 475.14643 L
+@c
+B
+
+@rax %Note: Object
+661.34098 322.11156 821.61524 467.66693 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+821.61524 467.66693 m
+661.34098 325.85131 L
+661.34098 322.11156 L
+821.61524 463.92718 L
+821.61524 467.66693 L
+@c
+B
+
+@rax %Note: Object
+797.57405 446.39461 813.60142 464.31581 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+810.83395 461.86724 m
+804.32022 456.10356 L
+797.57405 450.13436 L
+798.15203 449.71087 L
+798.73030 449.28737 L
+798.15203 447.84113 L
+797.57405 446.39461 L
+804.32022 452.36381 L
+810.83395 458.12750 L
+813.60142 460.57606 L
+813.02343 460.99956 L
+812.44517 461.42306 L
+813.02343 462.86929 L
+813.60142 464.31581 L
+810.83395 461.86724 L
+@c
+B
+
+@rax %Note: Object
+765.51931 418.03143 781.54668 435.95263 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+778.77921 433.50406 m
+772.26520 427.74038 L
+765.51931 421.77118 L
+766.09729 421.34769 L
+766.67528 420.92447 L
+766.09729 419.47795 L
+765.51931 418.03143 L
+772.26520 424.00063 L
+778.77921 429.76431 L
+781.54668 432.21288 L
+780.96841 432.63638 L
+780.39043 433.05987 L
+780.96841 434.50639 L
+781.54668 435.95263 L
+778.77921 433.50406 L
+@c
+B
+
+@rax %Note: Object
+733.46428 389.66825 749.49165 407.58945 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+746.72447 405.14088 m
+740.21046 399.37720 L
+733.46428 393.40800 L
+734.04255 392.98450 L
+734.62054 392.56129 L
+734.04255 391.11477 L
+733.46428 389.66825 L
+740.21046 395.63745 L
+746.72447 401.40113 L
+749.49165 403.84998 L
+748.91367 404.27320 L
+748.33569 404.69669 L
+748.91367 406.14321 L
+749.49165 407.58945 L
+746.72447 405.14088 L
+@c
+B
+
+@rax %Note: Object
+701.40954 361.30507 717.43691 379.22655 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+714.66945 376.77770 m
+708.15572 371.01402 L
+701.40954 365.04482 L
+701.98753 364.62161 L
+702.56580 364.19811 L
+701.98753 362.75159 L
+701.40954 361.30507 L
+708.15572 367.27427 L
+714.66945 373.03795 L
+717.43691 375.48680 L
+716.85893 375.91002 L
+716.28066 376.33351 L
+716.85893 377.78003 L
+717.43691 379.22655 L
+714.66945 376.77770 L
+@c
+B
+
+@rax %Note: Object
+669.35480 332.94189 685.38217 350.86337 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[-0.01884706 -0.01667648 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.36567 0.87080 -33.06732 @w
+682.61471 348.41452 m
+676.10069 342.65083 L
+669.35480 336.68164 L
+669.93279 336.25843 L
+670.51077 335.83493 L
+669.93279 334.38841 L
+669.35480 332.94189 L
+676.10069 338.91109 L
+682.61471 344.67477 L
+685.38217 347.12362 L
+684.80391 347.54712 L
+684.22592 347.97033 L
+684.80391 349.41685 L
+685.38217 350.86337 L
+682.61471 348.41452 L
+@c
+B
+
+@rax %Note: Object
+20.24419 329.59106 661.34098 333.33080 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.28734241 -0.00000000 0.00000000 0.03015908 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+20.24419 333.33080 m
+661.34098 333.33080 L
+661.34098 329.59106 L
+20.24419 329.59106 L
+20.24419 333.33080 L
+@c
+B
+
+@rax %Note: Object
+20.24419 322.11156 661.34098 325.85131 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[1.28734241 -0.00000000 0.00000000 0.03015908 0.00000000 0.00000000] 1 0.00709 0.35433 0.00000 @w
+20.24419 325.85131 m
+661.34098 325.85131 L
+661.34098 322.11156 L
+20.24419 322.11156 L
+20.24419 325.85131 L
+@c
+B
+
+@rax %Note: Object
+28.25802 325.85131 44.28539 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+31.02520 329.59106 m
+37.53921 329.59106 L
+44.28539 329.59106 L
+43.70712 328.65591 L
+43.12913 327.72104 L
+43.70712 326.78617 L
+44.28539 325.85131 L
+37.53921 325.85131 L
+31.02520 325.85131 L
+28.25802 325.85131 L
+28.83600 326.78617 L
+29.41398 327.72104 L
+28.83600 328.65591 L
+28.25802 329.59106 L
+31.02520 329.59106 L
+@c
+B
+
+@rax %Note: Object
+60.31276 325.85131 76.34013 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+63.08022 329.59106 m
+69.59395 329.59106 L
+76.34013 329.59106 L
+75.76214 328.65591 L
+75.18387 327.72104 L
+75.76214 326.78617 L
+76.34013 325.85131 L
+69.59395 325.85131 L
+63.08022 325.85131 L
+60.31276 325.85131 L
+60.89074 326.78617 L
+61.46901 327.72104 L
+60.89074 328.65591 L
+60.31276 329.59106 L
+63.08022 329.59106 L
+@c
+B
+
+@rax %Note: Object
+92.36750 325.85131 108.39487 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+95.13496 329.59106 m
+101.64898 329.59106 L
+108.39487 329.59106 L
+107.81688 328.65591 L
+107.23890 327.72104 L
+107.81688 326.78617 L
+108.39487 325.85131 L
+101.64898 325.85131 L
+95.13496 325.85131 L
+92.36750 325.85131 L
+92.94576 326.78617 L
+93.52375 327.72104 L
+92.94576 328.65591 L
+92.36750 329.59106 L
+95.13496 329.59106 L
+@c
+B
+
+@rax %Note: Object
+124.42252 325.85131 140.44989 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+127.18970 329.59106 m
+133.70372 329.59106 L
+140.44989 329.59106 L
+139.87162 328.65591 L
+139.29364 327.72104 L
+139.87162 326.78617 L
+140.44989 325.85131 L
+133.70372 325.85131 L
+127.18970 325.85131 L
+124.42252 325.85131 L
+125.00050 326.78617 L
+125.57849 327.72104 L
+125.00050 328.65591 L
+124.42252 329.59106 L
+127.18970 329.59106 L
+@c
+B
+
+@rax %Note: Object
+156.47726 325.85131 172.50463 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+159.24472 329.59106 m
+165.75846 329.59106 L
+172.50463 329.59106 L
+171.92665 328.65591 L
+171.34838 327.72104 L
+171.92665 326.78617 L
+172.50463 325.85131 L
+165.75846 325.85131 L
+159.24472 325.85131 L
+156.47726 325.85131 L
+157.05524 326.78617 L
+157.63351 327.72104 L
+157.05524 328.65591 L
+156.47726 329.59106 L
+159.24472 329.59106 L
+@c
+B
+
+@rax %Note: Object
+188.53200 325.85131 204.55937 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+191.29946 329.59106 m
+197.81348 329.59106 L
+204.55937 329.59106 L
+203.98139 328.65591 L
+203.40340 327.72104 L
+203.98139 326.78617 L
+204.55937 325.85131 L
+197.81348 325.85131 L
+191.29946 325.85131 L
+188.53200 325.85131 L
+189.11027 326.78617 L
+189.68825 327.72104 L
+189.11027 328.65591 L
+188.53200 329.59106 L
+191.29946 329.59106 L
+@c
+B
+
+@rax %Note: Object
+220.58702 325.85131 236.61439 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+223.35449 329.59106 m
+229.86822 329.59106 L
+236.61439 329.59106 L
+236.03613 328.65591 L
+235.45814 327.72104 L
+236.03613 326.78617 L
+236.61439 325.85131 L
+229.86822 325.85131 L
+223.35449 325.85131 L
+220.58702 325.85131 L
+221.16501 326.78617 L
+221.74328 327.72104 L
+221.16501 328.65591 L
+220.58702 329.59106 L
+223.35449 329.59106 L
+@c
+B
+
+@rax %Note: Object
+252.64176 325.85131 268.66913 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+255.40923 329.59106 m
+261.92324 329.59106 L
+268.66913 329.59106 L
+268.09115 328.65591 L
+267.51288 327.72104 L
+268.09115 326.78617 L
+268.66913 325.85131 L
+261.92324 325.85131 L
+255.40923 325.85131 L
+252.64176 325.85131 L
+253.21975 326.78617 L
+253.79802 327.72104 L
+253.21975 328.65591 L
+252.64176 329.59106 L
+255.40923 329.59106 L
+@c
+B
+
+@rax %Note: Object
+284.69650 325.85131 300.72416 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+287.46397 329.59106 m
+293.97798 329.59106 L
+300.72416 329.59106 L
+300.14589 328.65591 L
+299.56791 327.72104 L
+300.14589 326.78617 L
+300.72416 325.85131 L
+293.97798 325.85131 L
+287.46397 325.85131 L
+284.69650 325.85131 L
+285.27477 326.78617 L
+285.85276 327.72104 L
+285.27477 328.65591 L
+284.69650 329.59106 L
+287.46397 329.59106 L
+@c
+B
+
+@rax %Note: Object
+316.75153 325.85131 332.77890 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+319.51899 329.59106 m
+326.03272 329.59106 L
+332.77890 329.59106 L
+332.20063 328.65591 L
+331.62265 327.72104 L
+332.20063 326.78617 L
+332.77890 325.85131 L
+326.03272 325.85131 L
+319.51899 325.85131 L
+316.75153 325.85131 L
+317.32951 326.78617 L
+317.90778 327.72104 L
+317.32951 328.65591 L
+316.75153 329.59106 L
+319.51899 329.59106 L
+@c
+B
+
+@rax %Note: Object
+348.80627 325.85131 364.83364 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+351.57373 329.59106 m
+358.08775 329.59106 L
+364.83364 329.59106 L
+364.25565 328.65591 L
+363.67739 327.72104 L
+364.25565 326.78617 L
+364.83364 325.85131 L
+358.08775 325.85131 L
+351.57373 325.85131 L
+348.80627 325.85131 L
+349.38425 326.78617 L
+349.96252 327.72104 L
+349.38425 328.65591 L
+348.80627 329.59106 L
+351.57373 329.59106 L
+@c
+B
+
+@rax %Note: Object
+380.86101 325.85131 396.88866 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+383.62847 329.59106 m
+390.14249 329.59106 L
+396.88866 329.59106 L
+396.31039 328.65591 L
+395.73241 327.72104 L
+396.31039 326.78617 L
+396.88866 325.85131 L
+390.14249 325.85131 L
+383.62847 325.85131 L
+380.86101 325.85131 L
+381.43928 326.78617 L
+382.01726 327.72104 L
+381.43928 328.65591 L
+380.86101 329.59106 L
+383.62847 329.59106 L
+@c
+B
+
+@rax %Note: Object
+412.91603 325.85131 428.94340 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+415.68350 329.59106 m
+422.19723 329.59106 L
+428.94340 329.59106 L
+428.36513 328.65591 L
+427.78715 327.72104 L
+428.36513 326.78617 L
+428.94340 325.85131 L
+422.19723 325.85131 L
+415.68350 325.85131 L
+412.91603 325.85131 L
+413.49402 326.78617 L
+414.07228 327.72104 L
+413.49402 328.65591 L
+412.91603 329.59106 L
+415.68350 329.59106 L
+@c
+B
+
+@rax %Note: Object
+444.97077 325.85131 460.99814 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+447.73824 329.59106 m
+454.25225 329.59106 L
+460.99814 329.59106 L
+460.42016 328.65591 L
+459.84189 327.72104 L
+460.42016 326.78617 L
+460.99814 325.85131 L
+454.25225 325.85131 L
+447.73824 325.85131 L
+444.97077 325.85131 L
+445.54904 326.78617 L
+446.12702 327.72104 L
+445.54904 328.65591 L
+444.97077 329.59106 L
+447.73824 329.59106 L
+@c
+B
+
+@rax %Note: Object
+477.02551 325.85131 493.05317 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+479.79298 329.59106 m
+486.30699 329.59106 L
+493.05317 329.59106 L
+492.47490 328.65591 L
+491.89691 327.72104 L
+492.47490 326.78617 L
+493.05317 325.85131 L
+486.30699 325.85131 L
+479.79298 325.85131 L
+477.02551 325.85131 L
+477.60378 326.78617 L
+478.18176 327.72104 L
+477.60378 328.65591 L
+477.02551 329.59106 L
+479.79298 329.59106 L
+@c
+B
+
+@rax %Note: Object
+509.08054 325.85131 525.10791 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+511.84800 329.59106 m
+518.36173 329.59106 L
+525.10791 329.59106 L
+524.52992 328.65591 L
+523.95165 327.72104 L
+524.52992 326.78617 L
+525.10791 325.85131 L
+518.36173 325.85131 L
+511.84800 325.85131 L
+509.08054 325.85131 L
+509.65852 326.78617 L
+510.23679 327.72104 L
+509.65852 328.65591 L
+509.08054 329.59106 L
+511.84800 329.59106 L
+@c
+B
+
+@rax %Note: Object
+541.13528 325.85131 557.16265 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+543.90274 329.59106 m
+550.41676 329.59106 L
+557.16265 329.59106 L
+556.58466 328.65591 L
+556.00639 327.72104 L
+556.58466 326.78617 L
+557.16265 325.85131 L
+550.41676 325.85131 L
+543.90274 325.85131 L
+541.13528 325.85131 L
+541.71354 326.78617 L
+542.29153 327.72104 L
+541.71354 328.65591 L
+541.13528 329.59106 L
+543.90274 329.59106 L
+@c
+B
+
+@rax %Note: Object
+573.19002 325.85131 589.21767 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+575.95748 329.59106 m
+582.47150 329.59106 L
+589.21767 329.59106 L
+588.63940 328.65591 L
+588.06142 327.72104 L
+588.63940 326.78617 L
+589.21767 325.85131 L
+582.47150 325.85131 L
+575.95748 325.85131 L
+573.19002 325.85131 L
+573.76828 326.78617 L
+574.34627 327.72104 L
+573.76828 328.65591 L
+573.19002 329.59106 L
+575.95748 329.59106 L
+@c
+B
+
+@rax %Note: Object
+605.24504 325.85131 621.27241 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+608.01250 329.59106 m
+614.52624 329.59106 L
+621.27241 329.59106 L
+620.69443 328.65591 L
+620.11616 327.72104 L
+620.69443 326.78617 L
+621.27241 325.85131 L
+614.52624 325.85131 L
+608.01250 325.85131 L
+605.24504 325.85131 L
+605.82302 326.78617 L
+606.40129 327.72104 L
+605.82302 328.65591 L
+605.24504 329.59106 L
+608.01250 329.59106 L
+@c
+B
+
+@rax %Note: Object
+637.29978 325.85131 653.32715 329.59106 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 0.2000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01849874 0.00000000 0.00000000 0.01884706 0.00000000 0.00000000] 1 0.56608 0.57770 -90.00000 @w
+640.06724 329.59106 m
+646.58126 329.59106 L
+653.32715 329.59106 L
+652.74917 328.65591 L
+652.17090 327.72104 L
+652.74917 326.78617 L
+653.32715 325.85131 L
+646.58126 325.85131 L
+640.06724 325.85131 L
+637.29978 325.85131 L
+637.87805 326.78617 L
+638.45603 327.72104 L
+637.87805 328.65591 L
+637.29978 329.59106 L
+640.06724 329.59106 L
+@c
+B
+
+@rax %Note: Object
+20.24419 322.11156 36.27156 347.51282 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+20.24419 333.33080 m
+36.27156 347.51282 L
+36.27156 336.29357 L
+20.24419 322.11156 L
+20.24419 333.33080 L
+@c
+S
+
+@rax %Note: Object
+36.27156 336.29357 52.29893 361.69483 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+36.27156 347.51282 m
+52.29893 361.69483 L
+52.29893 350.47559 L
+36.27156 336.29357 L
+36.27156 347.51282 L
+@c
+S
+
+@rax %Note: Object
+52.29893 350.47559 68.32658 375.87685 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+52.29893 361.69483 m
+68.32658 375.87685 L
+68.32658 364.65761 L
+52.29893 350.47559 L
+52.29893 361.69483 L
+@c
+S
+
+@rax %Note: Object
+68.32658 364.65761 84.35395 390.05887 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+68.32658 375.87685 m
+84.35395 390.05887 L
+84.35395 378.83962 L
+68.32658 364.65761 L
+68.32658 375.87685 L
+@c
+S
+
+@rax %Note: Object
+84.35395 378.83962 100.38132 404.24088 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+84.35395 390.05887 m
+100.38132 404.24088 L
+100.38132 393.02164 L
+84.35395 378.83962 L
+84.35395 390.05887 L
+@c
+S
+
+@rax %Note: Object
+100.38132 393.02164 116.40869 418.42290 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+100.38132 404.24088 m
+116.40869 418.42290 L
+116.40869 407.20365 L
+100.38132 393.02164 L
+100.38132 404.24088 L
+@c
+S
+
+@rax %Note: Object
+116.40869 407.20365 132.43606 432.60491 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+116.40869 418.42290 m
+132.43606 432.60491 L
+132.43606 421.38567 L
+116.40869 407.20365 L
+116.40869 418.42290 L
+@c
+S
+
+@rax %Note: Object
+132.43606 421.38567 148.46343 446.78693 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+132.43606 432.60491 m
+148.46343 446.78693 L
+148.46343 435.56769 L
+132.43606 421.38567 L
+132.43606 432.60491 L
+@c
+S
+
+@rax %Note: Object
+148.46343 435.56769 164.49109 460.96894 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+148.46343 446.78693 m
+164.49109 460.96894 L
+164.49109 449.74970 L
+148.46343 435.56769 L
+148.46343 446.78693 L
+@c
+S
+
+@rax %Note: Object
+164.49109 449.74970 180.51846 475.15096 @E
+/$fm 0 def
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.02263759 0.02003111 0.00000000 0.04452059 0.00000000 0.00000000] 1 0.21657 0.52866 60.46085 @w
+164.49109 460.96894 m
+180.51846 475.15096 L
+180.51846 463.93172 L
+164.49109 449.74970 L
+164.49109 460.96894 L
+@c
+S
+
+@rax %Note: Object
+336.78567 119.63169 344.79950 333.33080 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01712331 0.00000000 0.00000000 0.16530825 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+336.78567 333.33080 m
+344.79950 333.33080 L
+344.79950 119.63169 L
+336.78567 119.63169 L
+336.78567 333.33080 L
+@c
+B
+
+@rax %Note: Object
+653.32715 119.63169 661.34098 333.33080 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01712331 0.00000000 0.00000000 0.16530825 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+653.32715 333.33080 m
+661.34098 333.33080 L
+661.34098 119.63169 L
+653.32715 119.63169 L
+653.32715 333.33080 L
+@c
+B
+
+@rax %Note: Object
+20.24419 119.63169 28.25802 333.33080 @E
+/$fm 0 def
+ 0 O 0 @g
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_solid_fill
+0 J 0 j 22.925585626053735 setmiterlimit
+[] 0 d 0 R 0 @G
+0.0000 0.0000 0.0000 1.0000  create_cmyk_color set_outline
+[0.01712331 0.00000000 0.00000000 0.16530825 0.00000000 0.00000000] 1 0.06236 0.62391 -90.00000 @w
+20.24419 333.33080 m
+28.25802 333.33080 L
+28.25802 119.63169 L
+20.24419 119.63169 L
+20.24419 333.33080 L
+@c
+B
+
+ @gs spg @gr
+%%PageTrailer
+@rs
+@rs
+%%Trailer
+@EndSysCorelDict
+end
+%%DocumentProcessColors: Black 
+%%DocumentSuppliedResources: procset wCorel21Dict 21.0 0
+%%Pages: 1
+%%EOF
