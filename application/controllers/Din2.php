@@ -3,34 +3,45 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Din2 extends Kejari_Controller
 {
+    private $jenis_din;
+    private $nama_din;
+    private $keterangan_din;
     public function __construct()
     {
         parent::__construct();
         $this->load->model("Din2s6_model", "din2s6");
+        $this->jenis_din = 2;
+        $this->nama_din = "din2";
+        $this->keterangan_din = "Pada Bidang Ideologi, Politik, Pertahanan dan Keamanan dan Cekal Pora";
     }
 
     public function index()
     {
-        $this->loadViewKejari("din2/index");
+        $data = [
+            "jenis_din"         => $this->jenis_din,
+            "nama_din"          => $this->nama_din,
+            "keterangan_din"    => $this->keterangan_din
+        ];
+        $this->loadViewKejari($this->nama_din . "/index", $data); //! GANTI
     }
 
     public function getData()
     {
-        $listDin2 = $this->din2s6
-            ->where(["jenis_din" => 2])
+        $listDin = $this->din2s6
+            ->where(["jenis_din" => $this->jenis_din])     //! GANTI
             ->with_user()
             ->as_array()
             ->order_by("id", "DESC")
             ->get_all();
 
-        if ($listDin2) {
-            for ($i  = 0; $i < sizeof($listDin2); $i++) {
-                $listDin2[$i]["simbol"] = asset("kejari/upload/din2/") . $listDin2[$i]["simbol"];
+        if ($listDin) {
+            for ($i  = 0; $i < sizeof($listDin); $i++) {
+                $listDin[$i]["simbol"] = asset("kejari/upload/" . $this->nama_din . "/") . $listDin[$i]["simbol"]; //! GANTI
             }
             echo json_encode([
                 "status"    => 200,
                 "message"   => "Data ditemukan",
-                "data"      => $listDin2
+                "data"      => $listDin
             ]);
         } else {
             echo json_encode([
@@ -44,9 +55,9 @@ class Din2 extends Kejari_Controller
     public function getDataById()
     {
         $id = $this->input->get("id");
-        $listDin2 = $this->din2s6
+        $listDin = $this->din2s6
             ->where([
-                "jenis_din" => 2,
+                "jenis_din" => $this->jenis_din, //! GANTI
                 "id"        => $id
             ])
             ->with_user()
@@ -54,12 +65,12 @@ class Din2 extends Kejari_Controller
             ->order_by("id", "DESC")
             ->get();
 
-        if ($listDin2) {
-            $listDin2["simbol"] = asset("kejari/upload/din2/") . $listDin2["simbol"];
+        if ($listDin) {
+            $listDin["simbol"] = asset("kejari/upload/" . $this->nama_din . "/") . $listDin["simbol"];
             echo json_encode([
                 "status"    => 200,
                 "message"   => "Data ditemukan",
-                "data"      => $listDin2
+                "data"      => $listDin
             ]);
         } else {
             echo json_encode([
@@ -74,7 +85,7 @@ class Din2 extends Kejari_Controller
     {
         $input  = (object) $this->input->post();
 
-        $lokasiArsip = "assets/kejari/upload/din2";
+        $lokasiArsip = "assets/kejari/upload/" . $this->nama_din; //! GANTI
 
         $namafilebaru = time() . "." . pathinfo($_FILES["foto_simbol"]["name"], PATHINFO_EXTENSION);
 
@@ -97,7 +108,7 @@ class Din2 extends Kejari_Controller
                     "simbol"        => $namafilebaru,
                     "sektor"        => $input->sektor,
                     "keterangan"    => $input->keterangan,
-                    "jenis_din"     => 2,
+                    "jenis_din"     => $this->jenis_din, //! GANTI
                     "created_by"    => $this->userData->id
                 ];
 
@@ -134,7 +145,7 @@ class Din2 extends Kejari_Controller
     {
         $input  = (object) $this->input->post();
 
-        $lokasiArsip = "assets/kejari/upload/din2";
+        $lokasiArsip = "assets/kejari/upload/" . $this->nama_din;
 
         $namafilebaru = time() . "." . pathinfo($_FILES["foto_simbol"]["name"], PATHINFO_EXTENSION);
 
@@ -215,5 +226,38 @@ class Din2 extends Kejari_Controller
                 'response_message'  => 'Data Gagal Dihapus',
             ]);
         }
+    }
+
+    public function export()
+    {
+        //TODO : GET DATA
+        $listDin = $this->din2s6
+            ->where(["jenis_din" => $this->jenis_din]) //! GANTI
+            ->with_user()
+            ->as_array()
+            ->order_by("id", "DESC")
+            ->get_all();
+
+        if ($listDin) {
+            for ($i  = 0; $i < sizeof($listDin); $i++) {
+                $listDin[$i]["simbol"] = "assets/kejari/upload/" . $this->nama_din . "/" . $listDin[$i]["simbol"]; //! GANTI
+            }
+        }
+
+        $mpdf = new \Mpdf\Mpdf();
+
+        $data = [
+            "list"              => $listDin,
+            "jenis_din"         => $this->jenis_din,
+            "nama_din"          => $this->nama_din,
+            "keterangan_din"    => $this->keterangan_din
+        ];
+
+        // $this->load->view('din2/export', $data, FALSE);
+
+        $mpdf->WriteHTML($this->load->view($this->nama_din . '/export', $data, TRUE));
+        $filename = "D.IN." . $this->jenis_din . "_" . date("d_m_Y_H_i_s") . ".pdf";
+        // $mpdf->Output($filename, 'D');
+        $mpdf->Output($filename, 'I');
     }
 }
