@@ -1,8 +1,8 @@
 <?php
 
-class Din2s6_model extends Custom_model
+class Din1_model extends Custom_model
 {
-    public $table           = 'din2s6';
+    public $table           = 'din1';
     public $primary_key     = 'id';
     public $soft_deletes    = TRUE;
     public $timestamps      = TRUE;
@@ -17,6 +17,13 @@ class Din2s6_model extends Custom_model
             'foreign_table'     => 'user',
             'foreign_key'       => 'id',
             'local_key'         => 'created_by'
+        );
+
+        $this->has_one['din2s6'] = array(
+            'foreign_model'     => 'Din2s6_model',
+            'foreign_table'     => 'din2s6',
+            'foreign_key'       => 'id',
+            'local_key'         => 'din_id'
         );
     }
 }

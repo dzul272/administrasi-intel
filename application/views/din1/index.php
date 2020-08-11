@@ -12,116 +12,79 @@
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-body">
-                        <select class="select2 form-control custom-select" style="width: 150px;" name="bulan" id="bulan">
-                            <option value="">Pilih Bulan</option>
-                            <option <?= $this->input->get('tahun') == "semua" ? "selected" : "" ?> value="semua">Semua</option>
-                            <?php foreach ($dataTahun as $data) : ?>
-                                <option <?= $this->input->get('tahun') == $data->tahun ? "selected" : "" ?> value="<?= $data->tahun ?>"><?= $data->tahun ?></option>
-                            <?php endforeach; ?>
-                        </select>
-                        <select class="select2 form-control custom-select" style="width: 150px;" name="tahun" id="tahun">
-                            <option value="">Pilih Tahun</option>
-                            <option <?= $this->input->get('tahun') == "semua" ? "selected" : "" ?> value="semua">Semua</option>
-                            <?php foreach ($dataTahun as $data) : ?>
-                                <option <?= $this->input->get('tahun') == $data->tahun ? "selected" : "" ?> value="<?= $data->tahun ?>"><?= $data->tahun ?></option>
-                            <?php endforeach; ?>
-                        </select>
-                        <button id="btnCari" type="button" class="btn waves-effect waves-light btn-info" style="width: 120px;"><i class="fa fa-search"></i> Cari</button>
+                    <form action="" method="get">
+                        <div class="card-body">
+                            <select class="select2 form-control custom-select" style="width: 150px;" name="bulan" id="bulan">
+                                <option value="">Pilih Bulan</option>
+                                <?php foreach (bulan_array() as $data) : ?>
+                                    <option <?= $this->input->get('bulan') == $data["urut"] ? "selected" : "" ?> value="<?= $data["urut"] ?>"><?= $data["nama_panjang"]  ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                            <select class="select2 form-control custom-select" style="width: 150px;" name="tahun" id="tahun">
+                                <option value="">Pilih Tahun</option>
+                                <?php foreach ($listTahun as $data) : ?>
+                                    <option <?= $this->input->get('tahun') == $data["tahun"] ? "selected" : "" ?> value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                            <button type="submit" id="btnCari" type="button" class="btn waves-effect waves-light btn-info" style="width: 120px;"><i class="fa fa-search"></i> Cari</button>
 
-                        <div class="float-right">
-                            <button type="button" class="btn waves-effect waves-light btn-success ultra-disabled" id="tombol-tambah" style="width: 120px;" data-toggle="modal" data-target="#tambahPerdes">Tambah Data</button>
-                            <?php
-                            $thn = $this->input->get("tahun") == "" ? "semua" : $this->input->get("tahun");
-                            ?>
-                            <a href="<?= base_url('dokumen/export-sk-pengundangan-perdes/?tahun=' . $thn) ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
+                            <div class="float-right">
+                                <button type="button" class="btn waves-effect waves-light btn-success ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#tambahData">+ Tambah Data</button>
+                                <?php
+                                $thn = $this->input->get("tahun") == "" ? "semua" : $this->input->get("tahun");
+                                ?>
+                                <a href="<?= base_url('dokumen/export-sk-pengundangan-perdes/?tahun=' . $thn) ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
+                            </div>
                         </div>
-
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
 
-        <!-- MODAL TAMBAH SURAT KELUAR -->
-        <div class="modal fade myModal" id="tambahPerdes" tabindex="-1" role="dialog" aria-labelledby="tambahPerdes">
+        <!-- MODAL TAMBAH DATA -->
+        <div class="modal fade myModal" id="tambahData" role="dialog" aria-labelledby="tambahPerdes">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel1">Tambah Pengundangan Peraturan <?= ce($this->userData->jenis_desa) ?></h4>
+                    <div class="modal-header bg-success">
+                        <h4 class="modal-title text-white" id="exampleModalLabel1">Tambah Data</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
-                    <div class="modal-body">
-                        <!-- <form action="<?= base_url('dokumen/tambah_sk_pengundangan_perdes') ?>" method="post" enctype='multipart/form-data'> -->
-                        <form id="form-insert" enctype='multipart/form-data'>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="message-text" class="control-label">Nomor peraturan <?= ce($this->userData->jenis_desa) ?></label>
-                                        <input type="text" class="form-control" name="no_perdes" id="nomor_perdes" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="message-text" class="control-label">Tanggal peraturan <?= ce($this->userData->jenis_desa) ?></label>
-                                        <div class="input-group" style="width: 100%;">
-                                            <input type="text" class="form-control tgl_perdes" id="datepicker-autoclose5" name="tgl_perdes" placeholder="mm/dd/yyyy" required>
-                                            <div class="input-group-append">
-                                                <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
-                                            </div>
+                    <form method="POST" action="<?= base_url('din1/prosesTambahData') ?>" id="form-insert" enctype='multipart/form-data'>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <div class="box-foto-pamong">
+                                    <div class="bg-foto-profil-pamong">
+                                        <div id="imgPreview" class="foto-profil-pamong" style="background-image: url('<?= asset("kejari/img/add.png") ?>')">
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">Pilih Sektor <span class="text-danger">*</span></label>
+                                <select required class="select2 form-control custom-select" style="width: 100%;" name="din_id" id="din_id">
+                                    <option value="">Pilih Sektor</option>
+                                    <?php if ($listDin) : ?>
+                                        <?php foreach ($listDin as $data) : ?>
+                                            <option simbol="<?= $data["simbol"] ?>" value="<?= $data["id"] ?>"><?= $data["sektor"] . " - D.IN." . $data["jenis_din"]  ?></option>
+                                        <?php endforeach; ?>
+                                    <?php endif ?>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">SIABIDIBAM / 5W + 1H <span class="text-danger">*</span></label>
+                                <textarea required class="form-control" name="siabidibam" id="siabidibam"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="control-label">Keterangan</span></label>
+                                <textarea class="form-control" name="keterangan" id="keterangan"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                            <button type="submit" class="btn btn-success ultra-disabled" id="add-btn">Simpan</button>
 
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="control-label">Tentang</label>
-                                <input type="text" class="form-control" name="tentang" id="tentang" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="control-label">Uraian singkat</label>
-                                <input type="text" class="form-control" name="uraian" id="uraian_singkat" required>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="message-text" class="control-label">Nomor pengundangan</label>
-                                        <input type="text" class="form-control" name="no_pengundangan" id="nomor_pengundangan" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="message-text" class="control-label">Tanggal pengundangan</label>
-                                        <div class="input-group" style="width: 100%;">
-                                            <input type="text" class="form-control tgl_pengundangan" id="datepicker-autoclose2" name="tgl_pengundangan" placeholder="mm/dd/yyyy" required>
-                                            <div class="input-group-append">
-                                                <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message-text" class="control-label">Keterangan</label>
-                                <textarea class="form-control" name="keterangan" id="keterangan" rows="3" required></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="control-label">Pilih Dokumen</label>
-                                <div class="input-group mb-3">
-                                    <button type="button" class="btn btn-info"><i class="ti-import text-white"></i></button>
-                                    <div class="custom-file">
-                                        <input type="file" class="custom-file-input" id="inputGroupFile01" name="file_lampiran">
-                                        <label class="custom-file-label" for="inputGroupFile01">Pilih File Dokumen</label>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                        <button type="submit" class="btn btn-success ultra-disabled" id="add-btn">Simpan</button>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -142,11 +105,6 @@
                                         <th style="width: 20%; padding: 10px;" class="align-middle text-center">Keterangan</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-
-
-                                </tbody>
-
                             </table>
                         </div>
                     </div>
@@ -155,3 +113,66 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $("#din_id").change(function(e) {
+            var element = $(this).find('option:selected');
+            var simbol = element.attr("simbol");
+            $('#imgPreview').css('background-image', 'url(' + simbol + ')');
+        });
+
+        //TODO : FORM INSERT
+        $("#form-insert").on('submit', (function(event) {
+            event.preventDefault();
+            $('#add-btn').html("Sedang Menyimpan...");
+            $('#add-btn').attr("disabled", true);
+            $('#tombol-tambah').attr("disabled", true);
+
+            $.ajax({
+                url: "<?= base_url('din1/prosesTambahData') ?>",
+                type: "POST",
+                data: new FormData(this),
+                dataType: "JSON",
+                contentType: false,
+                cache: false,
+                processData: false,
+                success: function(e) { // Ketika proses pengiriman berhasil                
+                    if (e.response_code == 200) {
+                        // table_data.ajax.reload(null, true);
+                        $('.myModal').modal('hide');
+                        $("#form-insert")[0].reset();
+                        $('#img_view2').css('background-image', 'url(<?= asset('kejari/img/add.png') ?>)');
+                        Swal.fire(
+                            'Berhasil',
+                            e.response_message,
+                            'success'
+                        ).then((result) => {
+                            // $('#table_body').empty();
+                            // $('#table_body').html(e.output);
+                            $('#add-btn').html("Simpan");
+                            $('#add-btn').attr("disabled", false);
+                            $('#tombol-tambah').html("+ Tambah Data");
+                            $('#tombol-tambah').attr("disabled", false);
+                        })
+
+                    } else {
+                        Swal.close();
+                        Swal.fire("Oops", e.response_message, "error");
+                        $('#add-btn').html("Simpan");
+                        $('#add-btn').attr("disabled", false);
+                        $('#tombol-tambah').html("+ Tambah Data");
+                        $('#tombol-tambah').attr("disabled", false);
+                    }
+                },
+                error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
+                    Swal.fire("Oops", xhr.responseText, "error");
+                    $('#add-btn').html("Simpan");
+                    $('#add-btn').attr("disabled", false);
+                    $('#tombol-tambah').html("+ Tambah Data");
+                    $('#tombol-tambah').attr("disabled", false);
+                }
+            });
+        }));
+    });
+</script>
