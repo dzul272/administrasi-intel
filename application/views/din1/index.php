@@ -33,7 +33,7 @@
                                 <?php
                                 $thn = $this->input->get("tahun") == "" ? "semua" : $this->input->get("tahun");
                                 ?>
-                                <a href="<?= base_url('din1/export/?bulan=' . $this->input->get("bulan") . "&tahun=" . $this->input->get("tahun")) ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
+                                <a target="_blank" href="<?= base_url('din1/export/?bulan=' . $this->input->get("bulan") . "&tahun=" . $this->input->get("tahun")) ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
                             </div>
                         </div>
                     </form>

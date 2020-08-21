@@ -284,24 +284,33 @@
     });
 
     function edit(id) {
-        $('#modal_ubah').modal('show');
-        $.ajax({
-            type: 'GET',
-            url: '<?= base_url($nama_din . '/getDataById/') ?>',
-            dataType: "json",
-            data: {
-                "id": id
-            },
-            success: function(e) {
-                $('#imgPreview_edit').css('background-image', 'url(' + e.data.simbol + ')');
-                $('#sektor_edit').val(e.data.sektor);
-                $('#keterangan_edit').val(e.data.keterangan);
-                $('#id_data').val(e.data.id);
-            },
-            error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
-                Swal.fire("Oops", xhr.responseText, "error");
+        Swal.fire({
+            title: 'Mohon Tunggu Beberapa Saat',
+            text: 'Sedang Mengambil data...',
+            onBeforeOpen: () => {
+                Swal.showLoading();
+                $.ajax({
+                    type: 'GET',
+                    url: '<?= base_url($nama_din . '/getDataById/') ?>',
+                    dataType: "json",
+                    data: {
+                        "id": id
+                    },
+                    success: function(e) {
+                        Swal.close();
+                        $('#modal_ubah').modal('show');
+                        $('#imgPreview_edit').css('background-image', 'url(' + e.data.simbol + ')');
+                        $('#sektor_edit').val(e.data.sektor);
+                        $('#keterangan_edit').val(e.data.keterangan);
+                        $('#id_data').val(e.data.id);
+                    },
+                    error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
+                        Swal.fire("Oops", xhr.responseText, "error");
+                    }
+                });
             }
         });
+
     }
 
     function hapus(id) {
