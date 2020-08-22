@@ -36,11 +36,17 @@ class Din7 extends Kejari_Controller
             }
         }
 
+        $listTahun = $this->din7
+            ->fields()
+            ->select("DISTINCT(YEAR(created_at)) as tahun")
+            ->get_all();
+
         // d($this->getDataPeneranganHukum($tahun, $triwulan));        
 
         $data = [
             "SidebarType"   => "mini-sidebar",
             "kecamatan"     => $this->getKecamatan(),
+            "listTahun"     => $listTahun
         ];
 
         $this->loadViewKejari("din7/pelaksanaan_hukum", $data);
@@ -55,17 +61,19 @@ class Din7 extends Kejari_Controller
         }
 
         $data = $this->din7
-            ->where($kondisi)
+            ->where($kondisi)            
             ->with_provinsi()
             ->with_kabupaten()
             ->with_kecamatan()
             ->with_kelurahan()
             ->with_user("fields:username,nama")
+            ->order_by("id", "DESC")
             ->get_all();
 
         if ($data) {
             for ($i = 0; $i < sizeof($data); $i++) {
                 $data[$i]["waktu_indo"] = longdate_indo($data[$i]["waktu"], TRUE);
+                $data[$i]["waktu_pelaksanaan_indo"] = longdate_indo($data[$i]["waktu_pelaksanaan"], TRUE);
             }
             echo json_encode([
                 "status"    => 200,

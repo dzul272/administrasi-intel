@@ -13,6 +13,28 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
+                        <div class="float-left">
+                            <form method="get">
+                                <select class="select2 form-control custom-select" style="width: 150px;" name="tahun" id="tahun">
+                                    <option value="">Pilih Tahun</option>
+                                    <?php if ($listTahun) : ?>
+                                        <?php foreach ($listTahun as $data) : ?>
+                                            <option <?= $this->input->get('tahun') == $data["tahun"] ? "selected" : "" ?> value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
+                                        <?php endforeach ?>
+                                    <?php endif ?>
+                                </select>
+
+                                <select class="select2 form-control custom-select" style="width: 150px;" name="triwulan" id="triwulan">
+                                    <option value="">Pilih Triwulan</option>
+                                    <option <?= $this->input->get('triwulan') == "1" ? "selected" : "" ?> value="1">Triwulan 1</option>
+                                    <option <?= $this->input->get('triwulan') == "2" ? "selected" : "" ?> value="2">Triwulan 2</option>
+                                    <option <?= $this->input->get('triwulan') == "3" ? "selected" : "" ?> value="3">Triwulan 3</option>
+                                    <option <?= $this->input->get('triwulan') == "4" ? "selected" : "" ?> value="4">Triwulan 4</option>
+                                    <option <?= $this->input->get('triwulan') == "semua" ? "selected" : "" ?> value="semua">Semua Triwulan</option>
+                                </select>
+                                <button type="submit" id="btnCari" type="button" class="btn waves-effect waves-light btn-info" style="width: 120px;"><i class="fa fa-search"></i> Cari</button>
+                            </form>
+                        </div>
                         <div class="float-right">
                             <button type="button" class="btn waves-effect waves-light btn-success ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#tambahData">+ Tambah Data</button>
                             <a target="_blank" href="<?= base_url('din7/penerangan-hukum/export') ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
@@ -44,7 +66,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="recipient-name" class="control-label">Jumlah Peserta <span class="text-danger">*</span></label>
+                                        <label for="recipient-name" class="control-label">Jumlah Peserta (Orang) <span class="text-danger">*</span></label>
                                         <input type="number" class="form-control" name="jml_peserta" id="jml_peserta" min="0" required>
                                     </div>
                                 </div>
@@ -73,7 +95,7 @@
                                     <div class="form-group">
                                         <label for="recipient-name" class="control-label">Desa / Kelurahan Kegiatan <span class="text-danger">*</span></label>
                                         <select class="select2 form-control custom-select" style="width: 100%;" name="tempat_kel" id="tempat_kel" disabled required>
-                                            <option value="">Pilih Desa / Kelurahan</option>
+                                            <option value="">Pilih kecamatan terlebih dahulu</option>
                                         </select>
                                     </div>
                                 </div>
@@ -177,16 +199,16 @@
                                         <th style="padding: 10px;" colspan="6" class="align-middle text-center">Pelaksanaan Penerangan Hukum Secara Tidak Langsung</th>
                                     </tr>
                                     <tr>
-                                        <th style="padding: 10px;" class="align-middle text-center">Sasaran Peserta Penyuluhan Hukum</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Materi</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Jumlah Peserta</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Waktu Pelaksanaan kegiatan</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Tempat / Lokasi Kegiatan</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Ket</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Media Yang Digunakan</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Materi</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Waktu Pelaksanaan Kegiatan</th>
-                                        <th style="padding: 10px;" class="align-middle text-center">Ket</th>
+                                        <th style="padding: 10px; width: 200px" class="align-middle text-center">Sasaran Peserta Penyuluhan Hukum</th>
+                                        <th style="padding: 10px; width: 150px" class="align-middle text-center">Materi</th>
+                                        <th style="padding: 10px; width: 80px" class="align-middle text-center">Jumlah Peserta</th>
+                                        <th style="padding: 10px; width: 160px" class="align-middle text-center">Waktu Pelaksanaan kegiatan</th>
+                                        <th style="padding: 10px; width: 250px" class="align-middle text-center">Tempat / Lokasi Kegiatan</th>
+                                        <th style="padding: 10px; width: 75px" class="align-middle text-center">Ket</th>
+                                        <th style="padding: 10px; width: 150px" class="align-middle text-center">Media Yang Digunakan</th>
+                                        <th style="padding: 10px; width: 150px" class="align-middle text-center">Materi</th>
+                                        <th style="padding: 10px; width: 160px" class="align-middle text-center">Waktu Pelaksanaan Kegiatan</th>
+                                        <th style="padding: 10px; width: 150px" class="align-middle text-center">Ket</th>
                                     </tr>
                                 </thead>
                             </table>
@@ -232,6 +254,9 @@
             "url": "<?= base_url('din7/getDataPeneranganHukum/' . $this->input->get("tahun") . "/" . $this->input->get("triwulan")) ?>",
             "dataSrc": "data",
         },
+        "order": [
+            [0, "asc"]
+        ],
         "scrollX": true,
         "columns": [{
                 data: null,
@@ -290,7 +315,7 @@
                 className: "align-top",
             },
             {
-                data: "waktu_pelaksanaan",
+                data: "waktu_pelaksanaan_indo",
                 className: "align-top",
             },
             {
@@ -299,4 +324,55 @@
             },
         ]
     });
+
+    $("#form-insert").on('submit', (function(event) {
+        event.preventDefault();
+        $('#add-btn').html("Sedang Menyimpan...");
+        $('#add-btn').attr("disabled", true);
+        $('#tombol-tambah').attr("disabled", true);
+
+        $.ajax({
+            url: "<?= base_url('din7/addPeneranganHukum') ?>",
+            type: "POST",
+            data: new FormData(this),
+            dataType: "JSON",
+            contentType: false,
+            cache: false,
+            processData: false,
+            success: function(e) { // Ketika proses pengiriman berhasil                
+                if (e.response_code == 200) {
+                    table_data.ajax.reload(null, true);
+                    $('.myModal').modal('hide');
+                    $("#form-insert")[0].reset();
+                    Swal.fire(
+                        'Berhasil',
+                        e.response_message,
+                        'success'
+                    ).then((result) => {
+                        // $('#table_body').empty();
+                        // $('#table_body').html(e.output);
+                        $('#add-btn').html("Simpan");
+                        $('#add-btn').attr("disabled", false);
+                        $('#tombol-tambah').html("+ Tambah Data");
+                        $('#tombol-tambah').attr("disabled", false);
+                    })
+
+                } else {
+                    Swal.close();
+                    Swal.fire("Oops", e.response_message, "error");
+                    $('#add-btn').html("Simpan");
+                    $('#add-btn').attr("disabled", false);
+                    $('#tombol-tambah').html("+ Tambah Data");
+                    $('#tombol-tambah').attr("disabled", false);
+                }
+            },
+            error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
+                Swal.fire("Oops", xhr.responseText, "error");
+                $('#add-btn').html("Simpan");
+                $('#add-btn').attr("disabled", false);
+                $('#tombol-tambah').html("+ Tambah Data");
+                $('#tombol-tambah').attr("disabled", false);
+            }
+        });
+    }));
 </script>

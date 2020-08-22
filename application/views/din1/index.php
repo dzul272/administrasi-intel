@@ -22,9 +22,11 @@
                             </select>
                             <select class="select2 form-control custom-select" style="width: 150px;" name="tahun" id="tahun">
                                 <option value="">Pilih Tahun</option>
-                                <?php foreach ($listTahun as $data) : ?>
-                                    <option <?= $this->input->get('tahun') == $data["tahun"] ? "selected" : "" ?> value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
-                                <?php endforeach; ?>
+                                <?php if ($listTahun) : ?>
+                                    <?php foreach ($listTahun as $data) : ?>
+                                        <option <?= $this->input->get('tahun') == $data["tahun"] ? "selected" : "" ?> value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
+                                    <?php endforeach ?>
+                                <?php endif ?>
                             </select>
                             <button type="submit" id="btnCari" type="button" class="btn waves-effect waves-light btn-info" style="width: 120px;"><i class="fa fa-search"></i> Cari</button>
 
