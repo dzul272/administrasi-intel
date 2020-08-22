@@ -17,7 +17,7 @@ class Auth extends Auth_Controller
     public function login()
     {
         if ($this->session->has_userdata(SESSION)) {
-            redirect(base_url("dashboard"));
+            redirect(base_url("beranda"));
         }
         $this->loadView('auth/login-kejari');
     }
@@ -35,7 +35,7 @@ class Auth extends Auth_Controller
 
         if ($cekLogin) {
             $this->session->set_userdata(SESSION, $cekLogin);
-            redirect(base_url("dashboard"));
+            redirect(base_url("beranda"));
         } else {
             $this->session->set_flashdata("gagal", "Username atau password yang anda masukan salah!");
             redirect(base_url("auth/login"));

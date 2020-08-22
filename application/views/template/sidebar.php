@@ -6,7 +6,7 @@
                 <li class="sidebar-item">
                     <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('dashboard') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
-                        <span class="hide-menu">Dashboard</span>
+                        <span class="hide-menu">Beranda</span>
                     </a>
                 </li>
 
