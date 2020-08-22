@@ -16,7 +16,7 @@ class Din1 extends Kejari_Controller
         $bulan  = $this->input->get("bulan");
 
         if ($tahun == NULL || $bulan == NULL || !is_numeric($tahun) || !is_numeric($bulan)) {
-            redirect(base_url("din1?bulan=" . date("n") . "&tahun=" . date("Y")));
+            redirect(base_url("din1/?bulan=" . date("n") . "&tahun=" . date("Y")));
         }
 
         $listDin = $this->din2s6

@@ -224,7 +224,7 @@ if (!function_exists('longdate_indo')) {
         }
         if ($tanggal != null) {
             if ($pakaiHari) {
-                return $nama_hari . ',' . $tgl . ' ' . $bulan . ' ' . $thn;
+                return $nama_hari . ', ' . $tgl . ' ' . $bulan . ' ' . $thn;
             } else {
                 return $tgl . ' ' . $bulan . ' ' . $thn;
             }
@@ -365,5 +365,28 @@ if (!function_exists("validateDate")) {
         $d = DateTime::createFromFormat($format, $date);
         // The Y ( 4 digits year ) returns TRUE for any integer with any number of digits so changing the comparison from == to === fixes the issue.
         return $d && $d->format($format) === $date;
+    }
+}
+
+if (!function_exists('triwulan')) {
+    function triwulan($tanggal = NULL)
+    {
+        $date   = date_create($tanggal);
+        $date   = date_format($date, "Y-m-d");
+        $ubah = gmdate($date, time() + 60 * 60 * 8);
+        $pecah = explode("-", $ubah);
+        $tgl = $pecah[2];
+        $bln = $pecah[1];
+        $thn = $pecah[0];
+
+        if($bln <= 3){
+            return 1;
+        } else if($bln <= 6){
+            return 2;
+        } else if ($bln <= 9){
+            return 3;
+        } else {
+            return 4;
+        }
     }
 }
