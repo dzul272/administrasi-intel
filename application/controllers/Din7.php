@@ -201,4 +201,21 @@ class Din7 extends Kejari_Controller
             ]);
         }
     }
+
+    public function deletePeneranganHukum()
+    {
+        $id = $this->input->post("id_data");
+        $delete = $this->din7->delete(["id" => $id]);
+        if ($delete) {
+            echo json_encode([
+                'response_code'     => 200,
+                'response_message'  => 'Data Berhasil Dihapus',
+            ]);
+        } else {
+            echo json_encode([
+                'response_code'     => 400,
+                'response_message'  => 'Data Gagal Dihapus',
+            ]);
+        }
+    }
 }
