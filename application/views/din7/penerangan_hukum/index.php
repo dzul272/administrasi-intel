@@ -253,7 +253,7 @@
                                             <option value="">Pilih Tahun</option>
                                             <?php if ($listTahun) : ?>
                                                 <?php foreach ($listTahun as $data) : ?>
-                                                    <option value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
+                                                    <option <?= $this->input->get('tahun') == $data["tahun"] ? "selected" : "" ?> value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
                                                 <?php endforeach ?>
                                             <?php endif ?>
                                         </select>
@@ -274,7 +274,7 @@
                                             <option value="">Pilih Tahun</option>
                                             <?php if ($listTahun) : ?>
                                                 <?php foreach ($listTahun as $data) : ?>
-                                                    <option value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
+                                                    <option <?= $this->input->get('tahun') == $data["tahun"] ? "selected" : "" ?> value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
                                                 <?php endforeach ?>
                                             <?php endif ?>
                                         </select>
@@ -307,7 +307,7 @@
                                         <th style="padding: 10px; width: 80px" rowspan="2" class="align-middle text-center">Aksi</th>
                                         <!-- <th style="padding: 10px;" rowspan="2" class="align-middle text-center">Kejari</th> -->
                                         <th style="padding: 10px;" colspan="6" class="align-middle text-center">Pelaksanaan Penerangan Hukum Secara Langsung</th>
-                                        <th style="padding: 10px;" colspan="6" class="align-middle text-center">Pelaksanaan Penerangan Hukum Secara Tidak Langsung</th>
+                                        <th style="padding: 10px;" colspan="4" class="align-middle text-center">Pelaksanaan Penerangan Hukum Secara Tidak Langsung</th>
                                     </tr>
                                     <tr>
                                         <th style="padding: 10px; width: 200px" class="align-middle text-center">Sasaran Peserta Penyuluhan Hukum</th>

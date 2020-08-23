@@ -73,10 +73,10 @@ class Din7 extends Kejari_Controller
             "listTahun"     => $listTahun
         ];
 
-        $this->loadViewKejari("din7/pelaksanaan_hukum/index", $data);
+        $this->loadViewKejari("din7/penerangan_hukum/index", $data);
     }
 
-    public function getDataPeneranganHukum($tahun = NULL, $triwulan = NULL)
+    public function getDataPeneranganHukumX($tahun = NULL, $triwulan = NULL)
     {
         $id = $this->input->get("id");
         $kondisi["jenis"]       = 1;
@@ -111,18 +111,23 @@ class Din7 extends Kejari_Controller
                 $data[$i]["waktu_indo"] = $data[$i]["waktu"] != "000-00-00" ?  longdate_indo($data[$i]["waktu"], TRUE) : "";
                 $data[$i]["waktu_pelaksanaan_indo"] = $data[$i]["waktu_pelaksanaan"] != "0000-00-00" ? longdate_indo($data[$i]["waktu_pelaksanaan"], TRUE) : "";
             }
-            echo json_encode([
+            return json_encode([
                 "status"    => 200,
                 "message"   => "Data ditemukan",
                 "data"      => $data
             ]);
         } else {
-            echo json_encode([
+            return json_encode([
                 "status"    => 400,
                 "message"   => "Data tidak ditemukan",
                 "data"      => []
             ]);
         }
+    }
+
+    public function getDataPeneranganHukum($tahun = NULL, $triwulan = NULL)
+    {
+        echo $this->getDataPeneranganHukumX($tahun, $triwulan);
     }
 
     public function addPeneranganHukum()
@@ -226,6 +231,20 @@ class Din7 extends Kejari_Controller
 
     public function penerangan_hukum_export_lengkap()
     {
-        
+        $tahun  = $this->input->get("tahun");
+
+        if ($tahun == NULL || !is_numeric($tahun)) {
+            redirect(base_url("din7/penerangan-hukum-export-lengkap?tahun=" . date("Y")));
+        }
+
+        $data   = json_decode($this->getDataPeneranganHukumX($tahun, "semua"));
+        // d($data);
+        // $this->load->view('din7/penerangan_hukum/export_lengkap', $data, FALSE);
+
+        $mpdf = new \Mpdf\Mpdf();
+        $mpdf->WriteHTML($this->load->view('din7/penerangan_hukum/export_lengkap', $data, TRUE));
+        $filename = "D.IN.7_PENERANGAN_HUKUM_" . date("d_m_Y_H_i_s") . ".pdf";
+        // $mpdf->Output($filename, 'D');
+        $mpdf->Output($filename, 'I');
     }
 }
