@@ -2,8 +2,8 @@
     <div class="page-breadcrumb">
         <div class="row">
             <div class="col-12">
-                <h4 class="page-title">D.IN.7 - Data Pelaksanaan Penerangan Hukum</h4>
-                <!-- <h5>Data Hasil Pelaksanaan Kegiatan Penerangan</h5> -->
+                <h4 class="page-title">D.IN.7 - Data Pelaksanaan Penyuluhan Hukum</h4>
+                <!-- <h5>Data Hasil Pelaksanaan Kegiatan Penyuluhan</h5> -->
             </div>
         </div>
     </div>
@@ -37,7 +37,7 @@
                         </div>
                         <div class="float-right">
                             <button type="button" class="btn waves-effect waves-light btn-success ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#tambahData">+ Tambah Data</button>
-                            <!-- <a target="_blank" href="<?= base_url('din7/penerangan-hukum/export') ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a> -->
+                            <!-- <a target="_blank" href="<?= base_url('din7/penyuluhan-hukum/export') ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a> -->
                             <button type="button" class="btn waves-effect waves-light btn-danger ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#exportData"># Export Data</button>
                         </div>
                     </div>
@@ -53,11 +53,11 @@
                         <h4 class="modal-title text-white" id="exampleModalLabel1">Tambah Data</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
-                    <form id="form-insert" method="POST" action="<?= base_url("din7/addPeneranganHukum") ?>" enctype='multipart/form-data'>
+                    <form id="form-insert" method="POST" action="<?= base_url("din7/addPenyuluhanHukum") ?>" enctype='multipart/form-data'>
                         <div class="modal-body">
-                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penerangan Hukum Secara Langsung</label>
+                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penyuluhan Hukum Secara Langsung</label>
                             <div class="form-group">
-                                <label for="recipient-name" class="control-label">Sasaran Peserta Penerangan Hukum <span class="text-danger">*</span></label>
+                                <label for="recipient-name" class="control-label">Sasaran Peserta Penyuluhan Hukum <span class="text-danger">*</span></label>
                                 <input type="text" class="form-control" name="peserta" id="peserta" required>
                             </div>
                             <div class="form-group">
@@ -105,7 +105,7 @@
                                 <label for="recipient-name" class="control-label">Detail Tempat Kegiatan</label>
                                 <input type="text" class="form-control" name="tempat_detail" id="tempat_detail">
                             </div>
-                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penerangan Hukum Secara Tidak Langsung</label>
+                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penyuluhan Hukum Secara Tidak Langsung</label>
                             <div class="form-group">
                                 <label for="recipient-name" class="control-label">Media Yang Digunakan</label>
                                 <input type="text" class="form-control" name="media" id="media">
@@ -148,11 +148,11 @@
                         <h4 class="modal-title text-white" id="exampleModalLabel1">Edit Data</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
-                    <form id="form-edit" method="POST" action="<?= base_url("din7/updatePeneranganHukum") ?>" enctype='multipart/form-data'>
+                    <form id="form-edit" method="POST" action="<?= base_url("din7/updatePenyuluhanHukum") ?>" enctype='multipart/form-data'>
                         <div class="modal-body">
-                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penerangan Hukum Secara Langsung</label>
+                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penyuluhan Hukum Secara Langsung</label>
                             <div class="form-group">
-                                <label for="recipient-name" class="control-label">Sasaran Peserta Penerangan Hukum <span class="text-danger">*</span></label>
+                                <label for="recipient-name" class="control-label">Sasaran Peserta Penyuluhan Hukum <span class="text-danger">*</span></label>
                                 <input type="text" class="form-control" name="peserta" id="peserta_edit" required>
                             </div>
                             <div class="form-group">
@@ -200,7 +200,7 @@
                                 <label for="recipient-name" class="control-label">Detail Tempat Kegiatan</label>
                                 <input type="text" class="form-control" name="tempat_detail" id="tempat_detail_edit">
                             </div>
-                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penerangan Hukum Secara Tidak Langsung</label>
+                            <label for="recipient-name" class="control-label text-info">Pelaksanaan Penyuluhan Hukum Secara Tidak Langsung</label>
                             <div class="form-group">
                                 <label for="recipient-name" class="control-label">Media Yang Digunakan</label>
                                 <input type="text" class="form-control" name="media" id="media_edit">
@@ -246,7 +246,7 @@
                     <div class="modal-body">                        
                         <div class="form-group">
                             <label for="recipient-name" class="control-label text-primary">Export Data Sederhana</label>
-                            <form action="<?= base_url("din7/penerangan-hukum-export-sederhana") ?>" method="get" target="_blank">
+                            <form action="<?= base_url("din7/penyuluhan-hukum-export-sederhana") ?>" method="get" target="_blank">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <select class="select2 form-control custom-select" style="width: 100%;" name="tahun" required>
@@ -267,7 +267,7 @@
 
                         <div class="form-group">
                             <label for="recipient-name" class="control-label text-primary">Export Data Lengkap</label>
-                            <form action="<?= base_url("din7/penerangan-hukum-export-lengkap") ?>" method="get" target="_blank">
+                            <form action="<?= base_url("din7/penyuluhan-hukum-export-lengkap") ?>" method="get" target="_blank">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <select class="select2 form-control custom-select" style="width: 100%;" name="tahun" required>
@@ -306,11 +306,11 @@
                                         <th style="padding: 10px;" rowspan="2" class="align-middle text-center">No</th>
                                         <th style="padding: 10px; width: 80px" rowspan="2" class="align-middle text-center">Aksi</th>
                                         <!-- <th style="padding: 10px;" rowspan="2" class="align-middle text-center">Kejari</th> -->
-                                        <th style="padding: 10px;" colspan="6" class="align-middle text-center">Pelaksanaan Penerangan Hukum Secara Langsung</th>
-                                        <th style="padding: 10px;" colspan="4" class="align-middle text-center">Pelaksanaan Penerangan Hukum Secara Tidak Langsung</th>
+                                        <th style="padding: 10px;" colspan="6" class="align-middle text-center">Pelaksanaan Penyuluhan Hukum Secara Langsung</th>
+                                        <th style="padding: 10px;" colspan="4" class="align-middle text-center">Pelaksanaan Penyuluhan Hukum Secara Tidak Langsung</th>
                                     </tr>
                                     <tr>
-                                        <th style="padding: 10px; width: 200px" class="align-middle text-center">Sasaran Peserta Penerangan Hukum</th>
+                                        <th style="padding: 10px; width: 200px" class="align-middle text-center">Sasaran Peserta Penyuluhan Hukum</th>
                                         <th style="padding: 10px; width: 150px" class="align-middle text-center">Materi</th>
                                         <th style="padding: 10px; width: 80px" class="align-middle text-center">Jumlah Peserta</th>
                                         <th style="padding: 10px; width: 160px" class="align-middle text-center">Waktu Pelaksanaan kegiatan</th>
@@ -388,7 +388,7 @@
 
     var table_data = $('#table_data').DataTable({
         "ajax": {
-            "url": "<?= base_url('din7/getDataPeneranganHukum/' . $this->input->get("tahun") . "/" . $this->input->get("triwulan")) ?>",
+            "url": "<?= base_url('din7/getDataPenyuluhanHukum/' . $this->input->get("tahun") . "/" . $this->input->get("triwulan")) ?>",
             "dataSrc": "data",
         },
         "order": [
@@ -470,7 +470,7 @@
         $('#tombol-tambah').attr("disabled", true);
 
         $.ajax({
-            url: "<?= base_url('din7/addPeneranganHukum') ?>",
+            url: "<?= base_url('din7/addPenyuluhanHukum') ?>",
             type: "POST",
             data: new FormData(this),
             dataType: "JSON",
@@ -522,7 +522,7 @@
         $('#tombol-tambah').attr("disabled", true);
 
         $.ajax({
-            url: "<?= base_url('din7/updatePeneranganHukum') ?>",
+            url: "<?= base_url('din7/updatePenyuluhanHukum') ?>",
             type: "POST",
             data: new FormData(this),
             dataType: "JSON",
@@ -574,7 +574,7 @@
                 Swal.showLoading();
                 $.ajax({
                     type: 'GET',
-                    url: '<?= base_url('din7/getDataPeneranganHukum/') ?>',
+                    url: '<?= base_url('din7/getDataPenyuluhanHukum/') ?>',
                     dataType: "json",
                     data: {
                         "id": id
@@ -653,7 +653,7 @@
                         Swal.showLoading();
                         $.ajax({
                             type: "POST",
-                            url: "<?= base_url('din7/deletePeneranganHukum') ?>",
+                            url: "<?= base_url('din7/deletePenyuluhanHukum') ?>",
                             data: {
                                 "id_data": id
                             },

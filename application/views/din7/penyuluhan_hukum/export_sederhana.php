@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= asset('website/css/bootstrap.min.css') ?>">
-    <title>Export D.IN.7 - Penerangan Hukum </title>
+    <title>Export D.IN.7 - Penyuluhan Hukum </title>
 </head>
 
 <body style="font-family: Times New Roman">
@@ -33,7 +33,7 @@
         <div class="text-center" style="margin-top: 20px">
             <h5 style="font-family: Times New Roman;font-weight: bold; padding-bottom:0px; font-size:large">
                 PELAKSANAAN KEGIATAN <br>
-                PENERANGAN HUKUM
+                PENYULUHAN HUKUM
             </h5>
         </div>
     </div>
