@@ -402,6 +402,7 @@
         ]
     });
 
+    //TODO : FORM INSERT
     $("#form-insert").on('submit', (function(event) {
         event.preventDefault();
         $('#add-btn').html("Sedang Menyimpan...");
