@@ -15,7 +15,7 @@
                     <div class="card-body">
                         <div class="float-left">
                             <form method="get">
-                                <select class="select2 form-control custom-select" style="width: 150px;" name="tahun" id="tahun">
+                                <select class="select2 form-control custom-select" style="width: 150px;" name="tahun" id="tahun" required>
                                     <option value="">Pilih Tahun</option>
                                     <?php if ($listTahun) : ?>
                                         <?php foreach ($listTahun as $data) : ?>
@@ -24,7 +24,7 @@
                                     <?php endif ?>
                                 </select>
 
-                                <select class="select2 form-control custom-select" style="width: 150px;" name="triwulan" id="triwulan">
+                                <select class="select2 form-control custom-select" style="width: 150px;" name="triwulan" id="triwulan" required>
                                     <option value="">Pilih Triwulan</option>
                                     <option <?= $this->input->get('triwulan') == "1" ? "selected" : "" ?> value="1">Triwulan 1</option>
                                     <option <?= $this->input->get('triwulan') == "2" ? "selected" : "" ?> value="2">Triwulan 2</option>
@@ -37,7 +37,8 @@
                         </div>
                         <div class="float-right">
                             <button type="button" class="btn waves-effect waves-light btn-success ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#tambahData">+ Tambah Data</button>
-                            <a target="_blank" href="<?= base_url('din7/penerangan-hukum/export') ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
+                            <!-- <a target="_blank" href="<?= base_url('din7/penerangan-hukum/export') ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a> -->
+                            <button type="button" class="btn waves-effect waves-light btn-danger ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#exportData"># Export Data</button>
                         </div>
                     </div>
                 </div>
@@ -234,7 +235,66 @@
         </div>
         <!-- END MODAL -->
 
-        <!-- tabel surat keluar -->
+        <!-- MODAL EXPORT -->
+        <div class="modal fade myModal" id="exportData" role="dialog">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger">
+                        <h4 class="modal-title text-white" id="exampleModalLabel1">Export Data</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">                        
+                        <div class="form-group">
+                            <label for="recipient-name" class="control-label text-primary">Export Data Sederhana</label>
+                            <form action="<?= base_url("din7/penerangan-hukum-export-sederhana") ?>" method="get" target="_blank">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <select class="select2 form-control custom-select" style="width: 100%;" name="tahun" required>
+                                            <option value="">Pilih Tahun</option>
+                                            <?php if ($listTahun) : ?>
+                                                <?php foreach ($listTahun as $data) : ?>
+                                                    <option value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
+                                                <?php endforeach ?>
+                                            <?php endif ?>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button style="width: 100%;" type="submit" class="btn btn-danger ultra-disabled" id="add-btn_edit">Export</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="recipient-name" class="control-label text-primary">Export Data Lengkap</label>
+                            <form action="<?= base_url("din7/penerangan-hukum-export-lengkap") ?>" method="get" target="_blank">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <select class="select2 form-control custom-select" style="width: 100%;" name="tahun" required>
+                                            <option value="">Pilih Tahun</option>
+                                            <?php if ($listTahun) : ?>
+                                                <?php foreach ($listTahun as $data) : ?>
+                                                    <option value="<?= $data["tahun"] ?>"><?= $data["tahun"] ?></option>
+                                                <?php endforeach ?>
+                                            <?php endif ?>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button style="width: 100%;" type="submit" class="btn btn-danger ultra-disabled" id="add-btn_edit">Export</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MODAL -->
+
+        <!-- tabel -->
         <div class="row">
             <div class="col-12">
                 <div class="card">

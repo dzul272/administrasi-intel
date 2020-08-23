@@ -73,7 +73,7 @@ class Din7 extends Kejari_Controller
             "listTahun"     => $listTahun
         ];
 
-        $this->loadViewKejari("din7/pelaksanaan_hukum", $data);
+        $this->loadViewKejari("din7/pelaksanaan_hukum/index", $data);
     }
 
     public function getDataPeneranganHukum($tahun = NULL, $triwulan = NULL)
@@ -217,5 +217,15 @@ class Din7 extends Kejari_Controller
                 'response_message'  => 'Data Gagal Dihapus',
             ]);
         }
+    }
+
+    public function penerangan_hukum_export_sederhana()
+    {
+        d($this->input->get());
+    }
+
+    public function penerangan_hukum_export_lengkap()
+    {
+        
     }
 }

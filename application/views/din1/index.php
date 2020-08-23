@@ -356,4 +356,52 @@
             }
         });
     }    
+
+    function hapus(id) {
+        swal.fire({
+            title: 'Hapus Data ?',
+            text: "Data akan terhapus secara permanent",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonText: 'Batal',
+            confirmButtonText: 'Hapus'
+        }).then((result) => {
+            if (result.value) {
+
+                Swal.fire({
+                    title: 'Mohon Tunggu Beberapa Saat',
+                    text: 'Proses Menghapus data...',
+                    onBeforeOpen: () => {
+                        Swal.showLoading();
+                        $.ajax({
+                            type: "POST",
+                            url: "<?= base_url('din1/prosesHapusData') ?>",
+                            data: {
+                                "id_data": id
+                            },
+                            dataType: "json",
+                            success: function(data) {
+                                Swal.close();
+                                if (data.response_code == 200) {
+                                    table_data.ajax.reload(null, true);
+                                    Swal.fire(
+                                        'Terhapus',
+                                        data.response_message,
+                                        'success'
+                                    );
+                                } else {
+                                    Swal.close();
+                                    Swal.fire("Oops aw", data.response_message, "error");
+                                }
+                            },
+                            error: function(xhr, ajaxOptions, thrownError) {
+                                Swal.fire("Oops", xhr.responseText, "error");
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    }
 </script>
