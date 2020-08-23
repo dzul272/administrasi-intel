@@ -98,63 +98,22 @@
                     </a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">
-                                <i class="mdi mdi-adjust"></i>
-                                <span class="hide-menu"> Rekap </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="javascript:void(0)" class="has-arrow sidebar-link waves-effect waves-dark" aria-expanded="false">
+                            <a href="<?= base_url("din8/penerangan-hukum") ?>" class="sidebar-link">
                                 <i class="mdi mdi-adjust"></i>
                                 <span class="hide-menu"> Penerangan Hukum </span>
                             </a>
-                            <ul aria-expanded="false" class="collapse second-level">
-                                <li class="sidebar-item">
-                                    <a href="javascript:void(0)" class="sidebar-link">
-                                        <i class="mdi mdi-octagram"></i>
-                                        <span class="hide-menu"> Triwulan 1</span>
-                                    </a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="javascript:void(0)" class="sidebar-link">
-                                        <i class="mdi mdi-octagram"></i>
-                                        <span class="hide-menu"> Triwulan 2</span>
-                                    </a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="javascript:void(0)" class="sidebar-link">
-                                        <i class="mdi mdi-octagram"></i>
-                                        <span class="hide-menu"> Triwulan 3</span>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
-
                         <li class="sidebar-item">
-                            <a href="javascript:void(0)" class="has-arrow sidebar-link waves-effect waves-dark" aria-expanded="false">
+                            <a href="<?= base_url("din8/penyuluhan-hukum") ?>" class="sidebar-link">
                                 <i class="mdi mdi-adjust"></i>
                                 <span class="hide-menu"> Penyuluhan Hukum </span>
                             </a>
-                            <ul aria-expanded="false" class="collapse second-level">
-                                <li class="sidebar-item">
-                                    <a href="javascript:void(0)" class="sidebar-link">
-                                        <i class="mdi mdi-octagram"></i>
-                                        <span class="hide-menu"> Triwulan 1</span>
-                                    </a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="javascript:void(0)" class="sidebar-link">
-                                        <i class="mdi mdi-octagram"></i>
-                                        <span class="hide-menu"> Triwulan 2</span>
-                                    </a>
-                                </li>
-                                <li class="sidebar-item">
-                                    <a href="javascript:void(0)" class="sidebar-link">
-                                        <i class="mdi mdi-octagram"></i>
-                                        <span class="hide-menu"> Triwulan 3</span>
-                                    </a>
-                                </li>
-                            </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="<?= base_url("din8/jaksa-masuk-sekolah") ?>" class="sidebar-link">
+                                <i class="mdi mdi-adjust"></i>
+                                <span class="hide-menu"> Jaksa Masuk Sekolah </span>
+                            </a>
                         </li>
                     </ul>
                 </li>

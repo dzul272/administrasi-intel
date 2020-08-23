@@ -22,6 +22,7 @@
     <link href="<?= asset('website/nice/assets/libs/magnific-popup/dist/magnific-popup.css') ?>" rel="stylesheet">
     <link href="<?= asset('website/nice/assets/libs/sweetalert2/dist/sweetalert2.min.css'); ?>" rel="stylesheet">
     <link href="<?= asset('website/nice/assets/libs/summernote/dist/summernote-bs4.css'); ?>" rel="stylesheet">
+    <link href="<?= asset('website/nice/assets/libs/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css'); ?>" rel="stylesheet">
     <link href="<?= asset('website/css/animate.css'); ?>" rel="stylesheet">
 
     <link href="<?= asset('website/css/style-img.less'); ?>" rel="stylesheet" />
