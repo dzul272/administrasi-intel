@@ -247,7 +247,7 @@ class Din8 extends Kejari_Controller
             $error  = "";
             if ($this->upload->do_upload("foto_video")) {
                 $dataInput["foto_video"]    = $namafilebaru;
-                $dataInput["nama_file"]     = $namaFile;                
+                $dataInput["nama_file"]     = $namaFile;
             } else {
                 $error = array('error' => $this->upload->display_errors("", ""));
                 $sukses = FALSE;
@@ -271,6 +271,23 @@ class Din8 extends Kejari_Controller
             echo json_encode([
                 'response_code'     => 400,
                 'response_message'  => $error,
+            ]);
+        }
+    }
+
+    public function deletePeneranganHukum()
+    {
+        $id = $this->input->post("id_data");
+        $delete = $this->din8->delete(["id" => $id]);
+        if ($delete) {
+            echo json_encode([
+                'response_code'     => 200,
+                'response_message'  => 'Data Berhasil Dihapus',
+            ]);
+        } else {
+            echo json_encode([
+                'response_code'     => 400,
+                'response_message'  => 'Data Gagal Dihapus',
             ]);
         }
     }
