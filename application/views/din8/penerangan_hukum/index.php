@@ -91,7 +91,7 @@
         </div>
         <!-- END MODAL -->
 
-        <!-- MODAL TAMBAH DATA -->
+        <!-- MODAL EDIT DATA -->
         <div class="modal fade myModal" id="modal_ubah" role="dialog">
             <div class="modal-dialog modal-md" role="document">
                 <div class="modal-content">
@@ -99,7 +99,7 @@
                         <h4 class="modal-title text-white" id="exampleModalLabel1">Ubah Data</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
-                    <form id="form-insert" method="POST" action="<?= base_url("din8/updatePeneranganHukum") ?>" enctype='multipart/form-data'>
+                    <form id="form-edit" method="POST" action="<?= base_url("din8/updatePeneranganHukum") ?>" enctype='multipart/form-data'>
                         <div class="modal-body">
                             <div class="form-group">
                                 <label for="recipient-name" class="control-label">Kegiatan Penerangan Hukum <span class="text-danger">*</span></label>
@@ -114,7 +114,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="recipient-name" class="control-label">Foto / Video Kegiatan <span class="text-danger">*</span></label>
-                                <input accept="video/mp4,video/x-m4v,video/*,image/*" type="file" class="form-control-file" name="foto_video" id="foto_video_edit" required>
+                                <input accept="video/mp4,video/x-m4v,video/*,image/*" type="file" class="form-control-file" name="foto_video" id="foto_video_edit">
                             </div>
                             <div class="form-group">
                                 <label for="recipient-name" class="control-label">Jenis File <span class="text-danger">*</span></label>
@@ -257,6 +257,58 @@
                     Swal.fire("Oops", e.response_message, "error");
                     $('#add-btn').html("Simpan");
                     $('#add-btn').attr("disabled", false);
+                    $('#tombol-tambah').html("+ Tambah Data");
+                    $('#tombol-tambah').attr("disabled", false);
+                }
+            },
+            error: function(xhr, ajaxOptions, thrownError) { // Ketika ada error
+                Swal.fire("Oops", xhr.responseText, "error");
+                $('#add-btn').html("Simpan");
+                $('#add-btn').attr("disabled", false);
+                $('#tombol-tambah').html("+ Tambah Data");
+                $('#tombol-tambah').attr("disabled", false);
+            }
+        });
+    }));
+
+     //TODO : FORM EDIT
+     $("#form-edit").on('submit', (function(event) {
+        event.preventDefault();
+        $('#add-btn_edit').html("Sedang Menyimpan...");
+        $('#add-btn_edit').attr("disabled", true);
+        $('#tombol-tambah').attr("disabled", true);
+
+        $.ajax({
+            url: "<?= base_url('din8/updatePeneranganHukum') ?>",
+            type: "POST",
+            data: new FormData(this),
+            dataType: "JSON",
+            contentType: false,
+            cache: false,
+            processData: false,
+            success: function(e) { // Ketika proses pengiriman berhasil                
+                if (e.response_code == 200) {
+                    table_data.ajax.reload(null, true);
+                    $('.myModal').modal('hide');
+                    $("#form-edit")[0].reset();
+                    Swal.fire(
+                        'Berhasil',
+                        e.response_message,
+                        'success'
+                    ).then((result) => {
+                        // $('#table_body').empty();
+                        // $('#table_body').html(e.output);
+                        $('#add-btn_edit').html("Simpan");
+                        $('#add-btn_edit').attr("disabled", false);
+                        $('#tombol-tambah').html("+ Tambah Data");
+                        $('#tombol-tambah').attr("disabled", false);
+                    })
+
+                } else {
+                    Swal.close();
+                    Swal.fire("Oops", e.response_message, "error");
+                    $('#add-btn_edit').html("Simpan");
+                    $('#add-btn_edit').attr("disabled", false);
                     $('#tombol-tambah').html("+ Tambah Data");
                     $('#tombol-tambah').attr("disabled", false);
                 }
