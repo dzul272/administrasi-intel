@@ -72,6 +72,10 @@ class Din8 extends Kejari_Controller
 
         if ($id) {
             $kondisi["id"]  = $id;
+        } else {
+            if ($this->input->get("id")) {
+                $kondisi["id"]  = $this->input->get("id");
+            }
         }
 
         if ($tahun) {
@@ -145,5 +149,63 @@ class Din8 extends Kejari_Controller
     public function getDataPeneranganHukum($tahun = NULL)
     {
         echo json_encode($this->getDataDin8X(1, $tahun, null));
+    }
+
+    public function addPeneranganHukum()
+    {
+        $input  = (object) $this->input->post();
+        $namaFile = $_FILES["foto_video"]["name"];
+        $namafilebaru = date("YmdHis") . "." . pathinfo($namaFile, PATHINFO_EXTENSION);
+
+        $config  = [
+            "upload_path"       => "assets/kejari/upload/din8",
+            "allowed_types"     => 'gif|jpg|jpeg|png|mp4|avi|mov|mpeg|mpg|mpe',
+            "max_size"          => 51200,               //? 50 MB
+            "file_ext_tolower"  => FALSE,
+            "overwrite"         => TRUE,
+            "remove_spaces"     => TRUE,
+            "file_name"         => $namafilebaru
+        ];
+
+        $this->load->library('upload', $config);
+        $this->upload->initialize($config);
+
+        if ($_FILES["foto_video"]["name"] != '') {
+            if ($this->upload->do_upload("foto_video")) {
+                $dataInput = [
+                    "din7_id"       => $input->din7_id,
+                    "foto_video"    => $namafilebaru,
+                    "nama_file"     => $namaFile,
+                    "jenis_file"    => $input->jenis_file,
+                    "keterangan"    => $input->keterangan,
+                    "jenis"         => 1,
+                    "created_by"    => $this->userData->id,
+                ];
+
+                $insert = $this->din8->insert($dataInput);
+                if ($insert) {
+                    echo json_encode([
+                        'response_code'     => 200,
+                        'response_message'  => 'Data Berhasil Ditambahkan',
+                    ]);
+                } else {
+                    echo json_encode([
+                        'response_code'     => 400,
+                        'response_message'  => 'Data gagal Ditambahkan (Error Code : 403)',
+                    ]);
+                }
+            } else {
+                $error = array('error' => $this->upload->display_errors("", ""));
+                echo json_encode([
+                    'response_code'     => 400,
+                    'response_message'  => implode("<br>", $error),
+                ]);
+            }
+        } else {
+            echo json_encode([
+                'response_code'     => 400,
+                'response_message'  => 'Foto atau video tidak ditemukan, pastikan sudah menambahkan foto atau video',
+            ]);
+        }
     }
 }
