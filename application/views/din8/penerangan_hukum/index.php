@@ -28,7 +28,7 @@
                                 <?php
                                 $thn = $this->input->get("tahun") == "" ? "semua" : $this->input->get("tahun");
                                 ?>
-                                <a target="_blank" href="<?= base_url('din8/penerangan-hukum/export/?bulan=' . $this->input->get("bulan") . "&tahun=" . $this->input->get("tahun")) ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
+                                <a target="_blank" href="<?= base_url('din8/penerangan-hukum-export/?tahun=' . $this->input->get("tahun")) ?>" id="export" type="button" class="btn waves-effect waves-light btn-danger" style="width: 120px;">Export</a>
                             </div>
                         </div>
                     </form>
@@ -52,7 +52,7 @@
                                     <option value="">Pilih Kegiatan</option>
                                     <?php if ($din7) : ?>
                                         <?php foreach ($din7 as $d7) : ?>
-                                            <option value="<?= $d7->id ?>"><?= $d7->materi_tema ?></option>
+                                            <option value="<?= $d7->id ?>"><?= $d7->materi_tema . " (Triwulan " . $d7->triwulan . ")" ?></option>
                                         <?php endforeach ?>
                                     <?php endif ?>
                                 </select>
@@ -107,7 +107,7 @@
                                     <option value="">Pilih Kegiatan</option>
                                     <?php if ($din7) : ?>
                                         <?php foreach ($din7 as $d7) : ?>
-                                            <option value="<?= $d7->id ?>"><?= $d7->materi_tema ?></option>
+                                            <option value="<?= $d7->id ?>"><?= $d7->materi_tema . " (Triwulan " . $d7->triwulan . ")" ?></option>
                                         <?php endforeach ?>
                                     <?php endif ?>
                                 </select>
@@ -160,9 +160,9 @@
                                         <th style="width: 200px; padding: 10px;" class="align-middle text-center">Kegiatan</th>
                                         <th style="width: 200px; padding: 10px;" class="align-middle text-center">Foto / Video</th>
                                         <th style="width: 200px; padding: 10px;" class="align-middle text-center">Keterangan</th>
-                                        <!-- <th style="width: 200px; padding: 10px;" class="align-middle text-center">Triwulan</th> -->
-                                        <th style="width: 200px; padding: 10px;" class="align-middle text-center">Waktu Input</th>
-                                        <th style="width: 100px; padding: 10px;" class="align-middle text-center">Aksi</th>
+                                        <th style="width: 80px; padding: 10px;" class="align-middle text-center">Triwulan</th>
+                                        <th style="width: 180px; padding: 10px;" class="align-middle text-center">Waktu Input</th>
+                                        <th style="width: 150px; padding: 10px;" class="align-middle text-center">Aksi</th>
                                     </tr>
                                 </thead>
                             </table>
@@ -205,6 +205,12 @@
         }, {
             data: "keterangan",
             className: "align-top",
+        }, {
+            data: "din7.triwulan",
+            className: "align-top",
+            render: function(data, type, row, meta) {
+                return "Triwulan " + data;
+            }
         }, {
             data: "created_at",
             className: "align-top",

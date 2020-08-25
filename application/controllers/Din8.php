@@ -43,7 +43,8 @@ class Din8 extends Kejari_Controller
             ->with_kecamatan()
             ->with_kelurahan()
             ->with_user("fields:username,nama")
-            ->order_by("id", "DESC")
+            ->order_by("triwulan", "ASC")
+            ->order_by("materi_tema", "ASC")
             ->get_all();
 
         if ($data) {
@@ -65,7 +66,7 @@ class Din8 extends Kejari_Controller
         }
     }
 
-    public function getDataDin8X($jenis = 1, $tahun = NULL, $id = null)
+    public function getDataDin8X($jenis = 1, $tahun = NULL, $triwulan = "semua", $id = null,  $mode_cetak = FALSE)
     {
         $kondisi = [];
         $kondisi["jenis"] = $jenis;
@@ -86,13 +87,31 @@ class Din8 extends Kejari_Controller
             ->where($kondisi)
             ->with_din7()
             ->with_user("fields:username,nama")
+            ->order_by("id", $mode_cetak ? "ASC" : "DESC")
             ->get_all();
+
+        $dataFix = [];
+
+        if ($triwulan != "semua") {
+            for ($i = 0; $i < sizeof($data); $i++) {
+                if ($data[$i]["din7"]["triwulan"] == $triwulan) {
+                    // $dataFix[$i] = $data[$i];
+
+                    array_push($dataFix, $data[$i]);
+                }
+            }
+        } else {
+            $dataFix = $data;
+        }
+
+        // d($dataFix);
+
 
         if ($data) {
             return [
                 "status"    => 200,
                 "message"   => "Data ditemukan",
-                "data"      => $data
+                "data"      => $dataFix
             ];
         } else {
             return [
@@ -108,22 +127,12 @@ class Din8 extends Kejari_Controller
     public function penerangan_hukum()
     {
         $tahun      = $this->input->get("tahun");
-        $triwulan   = $this->input->get("triwulan");
+        // $triwulan   = $this->input->get("triwulan");
 
-        if ($tahun == NULL || $triwulan == NULL || !is_numeric($tahun)) {
+        if ($tahun == NULL || !is_numeric($tahun)) {
             $tahun      =  date("Y");
             $triwulan   = triwulan(date("Y-m-d"));
-            redirect(base_url("din8/penerangan-hukum?tahun=" . $tahun . "&triwulan=" . $triwulan));
-        } else {
-            if (is_numeric($triwulan)) {
-                if ($triwulan < 1 || $triwulan > 4) {
-                    $triwulan = triwulan(date("Y-m-d"));
-                    redirect(base_url("din8/penerangan-hukum?tahun=" . $tahun . "&triwulan=" . $triwulan));
-                }
-            } else if ($triwulan !== "semua") {
-                $triwulan = triwulan(date("Y-m-d"));
-                redirect(base_url("din8/penerangan-hukum?tahun=" . $tahun . "&triwulan=" . $triwulan));
-            }
+            redirect(base_url("din8/penerangan-hukum?tahun=" . $tahun));
         }
 
         $listTahun = $this->din8
@@ -146,9 +155,9 @@ class Din8 extends Kejari_Controller
         $this->loadViewKejari("din8/penerangan_hukum/index", $data);
     }
 
-    public function getDataPeneranganHukum($tahun = NULL)
+    public function getDataPeneranganHukum($tahun = NULL, $triwulan = "semua")
     {
-        echo json_encode($this->getDataDin8X(1, $tahun, null));
+        echo json_encode($this->getDataDin8X(1, $tahun, $triwulan));
     }
 
     public function addPeneranganHukum()
@@ -290,5 +299,54 @@ class Din8 extends Kejari_Controller
                 'response_message'  => 'Data Gagal Dihapus',
             ]);
         }
+    }
+
+    public function penerangan_hukum_export()
+    {
+        
+        $tahun  = $this->input->get("tahun");
+
+        if ($tahun == NULL || !is_numeric($tahun)) {
+            redirect(base_url("din8/penerangan-hukum-export?tahun=" . date("Y")));
+        }        
+
+        $triwulan1  = json_decode(json_encode($this->getDataDin8X(1, $tahun, 1, null, TRUE)))->data;
+        $triwulan2  = json_decode(json_encode($this->getDataDin8X(1, $tahun, 2, null, TRUE)))->data;
+        $triwulan3  = json_decode(json_encode($this->getDataDin8X(1, $tahun, 3, null, TRUE)))->data;
+        $triwulan4  = json_decode(json_encode($this->getDataDin8X(1, $tahun, 4, null, TRUE)))->data;
+        $max        = max(sizeof($triwulan1), sizeof($triwulan2), sizeof($triwulan3), sizeof($triwulan4));
+
+        $data["triwulan1"] = [];
+        $data["triwulan2"] = [];
+        $data["triwulan3"] = [];
+        $data["triwulan4"] = [];
+
+        for ($i = 0; $i < $max; $i++) {
+            if (isset($triwulan1[$i])) {
+                $data["triwulan1"][$i] = $triwulan1[$i];
+            }
+
+            if (isset($triwulan2[$i])) {
+                $data["triwulan2"][$i] = $triwulan2[$i];
+            }
+
+            if (isset($triwulan3[$i])) {
+                $data["triwulan3"][$i] = $triwulan3[$i];
+            }
+
+            if (isset($triwulan4[$i])) {
+                $data["triwulan4"][$i] = $triwulan4[$i];
+            }
+        }
+
+        $result = [
+            "max"   => $max,
+            "data"  => $data
+        ];
+
+        $mpdf = new \Mpdf\Mpdf();
+        $mpdf->WriteHTML($this->load->view('din8/penerangan_hukum/export_sederhana', $result, TRUE));
+        $filename = "D.IN.8_DOKUMENTASI_PENERANGAN_HUKUM_" . date("d_m_Y_H_i_s") . ".pdf";
+        $mpdf->Output($filename, 'I');
     }
 }

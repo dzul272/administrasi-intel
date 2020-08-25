@@ -121,7 +121,7 @@ class Din7 extends Kejari_Controller
             "kecamatan"     => $this->getKecamatan(),
             "listTahun"     => $listTahun
         ];
-
+        
         $this->loadViewKejari("din7/penerangan_hukum/index", $data);
     }
 
