@@ -93,6 +93,8 @@
 <script src="<?= asset('website/nice/assets/libs/@claviska/jquery-minicolors/jquery.minicolors.min.js'); ?>"></script>
 <script src="<?= asset('website/nice/assets/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js'); ?>"></script>
 
+<script src="<?= asset('website/nice/assets/libs/chart.js/dist/Chart.min.js'); ?>"></script>
+
 <script>
     $('.demo').each(function() {
         //
