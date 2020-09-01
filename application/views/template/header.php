@@ -172,7 +172,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img id="imageProfile" width="40px" height="40px" src="<?= asset('kejari/img/logo.png'); ?>" alt="user" class="rounded-circle" width="40">
-                                <span class="m-l-5 font-medium d-none d-sm-inline-block textNamaUser">Rafli Firdausy <i class="mdi mdi-chevron-down"></i></span>
+                                <span class="m-l-5 font-medium d-none d-sm-inline-block textNamaUser"><?= $this->userData->nama ?> <i class="mdi mdi-chevron-down"></i></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
                                 <span class="with-arrow">
@@ -183,8 +183,8 @@
                                         <img id="imageProfile2" width="50px" height="50px" src="<?= asset('kejari/img/logo.png'); ?>" alt="user" class="rounded-circle" width="60">
                                     </div>
                                     <div class="m-l-10">
-                                        <h4 class="mb-0" id="textNamaUser2">Nama User</h4>
-                                        <p class=" mb-0">Role Aja</p>
+                                        <h4 class="mb-0" id="textNamaUser2"><?= $this->userData->nama ?></h4>
+                                        <p class=" mb-0"><?= $this->userData->role ?></p>
                                     </div>
                                 </div>
 

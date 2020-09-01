@@ -11,7 +11,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url("user") ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">Data User</span>
                     </a>
