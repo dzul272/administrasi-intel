@@ -12,9 +12,9 @@
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-body">                      
+                    <div class="card-body">
                         <div class="float-right">
-                            <button type="button" class="btn waves-effect waves-light btn-success ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#tambahData">+ Tambah Data</button>                                                    
+                            <button type="button" class="btn waves-effect waves-light btn-success ultra-disabled" id="tombol-tambah" style="width: 150px;" data-toggle="modal" data-target="#tambahData">+ Tambah Data</button>
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
             </div>
         </div>
         <!-- END MODAL -->
-       
+
 
         <!-- tabel -->
         <div class="row">
@@ -221,8 +221,8 @@
                             <table id="table_data" class="table table-striped table-bordered display">
                                 <thead>
                                     <tr>
-                                        <th style="padding: 10px;"  class="align-middle text-center">No</th>
-                                        <th style="padding: 10px; width: 80px" class="align-middle text-center">Aksi</th>                                        
+                                        <th style="padding: 10px;" class="align-middle text-center">No</th>
+                                        <th style="padding: 10px; width: <?= $this->userData->role == "admin" ? "120" : "80" ?>px" class="align-middle text-center">Aksi</th>
                                         <th style="padding: 10px; width: 150px" class="align-middle text-center">NIP</th>
                                         <th style="padding: 10px; width: 200px" class="align-middle text-center">Nama Lengkap</th>
                                         <th style="padding: 10px; width: 150px" class="align-middle text-center">Username</th>
@@ -232,8 +232,8 @@
                                         <th style="padding: 10px; width: 100px" class="align-middle text-center">No Handphone</th>
                                         <th style="padding: 10px; width: 100px" class="align-middle text-center">Tandatangan</th>
                                         <th style="padding: 10px; width: 100px" class="align-middle text-center">Role Akses</th>
-                                        <th style="padding: 10px; width: 150px" class="align-middle text-center">Waktu Dibuat</th>                                        
-                                    </tr>                                
+                                        <th style="padding: 10px; width: 150px" class="align-middle text-center">Waktu Dibuat</th>
+                                    </tr>
                                 </thead>
                             </table>
                         </div>
@@ -320,6 +320,9 @@
                 className: "text-center align-top",
                 render: function(data, type, row, meta) {
                     $data = '<button onclick="edit(' + data + ');" data-toggle="tooltip" data-placement="top" title="Edit Data" class="btn btn-sm btn-primary waves-effect waves-light edit_data" type="button"><i class="fas fa-edit"></i></button> ';
+                    <?php if ($this->userData->role == "admin") : ?>
+                        $data += '<button onclick="reset(' + data + ');" data-toggle="tooltip" data-placement="top" title="Edit Data" class="btn btn-sm btn-info waves-effect waves-light edit_data" type="button"><i class="fas fa-lock"></i></button> ';
+                    <?php endif ?>
                     $data += '<button onclick="hapus(' + data + ');" data-toggle="tooltip" data-placement="top" title="Hapus Data" class="btn btn-sm btn-danger waves-effect waves-light delete_data" type="button"><i class="fas fa-trash-alt"></i></button>';
                     return $data;
                 }

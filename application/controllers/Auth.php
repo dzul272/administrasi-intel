@@ -31,7 +31,9 @@ class Auth extends Auth_Controller
             ->where([
                 "username" => $username,
                 "password" => $password
-            ])->get();
+            ])
+            ->as_object()
+            ->get();
 
         if ($cekLogin) {
             $this->session->set_userdata(SESSION, $cekLogin);
