@@ -119,56 +119,56 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din9/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.9 - Data Grafik</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din10/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.10 - Form Orang Asing</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din11/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.11 - Grafik Terorisme</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din12/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.12 - TIK Biodata</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din13/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.13 - TIK Barang Cetakan</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din14/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.14 - TIK Organisasi</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din15/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.15 - TIK Tersangka</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('') ?>" aria-expanded="false">
+                    <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?= base_url('din16/') ?>" aria-expanded="false">
                         <i class="mdi mdi-av-timer"></i>
                         <span class="hide-menu">D.IN.16 - TIK Pengawasan MK</span>
                     </a>
