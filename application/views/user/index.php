@@ -2,8 +2,7 @@
     <div class="page-breadcrumb">
         <div class="row">
             <div class="col-12">
-                <h4 class="page-title">D.IN.7 - Data Pelaksanaan Penyuluhan Hukum</h4>
-                <!-- <h5>Data Hasil Pelaksanaan Kegiatan Penyuluhan</h5> -->
+                <h4 class="page-title">Data User</h4>
             </div>
         </div>
     </div>
@@ -222,7 +221,9 @@
                                 <thead>
                                     <tr>
                                         <th style="padding: 10px;" class="align-middle text-center">No</th>
-                                        <th style="padding: 10px; width: <?= $this->userData->role == "admin" ? "120" : "80" ?>px" class="align-middle text-center">Aksi</th>
+                                        <?php if ($this->userData->role == "admin") : ?>
+                                            <th style="padding: 10px; width: 120px" class="align-middle text-center">Aksi</th>
+                                        <?php endif ?>
                                         <th style="padding: 10px; width: 150px" class="align-middle text-center">NIP</th>
                                         <th style="padding: 10px; width: 200px" class="align-middle text-center">Nama Lengkap</th>
                                         <th style="padding: 10px; width: 150px" class="align-middle text-center">Username</th>
@@ -315,19 +316,17 @@
                     return meta.row + 1;
                 }
             },
-            {
-                data: "id",
-                className: "text-center align-top",
-                render: function(data, type, row, meta) {
-                    $data = '<button onclick="edit(' + data + ');" data-toggle="tooltip" data-placement="top" title="Edit Data" class="btn btn-sm btn-primary waves-effect waves-light edit_data" type="button"><i class="fas fa-edit"></i></button> ';
-                    <?php if ($this->userData->role == "admin") : ?>
+            <?php if ($this->userData->role == "admin") : ?> {
+                    data: "id",
+                    className: "text-center align-top",
+                    render: function(data, type, row, meta) {
+                        $data = '<button onclick="edit(' + data + ');" data-toggle="tooltip" data-placement="top" title="Edit Data" class="btn btn-sm btn-primary waves-effect waves-light edit_data" type="button"><i class="fas fa-edit"></i></button> ';
                         $data += '<button onclick="reset(' + data + ');" data-toggle="tooltip" data-placement="top" title="Edit Data" class="btn btn-sm btn-info waves-effect waves-light edit_data" type="button"><i class="fas fa-lock"></i></button> ';
-                    <?php endif ?>
-                    $data += '<button onclick="hapus(' + data + ');" data-toggle="tooltip" data-placement="top" title="Hapus Data" class="btn btn-sm btn-danger waves-effect waves-light delete_data" type="button"><i class="fas fa-trash-alt"></i></button>';
-                    return $data;
-                }
-            },
-            {
+                        $data += '<button onclick="hapus(' + data + ');" data-toggle="tooltip" data-placement="top" title="Hapus Data" class="btn btn-sm btn-danger waves-effect waves-light delete_data" type="button"><i class="fas fa-trash-alt"></i></button>';
+                        return $data;
+                    }
+                },
+            <?php endif ?> {
                 data: "nip",
                 className: "align-top",
             },
